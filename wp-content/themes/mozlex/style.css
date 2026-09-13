@@ -1,0 +1,13 @@
+/*
+Theme Name: Mozlex Luxury Catalogue
+Theme URI: https://mozlex.vn
+Author: Mozlex
+Description: Custom WordPress theme cho MOZLEX — Luxury Architectural Hardware. Editorial layout, Swiss grid, catalogue-first, SEO & performance built-in.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+License: Proprietary
+Text Domain: mozlex
+*/
+
+/* Style thực nằm trong assets/css/main.css (enqueued có version) */
