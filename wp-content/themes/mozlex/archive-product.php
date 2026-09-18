@@ -191,70 +191,98 @@ if ( ! $is_category ) {
 				}
 				?>
 
-				<!-- 1. Nhóm sản phẩm (Category Tree) -->
-				<?php if ( ! $is_category ) : 
-					$cat_terms = get_terms( array( 'taxonomy' => 'product_category', 'hide_empty' => false ) );
-					if ( $cat_terms && ! is_wp_error( $cat_terms ) ) :
-						$parents = array_filter( $cat_terms, fn($t) => (int)$t->parent === 0 );
-						$children_by_parent = array();
-						foreach ( $cat_terms as $t ) {
-							if ( (int)$t->parent !== 0 ) {
-								$children_by_parent[(int)$t->parent][] = $t;
-							}
+				<!-- 1. Nhóm sản phẩm (Recursive Category Tree) -->
+				<?php
+				$cat_terms = get_terms( array( 'taxonomy' => 'product_category', 'hide_empty' => false ) );
+				if ( $cat_terms && ! is_wp_error( $cat_terms ) ) :
+					$by_parent = array();
+					foreach ( $cat_terms as $t ) {
+						$by_parent[(int) $t->parent][] = $t;
+					}
+
+					$root_id = 0;
+					$show_cat_group = true;
+					if ( $is_category ) {
+						$queried = get_queried_object();
+						$root_id = (int) $queried->term_id;
+						// If leaf category with no sub-categories, do not show empty category group
+						if ( empty( $by_parent[ $root_id ] ) ) {
+							$show_cat_group = false;
 						}
-						// Priority order
-						usort( $parents, function( $a, $b ){
-							if ( $a->slug === 'thiet-bi-khac' && $b->slug !== 'thiet-bi-khac' ) return 1;
-							if ( $b->slug === 'thiet-bi-khac' && $a->slug !== 'thiet-bi-khac' ) return -1;
-							$order = array( 'cong-nghe' => 1, 'thuong-mai' => 2, 'xay-dung' => 3 );
-							$oa = $order[$a->slug] ?? 99; $ob = $order[$b->slug] ?? 99;
-							if ( $oa !== $ob ) return $oa <=> $ob;
-							return strcmp( $a->name, $b->name );
-						});
-				?>
-					<details class="filter-group filter-group--category" open>
-						<summary class="filter-group-title">
-							<span class="group-title-text"><?php esc_html_e( 'Nhóm sản phẩm', 'mozlex' ); ?></span>
-							<svg class="group-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
-						</summary>
-						<div class="filter-group-body">
-							<div class="category-tree">
-								<?php foreach ( $parents as $parent ) :
-									$active = mozlex_is_filter_active( 'product_category', $parent->slug );
-									$has_kids = !empty($children_by_parent[(int)$parent->term_id]);
-								?>
-									<div class="cat-tree-node<?php echo $has_kids ? ' has-children' : ''; ?>">
-										<label class="filter-check filter-check--parent">
-											<input type="checkbox" name="product_category" value="<?php echo esc_attr( $parent->slug ); ?>" <?php checked( $active ); ?>>
+					}
+
+					if ( $show_cat_group && ! empty( $by_parent[ $root_id ] ) ) :
+						if ( ! function_exists( 'mozlex_render_filter_cat_tree' ) ) {
+							function mozlex_render_filter_cat_tree( $by_parent, $parent_id = 0, $depth = 0 ) {
+								if ( empty( $by_parent[ $parent_id ] ) ) {
+									return;
+								}
+								$terms = $by_parent[ $parent_id ];
+
+								usort( $terms, function( $a, $b ) use ( $depth ) {
+									if ( 0 === $depth ) {
+										if ( $a->slug === 'thiet-bi-khac' && $b->slug !== 'thiet-bi-khac' ) return 1;
+										if ( $b->slug === 'thiet-bi-khac' && $a->slug !== 'thiet-bi-khac' ) return -1;
+										$order = array( 'cong-nghe' => 1, 'thuong-mai' => 2, 'xay-dung' => 3 );
+										$oa = $order[ $a->slug ] ?? 99;
+										$ob = $order[ $b->slug ] ?? 99;
+										if ( $oa !== $ob ) return $oa <=> $ob;
+									} else {
+										// Put terms with products first
+										if ( $a->count > 0 && 0 === $b->count ) return -1;
+										if ( $b->count > 0 && 0 === $a->count ) return 1;
+									}
+									return strcmp( $a->name, $b->name );
+								} );
+
+								foreach ( $terms as $term ) {
+									$term_id  = (int) $term->term_id;
+									$has_kids = ! empty( $by_parent[ $term_id ] );
+									$active   = mozlex_is_filter_active( 'product_category', $term->slug );
+									$count    = (int) $term->count;
+
+									$node_class = 'cat-tree-node depth-' . $depth;
+									if ( $has_kids ) $node_class .= ' has-children';
+									if ( 0 === $depth ) $node_class .= ' is-root';
+
+									$check_class = 'filter-check filter-check--depth-' . $depth;
+									if ( 0 === $depth ) {
+										$check_class .= ' filter-check--parent';
+									} else {
+										$check_class .= ' filter-check--child';
+									}
+									?>
+									<div class="<?php echo esc_attr( $node_class ); ?>">
+										<label class="<?php echo esc_attr( $check_class ); ?>">
+											<input type="checkbox" name="product_category" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
 											<span class="filter-check-box">
 												<svg class="check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 											</span>
-											<span class="filter-check-label"><?php echo esc_html( $parent->name ); ?></span>
-											<?php if ( $parent->count > 0 ) : ?>
-												<span class="filter-count"><?php echo (int)$parent->count; ?></span>
+											<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
+											<?php if ( $count > 0 ) : ?>
+												<span class="filter-count"><?php echo (int) $count; ?></span>
 											<?php endif; ?>
 										</label>
 
 										<?php if ( $has_kids ) : ?>
-											<div class="cat-tree-children">
-												<?php foreach ( $children_by_parent[(int)$parent->term_id] as $child ) :
-													$child_active = mozlex_is_filter_active( 'product_category', $child->slug );
-												?>
-													<label class="filter-check filter-check--child">
-														<input type="checkbox" name="product_category" value="<?php echo esc_attr( $child->slug ); ?>" <?php checked( $child_active ); ?>>
-														<span class="filter-check-box">
-															<svg class="check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-														</span>
-														<span class="filter-check-label"><?php echo esc_html( $child->name ); ?></span>
-														<?php if ( $child->count > 0 ) : ?>
-															<span class="filter-count"><?php echo (int)$child->count; ?></span>
-														<?php endif; ?>
-													</label>
-												<?php endforeach; ?>
+											<div class="cat-tree-children depth-<?php echo (int) ( $depth + 1 ); ?>">
+												<?php mozlex_render_filter_cat_tree( $by_parent, $term_id, $depth + 1 ); ?>
 											</div>
 										<?php endif; ?>
 									</div>
-								<?php endforeach; ?>
+									<?php
+								}
+							}
+						}
+				?>
+					<details class="filter-group filter-group--category" open>
+						<summary class="filter-group-title">
+							<span class="group-title-text"><?php echo $is_category ? esc_html__( 'Danh mục con', 'mozlex' ) : esc_html__( 'Nhóm sản phẩm', 'mozlex' ); ?></span>
+							<svg class="group-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+						</summary>
+						<div class="filter-group-body">
+							<div class="category-tree">
+								<?php mozlex_render_filter_cat_tree( $by_parent, $root_id, 0 ); ?>
 							</div>
 						</div>
 					</details>
@@ -273,6 +301,7 @@ if ( ! $is_category ) {
 						<div class="filter-group-body">
 							<?php foreach ( $unlock_terms as $term ) :
 								$active = mozlex_is_filter_active( 'unlock_method', $term->slug );
+								$count = (int) $term->count;
 							?>
 								<label class="filter-check">
 									<input type="checkbox" name="unlock_method" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
@@ -280,7 +309,9 @@ if ( ! $is_category ) {
 										<svg class="check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 									</span>
 									<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
-									<span class="filter-count"><?php echo (int)$term->count; ?></span>
+									<?php if ( $count > 0 ) : ?>
+										<span class="filter-count"><?php echo $count; ?></span>
+									<?php endif; ?>
 								</label>
 							<?php endforeach; ?>
 						</div>
@@ -300,6 +331,7 @@ if ( ! $is_category ) {
 						<div class="filter-group-body">
 							<?php foreach ( $app_terms as $term ) :
 								$active = mozlex_is_filter_active( 'application', $term->slug );
+								$count = (int) $term->count;
 							?>
 								<label class="filter-check">
 									<input type="checkbox" name="application" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
@@ -307,7 +339,9 @@ if ( ! $is_category ) {
 										<svg class="check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 									</span>
 									<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
-									<span class="filter-count"><?php echo (int)$term->count; ?></span>
+									<?php if ( $count > 0 ) : ?>
+										<span class="filter-count"><?php echo $count; ?></span>
+									<?php endif; ?>
 								</label>
 							<?php endforeach; ?>
 						</div>
@@ -328,19 +362,22 @@ if ( ! $is_category ) {
 							<div class="swatches-grid">
 								<?php foreach ( $color_terms as $term ) :
 									$active = mozlex_is_filter_active( 'color', $term->slug );
+									$count = (int) $term->count;
 									$swatch_info = $color_swatches[ $term->slug ] ?? array(
 										'name'   => $term->name,
 										'hex'    => '#71717a',
 										'border' => '#52525b',
 									);
 								?>
-									<label class="swatch-item<?php echo $active ? ' is-active' : ''; ?>" title="<?php echo esc_attr( $term->name ); ?> (<?php echo (int)$term->count; ?>)">
+									<label class="swatch-item<?php echo $active ? ' is-active' : ''; ?>" title="<?php echo esc_attr( $term->name ); ?><?php echo $count > 0 ? ' (' . $count . ')' : ''; ?>">
 										<input type="checkbox" name="color" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
 										<span class="swatch-bubble" style="background-color: <?php echo esc_attr( $swatch_info['hex'] ); ?>; border-color: <?php echo esc_attr( $swatch_info['border'] ); ?>;">
 											<svg class="swatch-check" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 										</span>
 										<span class="swatch-name"><?php echo esc_html( $term->name ); ?></span>
-										<span class="swatch-count"><?php echo (int)$term->count; ?></span>
+										<?php if ( $count > 0 ) : ?>
+											<span class="swatch-count"><?php echo $count; ?></span>
+										<?php endif; ?>
 									</label>
 								<?php endforeach; ?>
 							</div>
@@ -361,6 +398,7 @@ if ( ! $is_category ) {
 						<div class="filter-group-body">
 							<?php foreach ( $feature_terms as $term ) :
 								$active = mozlex_is_filter_active( 'feature', $term->slug );
+								$count = (int) $term->count;
 							?>
 								<label class="filter-check">
 									<input type="checkbox" name="feature" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
@@ -368,7 +406,9 @@ if ( ! $is_category ) {
 										<svg class="check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
 									</span>
 									<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
-									<span class="filter-count"><?php echo (int)$term->count; ?></span>
+									<?php if ( $count > 0 ) : ?>
+										<span class="filter-count"><?php echo $count; ?></span>
+									<?php endif; ?>
 								</label>
 							<?php endforeach; ?>
 						</div>
