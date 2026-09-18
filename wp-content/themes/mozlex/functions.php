@@ -24,6 +24,7 @@ require_once MOZLEX_DIR . '/inc/rest.php';
 require_once MOZLEX_DIR . '/inc/importer.php';
 require_once MOZLEX_DIR . '/inc/category-thumbnails.php';
 require_once MOZLEX_DIR . '/inc/admin-specs.php';
+require_once MOZLEX_DIR . '/inc/promo-popup.php';
 
 /**
  * Theme supports.

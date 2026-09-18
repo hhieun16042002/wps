@@ -140,31 +140,103 @@ use function Mozlex\c;
 				</div>
 			</form>
 		</div>
-		<nav class="drawer-nav-wrap" aria-label="<?php esc_attr_e( 'Menu di động', 'mozlex' ); ?>">
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'primary',
-				'container'      => false,
-				'menu_class'     => 'drawer-list',
-				'depth'          => 0,
-				'fallback_cb'    => 'mozlex_default_nav',
-			) );
-			?>
-		</nav>
-		<div class="drawer-contact">
-	
-			<div class="drawer-contact-actions">
-				<a class="btn btn-drawer-call" href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', mozlex_opt( 'hotline', '0355514686' ) ) ); ?>">
-					<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-					<span>Gọi ngay: <?php echo esc_html( mozlex_opt( 'hotline', '0355514686' ) ); ?></span>
-				</a>
-				<?php if ( mozlex_opt( 'zalo' ) || mozlex_opt( 'hotline' ) ) : ?>
-					<a class="btn btn-drawer-zalo" href="<?php echo esc_url( 'https://zalo.me/' . preg_replace( '/[^0-9]/', '', mozlex_opt( 'zalo' ) ?: mozlex_opt( 'hotline' ) ) ); ?>" target="_blank" rel="noopener">
-						<span>Nhắn tin Zalo</span>
+		<!-- 3 Tabs cho menu di động: Menu | Danh mục | Liên hệ -->
+		<div class="drawer-tabs" role="tablist" aria-label="<?php esc_attr_e( 'Tabs menu di động', 'mozlex' ); ?>">
+			<button type="button" class="drawer-tab-btn is-active" role="tab" aria-selected="true" data-drawer-tab="menu">
+				<span><?php esc_html_e( 'Menu', 'mozlex' ); ?></span>
+			</button>
+			<button type="button" class="drawer-tab-btn" role="tab" aria-selected="false" data-drawer-tab="categories">
+				<span><?php esc_html_e( 'Danh mục', 'mozlex' ); ?></span>
+			</button>
+			<button type="button" class="drawer-tab-btn" role="tab" aria-selected="false" data-drawer-tab="contact">
+				<span><?php esc_html_e( 'Liên hệ', 'mozlex' ); ?></span>
+			</button>
+		</div>
+
+		<!-- Panel 1: Menu chính -->
+		<div class="drawer-tab-panel is-active" data-drawer-panel="menu">
+			<nav class="drawer-nav-wrap" aria-label="<?php esc_attr_e( 'Menu di động', 'mozlex' ); ?>">
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'primary',
+					'container'      => false,
+					'menu_class'     => 'drawer-list',
+					'depth'          => 0,
+					'fallback_cb'    => 'mozlex_default_nav',
+				) );
+				?>
+			</nav>
+			<div class="drawer-contact-mini" style="padding:14px 20px; border-top:1px solid rgba(255,255,255,0.08);">
+				<div class="drawer-contact-actions">
+					<a class="btn btn-drawer-call" href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', mozlex_opt( 'hotline', '0355514686' ) ) ); ?>">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+						<span><?php echo esc_html( mozlex_opt( 'hotline', '0355514686' ) ); ?></span>
 					</a>
-				<?php endif; ?>
+					<?php if ( mozlex_opt( 'zalo' ) || mozlex_opt( 'hotline' ) ) : ?>
+						<a class="btn btn-drawer-zalo" href="<?php echo esc_url( 'https://zalo.me/' . preg_replace( '/[^0-9]/', '', mozlex_opt( 'zalo' ) ?: mozlex_opt( 'hotline' ) ) ); ?>" target="_blank" rel="noopener">
+							<span>Zalo</span>
+						</a>
+					<?php endif; ?>
+				</div>
 			</div>
-			<p class="drawer-address"><?php echo esc_html( mozlex_opt( 'address', 'Số 26 ngõ 24 Phan Văn Trường, Dịch Vọng Hậu, Cầu Giấy, Hà Nội' ) ); ?></p>
+		</div>
+
+		<!-- Panel 2: Danh mục sản phẩm -->
+		<div class="drawer-tab-panel" data-drawer-panel="categories" hidden>
+			<nav class="drawer-nav-wrap" aria-label="<?php esc_attr_e( 'Danh mục sản phẩm', 'mozlex' ); ?>">
+				<ul class="drawer-list drawer-cat-list">
+					<?php
+					$drawer_cats = get_terms( array(
+						'taxonomy'   => 'product_category',
+						'hide_empty' => false,
+						'orderby'    => 'count',
+						'order'      => 'DESC',
+					) );
+					if ( ! is_wp_error( $drawer_cats ) && ! empty( $drawer_cats ) ) :
+						foreach ( $drawer_cats as $dcat ) :
+							if ( $dcat->count == 0 && ! in_array( $dcat->slug, array( 'khoa-cua-thong-minh', 'khoa-cua-thong-phong', 'cua-chong-chay', 'camera-an-ninh' ), true ) ) {
+								continue;
+							}
+							?>
+							<li>
+								<a href="<?php echo esc_url( get_term_link( $dcat ) ); ?>" class="drawer-cat-link" style="display:flex; align-items:center; justify-content:space-between;">
+									<span><?php echo esc_html( $dcat->name ); ?></span>
+									<?php if ( $dcat->count > 0 ) : ?>
+										<span style="font-size:0.75rem; background:rgba(201,163,129,0.18); color:var(--primary,#c9a381); padding:2px 8px; border-radius:999px;"><?php echo esc_html( (string) $dcat->count ); ?></span>
+									<?php endif; ?>
+								</a>
+							</li>
+							<?php
+						endforeach;
+					endif;
+					?>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Panel 3: Liên hệ & Hỗ trợ -->
+		<div class="drawer-tab-panel" data-drawer-panel="contact" hidden>
+			<div class="drawer-contact" style="border-top:none; padding:16px 20px;">
+				<div class="drawer-contact-actions">
+					<a class="btn btn-drawer-call" href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', mozlex_opt( 'hotline', '0355514686' ) ) ); ?>">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+						<span>Gọi ngay: <?php echo esc_html( mozlex_opt( 'hotline', '0355514686' ) ); ?></span>
+					</a>
+					<?php if ( mozlex_opt( 'zalo' ) || mozlex_opt( 'hotline' ) ) : ?>
+						<a class="btn btn-drawer-zalo" href="<?php echo esc_url( 'https://zalo.me/' . preg_replace( '/[^0-9]/', '', mozlex_opt( 'zalo' ) ?: mozlex_opt( 'hotline' ) ) ); ?>" target="_blank" rel="noopener">
+							<span>Nhắn tin Zalo</span>
+						</a>
+					<?php endif; ?>
+				</div>
+				<div style="margin-top:16px; font-size:0.86rem; color:rgba(255,255,255,0.72); line-height:1.6;">
+					<p style="margin:0 0 10px 0;"><strong style="color:#fff;">🏢 Văn phòng & Showroom:</strong><br><?php echo esc_html( mozlex_opt( 'address', 'Số 26 ngõ 24 Phan Văn Trường, Dịch Vọng Hậu, Cầu Giấy, Hà Nội' ) ); ?></p>
+					<?php if ( mozlex_opt( 'email' ) ) : ?>
+						<p style="margin:0 0 10px 0;"><strong style="color:#fff;">✉️ Email:</strong> <a href="mailto:<?php echo esc_attr( antispambot( mozlex_opt( 'email' ) ) ); ?>" style="color:var(--primary,#c9a381);"><?php echo esc_html( antispambot( mozlex_opt( 'email' ) ) ); ?></a></p>
+					<?php endif; ?>
+					<p style="margin:0 0 10px 0;"><strong style="color:#fff;">⏱ Giờ làm việc:</strong><br>8:00 – 18:00 (Thứ 2 – Thứ 7)</p>
+					<p style="margin:0; font-size:0.8rem; color:rgba(255,255,255,0.45);"><?php echo esc_html( mozlex_opt( 'company_name', 'Công ty TNHH xây dựng thương mại và công nghệ Đức Trí 226' ) ); ?></p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

@@ -1205,6 +1205,57 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 	border-color: #c9a381;
 	color: #F3D8B4;
 }
+
+/* 3 Tabs trong mobile drawer */
+.drawer-tabs {
+	display: flex;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(0, 0, 0, 0.25);
+	margin-top: 2px;
+}
+.drawer-tab-btn {
+	flex: 1;
+	background: none;
+	border: none;
+	padding: 12px 6px;
+	color: rgba(255, 255, 255, 0.6);
+	font-family: inherit;
+	font-size: 0.88rem;
+	font-weight: 600;
+	cursor: pointer;
+	position: relative;
+	transition: color 0.18s, background 0.18s;
+	text-align: center;
+}
+.drawer-tab-btn:hover {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.04);
+}
+.drawer-tab-btn.is-active {
+	color: var(--primary, #c9a381);
+	font-weight: 700;
+}
+.drawer-tab-btn.is-active::after {
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: 15%;
+	right: 15%;
+	height: 2px;
+	background: var(--primary, #c9a381);
+	border-radius: 2px;
+}
+.drawer-tab-panel {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.drawer-tab-panel[hidden] {
+	display: none !important;
+}
+
 .drawer-nav-wrap {
 	padding: 10px 12px;
 	flex: 1;

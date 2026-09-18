@@ -157,6 +157,28 @@
 			setDrawer(false);
 		}
 	});
+
+	// Xử lý chuyển đổi 3 Tabs di động (Menu / Danh mục / Liên hệ)
+	if (mobileDrawer) {
+		var drawerTabBtns = mobileDrawer.querySelectorAll('.drawer-tab-btn');
+		var drawerTabPanels = mobileDrawer.querySelectorAll('.drawer-tab-panel');
+		drawerTabBtns.forEach(function (btn) {
+			btn.addEventListener('click', function () {
+				var targetTab = btn.getAttribute('data-drawer-tab');
+				drawerTabBtns.forEach(function (b) {
+					var isActive = (b === btn);
+					b.classList.toggle('is-active', isActive);
+					b.setAttribute('aria-selected', String(isActive));
+				});
+				drawerTabPanels.forEach(function (panel) {
+					var isMatch = (panel.getAttribute('data-drawer-panel') === targetTab);
+					panel.hidden = !isMatch;
+					panel.classList.toggle('is-active', isMatch);
+				});
+			});
+		});
+	}
+
 	function trapFocus(container, e) {
 		if (e.key !== 'Tab') return;
 		var items = Array.from(container.querySelectorAll('a[href], button, input, select, textarea, [tabindex="0"]')).filter(function (el) { return !el.disabled && el.getClientRects().length; });
