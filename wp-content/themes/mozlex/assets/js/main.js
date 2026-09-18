@@ -1252,7 +1252,7 @@
 		});
 	}
 
-	/* ---------- Hero Slider — 3s auto, dots/arrows, pause on hover/focus ---------- */
+	/* ---------- Hero Slider — auto slide, dots/arrows, touch swipe ---------- */
 	(function () {
 		var slider = document.querySelector('[data-hero-slider]');
 		if (!slider) return;
@@ -1261,14 +1261,27 @@
 		var prev = slider.querySelector('.hero-prev');
 		var next = slider.querySelector('.hero-next');
 		if (slides.length <= 1) return;
-		var interval = parseInt(slider.getAttribute('data-interval'), 10) || 3000;
+		var interval = parseInt(slider.getAttribute('data-interval'), 10) || 3500;
 		var idx = 0;
 		var timer = null;
-		var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		var paused = reduce;
+		var userPaused = false;
+		var isHovered = false;
 		var pause = slider.querySelector('[data-hero-pause]');
-		function syncPause() { if (pause) { pause.textContent = paused ? 'Phát trình chiếu' : 'Tạm dừng trình chiếu'; pause.setAttribute('aria-pressed', String(paused)); } }
-		if (pause) pause.addEventListener('click', function () { paused = !paused; syncPause(); paused ? stop() : start(); });
+
+		function syncPause() {
+			if (pause) {
+				pause.textContent = userPaused ? 'Phát trình chiếu' : 'Tạm dừng trình chiếu';
+				pause.setAttribute('aria-pressed', String(userPaused));
+			}
+		}
+		if (pause) {
+			pause.addEventListener('click', function () {
+				userPaused = !userPaused;
+				syncPause();
+				if (userPaused) stop();
+				else start();
+			});
+		}
 		syncPause();
 
 		function go(n) {
@@ -1284,40 +1297,75 @@
 				d.setAttribute('aria-pressed', String(active));
 			});
 		}
-		function start() {
-			if (reduce || paused || document.hidden || slider.contains(document.activeElement)) return;
-			stop();
-			timer = setInterval(function () { go(idx + 1); }, interval);
-		}
-		function stop() { if (timer) { clearInterval(timer); timer = null; } }
 
-		if (prev) prev.addEventListener('click', function () { go(idx - 1); start(); });
-		if (next) next.addEventListener('click', function () { go(idx + 1); start(); });
+		function start() {
+			stop();
+			if (userPaused || document.hidden || isHovered) return;
+			timer = setInterval(function () {
+				go(idx + 1);
+			}, interval);
+		}
+
+		function stop() {
+			if (timer) {
+				clearInterval(timer);
+				timer = null;
+			}
+		}
+
+		function restartAfterAction() {
+			stop();
+			if (!userPaused && !document.hidden && !isHovered) {
+				timer = setInterval(function () { go(idx + 1); }, interval);
+			}
+		}
+
+		if (prev) prev.addEventListener('click', function () { go(idx - 1); restartAfterAction(); });
+		if (next) next.addEventListener('click', function () { go(idx + 1); restartAfterAction(); });
 		dots.forEach(function (d) {
 			d.addEventListener('click', function () {
 				var n = parseInt(d.getAttribute('data-slide'), 10) || 0;
-				go(n); start();
+				go(n);
+				restartAfterAction();
 			});
 		});
-		slider.addEventListener('mouseenter', stop);
-		slider.addEventListener('mouseleave', start);
-		slider.addEventListener('focusin', stop);
-		slider.addEventListener('focusout', function () { setTimeout(start, 0); });
+
+		// Hover controls: only pause on actual mouse hover, not touch
+		slider.addEventListener('mouseenter', function (e) {
+			if (e.pointerType === 'touch') return;
+			isHovered = true;
+			stop();
+		});
+		slider.addEventListener('mouseleave', function () {
+			isHovered = false;
+			start();
+		});
+
 		// Swipe touch
 		var startX = 0;
-		slider.addEventListener('touchstart', function (e) { startX = e.touches[0].clientX; stop(); }, { passive: true });
+		slider.addEventListener('touchstart', function (e) {
+			startX = e.touches[0].clientX;
+			stop();
+		}, { passive: true });
 		slider.addEventListener('touchend', function (e) {
 			var dx = e.changedTouches[0].clientX - startX;
 			if (Math.abs(dx) > 40) go(idx + (dx < 0 ? 1 : -1));
+			isHovered = false;
 			start();
 		}, { passive: true });
-		document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
-		// Keyboard arrows when slider focused
-		slider.addEventListener('keydown', function (e) {
-			if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); start(); }
-			if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); start(); }
+
+		document.addEventListener('visibilitychange', function () {
+			if (document.hidden) stop();
+			else start();
 		});
-		slider.tabIndex = 0;
+
+		// Keyboard arrows when interactive controls inside slider are focused
+		slider.addEventListener('keydown', function (e) {
+			if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); restartAfterAction(); }
+			if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); restartAfterAction(); }
+		});
+
+		// Start autoplay immediately
 		start();
 	})();
 

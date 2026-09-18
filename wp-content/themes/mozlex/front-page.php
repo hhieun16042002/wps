@@ -196,7 +196,7 @@ $hero_slides_q = new WP_Query( array(
 				<?php if ( $slide_sub ) : ?><p class="hero-sub"><?php echo esc_html( $slide_sub ); ?></p><?php endif; ?>
 				<?php if ( $slide_cta || $slide_cta2 ) : ?>
 				<div class="hero-cta">
-					<?php if ( $slide_cta && $slide_cta_url ) : ?><a class="btn btn-ink" href="<?php echo esc_url( $slide_cta_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $slide_cta ); ?></a><?php endif; ?>
+					<?php if ( $slide_cta && $slide_cta_url ) : ?><a class="btn holo-btn btn-star-portal" href="<?php echo esc_url( $slide_cta_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $slide_cta ); ?> <span class="arrow">&rarr;</span></a><?php endif; ?>
 					<?php if ( $slide_cta2 && $slide_cta2_url ) : ?><a class="btn btn-outline" href="<?php echo esc_url( $slide_cta2_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $slide_cta2 ); ?></a><?php endif; ?>
 				</div>
 				<?php endif; ?>
@@ -232,7 +232,7 @@ $hero_slides_q = new WP_Query( array(
 		<?php endif; ?>
 		<p class="hero-sub reveal"><?php echo esc_html( $banner_subtitle ); ?></p>
 		<div class="hero-cta reveal">
-			<a class="btn btn-ink" href="<?php echo esc_url( $banner_cta_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $banner_cta_text ); ?></a>
+			<a class="btn holo-btn btn-star-portal" href="<?php echo esc_url( $banner_cta_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $banner_cta_text ); ?> <span class="arrow">&rarr;</span></a>
 			<a class="btn btn-outline" href="<?php echo esc_url( $banner_cta2_url ); ?>" style="text-transform:uppercase"><?php echo esc_html( $banner_cta2_text ); ?></a>
 		</div>
 	</div>
@@ -413,7 +413,7 @@ $hero_slides_q = new WP_Query( array(
 			</div>
 			<p><?php esc_html_e( 'Uy tín của một doanh nghiệp không được tạo nên bởi những lời cam kết, mà được khẳng định qua từng công trình được kiến tạo, từng sản phẩm được phát triển và từng dịch vụ được cung cấp. Mỗi giá trị mang đến cho khách hàng đều là minh chứng cho trách nhiệm, chất lượng và sự minh bạch mà Đức Trí 226 kiên định theo đuổi.', 'mozlex' ); ?></p>
 			<!-- <p><?php esc_html_e( 'Chúng tôi cam kết mang đến sản phẩm chính hãng, chất lượng vượt trội cùng dịch vụ tư vấn, lắp đặt và bảo hành chuyên nghiệp.', 'mozlex' ); ?></p> -->
-			<a class="btn btn-ink" href="<?php echo esc_url( home_url( '/ve-mozlex/' ) ); ?>" style="text-transform:uppercase"><?php esc_html_e( 'XEM THÊM', 'mozlex' ); ?> <span class="arrow">&rarr;</span></a>
+			<a class="btn holo-btn btn-star-portal" href="<?php echo esc_url( home_url( '/ve-mozlex/' ) ); ?>" style="text-transform:uppercase"><?php esc_html_e( 'XEM THÊM', 'mozlex' ); ?> <span class="arrow">&rarr;</span></a>
 		</div>
 		<div class="about-video">
 			<div class="video-placeholder" style="background-image:url('<?php echo esc_url( get_template_directory_uri() . '/assets/img/showroom-about.jpg' ); ?>'); background-size:cover; background-position:center; position:relative; box-shadow:0 12px 36px rgba(0,0,0,0.15); border:1px solid rgba(0,0,0,0.08);">

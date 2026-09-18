@@ -76,7 +76,7 @@ if (empty($custom_thuongmai)) {
         <?php echo wp_kses_post($branches[$active]['content']); ?>
       </div>
       <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
-        <a href="<?php echo esc_url(get_term_link(get_term_by('slug', $active, 'product_category'))); ?>" class="btn btn-ink" style="text-transform:uppercase; padding:10px 18px; font-size:0.82rem;">Xem sản phẩm <?php echo esc_html($branches[$active]['label']); ?> →</a>
+        <a href="<?php echo esc_url(get_term_link(get_term_by('slug', $active, 'product_category'))); ?>" class="btn holo-btn btn-star-portal" style="text-transform:uppercase; padding:10px 20px; font-size:0.82rem;">Xem sản phẩm <?php echo esc_html($branches[$active]['label']); ?> <span class="arrow">&rarr;</span></a>
         <a href="<?php echo esc_url(home_url('/lien-he/')); ?>" class="btn btn-line" style="padding:10px 18px; font-size:0.82rem; border-color:#0a0a0a; color:#0a0a0a;">Liên hệ tư vấn</a>
       </div>
     </div>

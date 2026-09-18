@@ -57,7 +57,7 @@ get_header();
   </ol>
   <div style="text-align:center; margin-top:28px;">
     <a class="btn btn-ink" href="<?php echo esc_url(home_url('/lien-he/')); ?>">Liên hệ tư vấn</a>
-    <a class="btn btn-line" href="<?php echo esc_url(home_url('/san-pham/')); ?>" style="border-color:#0a0a0a; color:#0a0a0a; margin-left:8px;">Xem sản phẩm</a>
+    <a class="btn holo-btn btn-star-portal" href="<?php echo esc_url(home_url('/san-pham/')); ?>" style="margin-left:8px;">Xem sản phẩm <span class="arrow">&rarr;</span></a>
   </div>
 </section>
 <style>
