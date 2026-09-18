@@ -366,7 +366,7 @@
 		function fetchAndRender() {
 			var params = collectParams();
 			var qs = params.toString();
-			var url = window.MozlexData ? window.MozlexData.restUrl + 'products?' + qs + '&per_page=24' : '';
+			var url = window.MozlexData ? window.MozlexData.restUrl + 'products?' + qs + '&per_page=16' : '';
 			if (!url || !window.MozlexData) {
 				// Fallback: submit form
 				window.location.href = window.location.pathname + (qs ? '?' + qs : '');

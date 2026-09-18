@@ -46,7 +46,7 @@ function mozlex_rest_products( WP_REST_Request $request ) {
 	}
 
 	$per_page = (int) $request->get_param( 'per_page' );
-	$per_page = $per_page ? min( 24, max( 1, $per_page ) ) : 12;
+	$per_page = $per_page ? min( 48, max( 1, $per_page ) ) : 16;
 	$page     = (int) $request->get_param( 'page' );
 	$page     = $page ? max( 1, $page ) : 1;
 

@@ -58,9 +58,12 @@ if ( count( $query_filters ) > 1 ) {
 	$query_filters['relation'] = 'AND';
 }
 
+	$paged = max( 1, (int) get_query_var( 'paged' ), (int) get_query_var( 'page' ) );
+
 	$wp_query = new WP_Query( array(
 		'post_type'      => 'product',
-		'posts_per_page' => 24,
+		'posts_per_page' => 16,
+		'paged'          => $paged,
 		'post_status'    => 'publish',
 		'tax_query'      => $query_filters ?: null,
 		'orderby'        => $orderby,
@@ -257,13 +260,13 @@ if ( ! $is_category ) {
 					<?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); get_template_part( 'template-parts/product-card' ); endwhile; ?>
 				</div>
 
-				<nav class="pagination" id="archive-pagination" aria-label="<?php esc_attr_e( 'Phân trang', 'mozlex' ); ?>">
+				<div class="archive-pagination-wrap" id="archive-pagination">
 					<?php the_posts_pagination( array( 'mid_size' => 1, 'prev_text' => '&larr;', 'next_text' => '&rarr;' ) ); ?>
-				</nav>
+				</div>
 			<?php else : ?>
 				<p class="empty-note" id="archive-empty"><?php esc_html_e( 'Không có sản phẩm phù hợp bộ lọc hiện tại. Vui lòng thử lại với ít tiêu chí hơn hoặc liên hệ tư vấn trực tiếp.', 'mozlex' ); ?></p>
 				<div class="product-grid grid-4" id="archive-grid" data-compare-source hidden></div>
-				<nav class="pagination" id="archive-pagination" hidden></nav>
+				<div class="archive-pagination-wrap" id="archive-pagination" hidden></div>
 			<?php endif; wp_reset_postdata(); ?>
 		</div>
 	</div>

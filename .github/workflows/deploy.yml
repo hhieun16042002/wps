@@ -21,7 +21,13 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ./
           exclude: |
-            **/.git*
+           **/.git*
             **/.git*/**
             **/node_modules/**
             .env
+            **/images/**        # Bỏ qua mọi thư mục có tên images
+            **/wp-config.php
+            wp-config.php
+            wp-config-sample.php
+            wp-config-docker.php
+            # assets/images/**  # (Dùng dòng này nếu thư mục ảnh nằm trong assets/)

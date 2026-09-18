@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MOZLEX_VERSION', '2.8.76' );
+define( 'MOZLEX_VERSION', '2.8.77' );
 define( 'MOZLEX_DIR', get_template_directory() );
 
 require_once MOZLEX_DIR . '/inc/cpt.php';
@@ -178,3 +178,14 @@ add_action('template_redirect', function(){
     exit;
   }
 });
+
+/**
+ * Giới hạn 16 sản phẩm mỗi trang cho archive sản phẩm và taxonomy sản phẩm.
+ */
+add_action( 'pre_get_posts', function ( $query ) {
+	if ( ! is_admin() && $query->is_main_query() ) {
+		if ( is_post_type_archive( 'product' ) || is_tax( array( 'product_category', 'unlock_method', 'application', 'price_range', 'color', 'feature' ) ) ) {
+			$query->set( 'posts_per_page', 16 );
+		}
+	}
+} );
