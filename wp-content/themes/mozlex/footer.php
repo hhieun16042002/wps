@@ -20,16 +20,17 @@ $bank     = mozlex_opt( 'bank_account', '1355514686 - Ngân hàng Techcombank ch
 <footer class="site-footer footer-pro">
 	<div class="shell footer-pro-grid">
 		<div class="footer-pro-col">
-			<h3 class="footer-pro-heading">ABOUT US</h3>
+			<h3 class="footer-pro-heading">Về chúng tôi</h3>
 			<ul class="footer-pro-list">
 				<li><a href="<?php echo esc_url( home_url( '/ve-mozlex/' ) ); ?>">Về chúng tôi</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/du-an/' ) ); ?>">Dự án & Công trình tiêu biểu</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/bao-hanh/' ) ); ?>">Chính sách bảo hành và đổi trả</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/dieu-khoan-bao-mat/' ) ); ?>">Điều khoản và bảo mật</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/mua-hang-thanh-toan/' ) ); ?>">Mua hàng và thanh toán</a></li>
 			</ul>
 		</div>
 		<div class="footer-pro-col">
-			<h3 class="footer-pro-heading">INFORMATION</h3>
+			<h3 class="footer-pro-heading">Thông tin</h3>
 			<ul class="footer-pro-list footer-pro-info">
 				<li class="footer-pro-company"><?php echo esc_html( $company ); ?> <span style="display:inline-block; margin-left:8px; padding:3px 8px; background:#C97C5D; color:#fff; border-radius:999px; font-size:0.68rem; letter-spacing:0.06em; text-transform:uppercase; font-weight:700; vertical-align:middle;">Phân phối chính hãng</span></li>
 				<li><span class="footer-pro-label">Hotline</span> <a href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $hotline ) ); ?>"><?php echo esc_html( $hotline ); ?></a> <span style="opacity:0.6;">/</span> <a href="mailto:<?php echo esc_attr( antispambot( $email ) ); ?>" class="footer-pro-email"><?php echo esc_html( antispambot( $email ) ); ?></a></li>
@@ -37,7 +38,7 @@ $bank     = mozlex_opt( 'bank_account', '1355514686 - Ngân hàng Techcombank ch
 			</ul>
 		</div>
 		<div class="footer-pro-col">
-			<h3 class="footer-pro-heading">CONNECT</h3>
+			<h3 class="footer-pro-heading">Kết nối</h3>
 			<ul class="footer-pro-list footer-pro-connect">
 				<li><a href="<?php echo esc_url( mozlex_opt( 'facebook', 'https://www.facebook.com/mozlex' ) ); ?>" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg> Facebook</a></li>
 				<li><a href="<?php echo esc_url( mozlex_opt( 'youtube', '#' ) ); ?>" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12c0-1.1-.1-2.2-.3-3.3-.2-1-1-1.8-2-2C18.6 6.3 12 6.3 12 6.3s-6.6 0-7.7.4c-1 .2-1.8 1-2 2C2.1 9.8 2 10.9 2 12s.1 2.2.3 3.3c.2 1 1 1.8 2 2 1.1.4 7.7.4 7.7.4s6.6 0 7.7-.4c1-.2 1.8-1 2-2 .2-1.1.3-2.2.3-3.3zM10 15.5v-7l6 3.5-6 3.5z"/></svg> Youtube</a></li>
@@ -59,7 +60,7 @@ $bank     = mozlex_opt( 'bank_account', '1355514686 - Ngân hàng Techcombank ch
 	</div>
 </footer>
 
-<?php if ( $hotline && $zalo && wp_is_mobile() ) : ?>
+<?php if ( $hotline && $zalo && wp_is_mobile() && ! is_singular( 'product' ) ) : ?>
 <nav class="mobile-cta" aria-label="<?php esc_attr_e( 'Liên hệ nhanh', 'mozlex' ); ?>">
 	<a href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $hotline ) ); ?>" class="mobile-cta-call">&#9742; <?php esc_html_e( 'Gọi ngay', 'mozlex' ); ?></a>
 	<a href="https://zalo.me/<?php echo esc_attr( preg_replace( '/[^0-9]/', '', $zalo ) ); ?>" class="mobile-cta-zalo" rel="noopener">ZALO</a>

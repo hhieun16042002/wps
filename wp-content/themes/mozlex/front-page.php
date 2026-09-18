@@ -167,6 +167,7 @@ $hero_slides_q = new WP_Query( array(
 <?php if ( $hero_slides_q->have_posts() ) : ?>
 <!-- HERO SLIDER — 3s auto, custom qua Admin → Banner Slider -->
 <section class="hero hero-slider" data-hero-slider data-interval="3000" aria-roledescription="carousel" aria-label="<?php esc_attr_e( 'Banner', 'mozlex' ); ?>">
+	<h1 class="sr-only">Đức Trí 226 — Khóa và thiết bị Mozlex chính hãng</h1>
 	<div class="hero-slider-track">
 		<?php
 		$slide_idx = 0;
@@ -177,10 +178,10 @@ $hero_slides_q = new WP_Query( array(
 			$slide_eyebrow= get_post_meta( $sid, 'mozlex_slide_eyebrow', true ) ?: $banner_eyebrow;
 			$slide_deco   = get_post_meta( $sid, 'mozlex_slide_decorative', true );
 			$slide_sub    = get_post_meta( $sid, 'mozlex_slide_subtitle', true );
-			$slide_cta    = get_post_meta( $sid, 'mozlex_slide_cta_text', true );
-			$slide_cta_url= get_post_meta( $sid, 'mozlex_slide_cta_url', true );
-			$slide_cta2   = get_post_meta( $sid, 'mozlex_slide_cta2_text', true );
-			$slide_cta2_url = get_post_meta( $sid, 'mozlex_slide_cta2_url', true );
+			$slide_cta    = get_post_meta( $sid, 'mozlex_slide_cta_text', true ) ?: $banner_cta2_text;
+			$slide_cta_url= get_post_meta( $sid, 'mozlex_slide_cta_url', true ) ?: $banner_cta2_url;
+			$slide_cta2   = get_post_meta( $sid, 'mozlex_slide_cta2_text', true ) ?: $banner_cta_text;
+			$slide_cta2_url = get_post_meta( $sid, 'mozlex_slide_cta2_url', true ) ?: $banner_cta_url;
 
 		?>
 		<div class="hero-slide<?php echo 0 === $slide_idx ? ' is-active' : ''; ?>" role="group" aria-roledescription="slide" aria-label="<?php echo esc_attr( ( $slide_idx + 1 ) . ' / ' . $hero_slides_q->post_count ); ?>"<?php echo 0 === $slide_idx ? '' : ' aria-hidden="true"'; ?>>
@@ -206,9 +207,10 @@ $hero_slides_q = new WP_Query( array(
 	<?php if ( $hero_slides_q->post_count > 1 ) : ?>
 	<button type="button" class="hero-nav hero-prev" aria-label="<?php esc_attr_e( 'Slide trước', 'mozlex' ); ?>">&#8249;</button>
 	<button type="button" class="hero-nav hero-next" aria-label="<?php esc_attr_e( 'Slide sau', 'mozlex' ); ?>">&#8250;</button>
-	<div class="hero-dots" role="tablist" aria-label="<?php esc_attr_e( 'Chọn slide', 'mozlex' ); ?>">
+	<button type="button" class="hero-pause" data-hero-pause aria-pressed="false">Tạm dừng trình chiếu</button>
+	<div class="hero-dots" role="group" aria-label="<?php esc_attr_e( 'Chọn slide', 'mozlex' ); ?>">
 		<?php for ( $d = 0; $d < $hero_slides_q->post_count; $d++ ) : ?>
-			<button type="button" role="tab" class="hero-dot<?php echo 0 === $d ? ' is-active' : ''; ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Slide %d', 'mozlex' ), $d + 1 ) ); ?>" aria-selected="<?php echo 0 === $d ? 'true' : 'false'; ?>" data-slide="<?php echo esc_attr( (string) $d ); ?>"></button>
+			<button type="button" class="hero-dot<?php echo 0 === $d ? ' is-active' : ''; ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Slide %d', 'mozlex' ), $d + 1 ) ); ?>" aria-pressed="<?php echo 0 === $d ? 'true' : 'false'; ?>" data-slide="<?php echo esc_attr( (string) $d ); ?>"></button>
 		<?php endfor; ?>
 	</div>
 	<?php endif; ?>
@@ -249,11 +251,13 @@ $hero_slides_q = new WP_Query( array(
 					<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo-dt226.png' ); ?>" alt="Đức Trí 226" width="220" height="60" loading="lazy" decoding="async" style="height:56px; width:auto; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.06));">
 					<img src="https://mozlex.vn/wp-content/uploads/2026/04/Anh-san-pham-co-logo-9-1.png" alt="Mozlex" width="220" height="60" loading="lazy" decoding="async" style="height:56px; width:auto; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.06)); background:#fff; padding:4px; border-radius:6px;">
 				</div>
-				<p style="margin:0; font-size:0.95rem; color:var(--primary); font-weight:600; letter-spacing:0.04em; text-align:center;">Là nhà phân phối chính hãng được <strong>Mozlex</strong> tin tưởng, Đức Trí 226 cam kết chính hãng</p>
+				<p style="margin:0; font-size:0.95rem; color:var(--color-brand-brass-dark); font-weight:600; letter-spacing:0.04em; text-align:center;">Là nhà phân phối chính hãng được <strong>Mozlex</strong> tin tưởng, Đức Trí 226 cam kết chính hãng</p>
 			</div>
 		</div>
 	</div>
 </section>
+
+
 
 <?php if ( '1' === mozlex_opt( 'show_danhmuc', '1' ) ) : ?>
 <!-- 3 NHÁNH LỚN — Đức Trí 226: Xây dựng / Thương mại / Công nghệ -->
@@ -316,7 +320,7 @@ $hero_slides_q = new WP_Query( array(
 				while ( $sol_q->have_posts() ) { $sol_q->the_post();
 					$title = get_the_title();
 					$excerpt = get_the_excerpt() ?: wp_trim_words( get_the_content(), 18 );
-					echo '<div class="solution-card" style="background:var(--warm-white); border:1px solid rgba(0,0,0,0.06); border-radius:10px; padding:18px;"><h3 style="font-size:0.82rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#000; margin:0 0 6px;">'.esc_html($title).'</h3><p style="font-size:0.85rem; color:rgba(53,53,53,0.75); margin:0 0 8px;">'.esc_html($excerpt).'</p><span style="font-size:0.72rem; color:var(--primary); font-weight:600;">Nhu cầu → Thiết bị → Lắp đặt → Bảo trì →</span></div>';
+					echo '<div class="solution-card" style="background:var(--warm-white); border:1px solid rgba(0,0,0,0.06); border-radius:10px; padding:18px;"><h3 style="font-size:0.82rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#000; margin:0 0 6px;">'.esc_html($title).'</h3><p style="font-size:0.85rem; color:rgba(53,53,53,0.75); margin:0 0 8px;">'.esc_html($excerpt).'</p><span style="font-size:0.72rem; color:var(--color-brand-brass-dark); font-weight:600;">Nhu cầu → Thiết bị → Lắp đặt → Bảo trì →</span></div>';
 				}
 				wp_reset_postdata();
 			} else {
@@ -332,7 +336,7 @@ $hero_slides_q = new WP_Query( array(
 					array('Công trình thương mại','Tích hợp hệ thống toàn diện'),
 				);
 				foreach ($solutions as $s) {
-					echo '<div class="solution-card" style="background:var(--warm-white); border:1px solid rgba(0,0,0,0.06); border-radius:10px; padding:18px;"><h3 style="font-size:0.82rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#000; margin:0 0 6px;">'.esc_html($s[0]).'</h3><p style="font-size:0.85rem; color:rgba(53,53,53,0.75); margin:0 0 8px;">'.esc_html($s[1]).'</p><span style="font-size:0.72rem; color:var(--primary); font-weight:600;">Nhu cầu → Thiết bị → Lắp đặt → Bảo trì →</span></div>';
+					echo '<div class="solution-card" style="background:var(--warm-white); border:1px solid rgba(0,0,0,0.06); border-radius:10px; padding:18px;"><h3 style="font-size:0.82rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#000; margin:0 0 6px;">'.esc_html($s[0]).'</h3><p style="font-size:0.85rem; color:rgba(53,53,53,0.75); margin:0 0 8px;">'.esc_html($s[1]).'</p><span style="font-size:0.72rem; color:var(--color-brand-brass-dark); font-weight:600;">Nhu cầu → Thiết bị → Lắp đặt → Bảo trì →</span></div>';
 				}
 			}
 			?>
@@ -407,13 +411,19 @@ $hero_slides_q = new WP_Query( array(
 					<h2 style="margin:0; line-height:1.1;"><?php esc_html_e( 'VỀ CHÚNG TÔI', 'mozlex' ); ?></h2>
 				</div>
 			</div>
-			<p><?php esc_html_e( 'Đức Trí 226 tự hào là nhà phân phối chính hãng của Mozlex, mang đến cho khách hàng những sản phẩm khóa thông minh, khóa tay gạt từ các thương hiệu hàng đầu thế giới.', 'mozlex' ); ?></p>
-			<p><?php esc_html_e( 'Chúng tôi cam kết mang đến sản phẩm chính hãng, chất lượng vượt trội cùng dịch vụ tư vấn, lắp đặt và bảo hành chuyên nghiệp.', 'mozlex' ); ?></p>
+			<p><?php esc_html_e( 'Uy tín của một doanh nghiệp không được tạo nên bởi những lời cam kết, mà được khẳng định qua từng công trình được kiến tạo, từng sản phẩm được phát triển và từng dịch vụ được cung cấp. Mỗi giá trị mang đến cho khách hàng đều là minh chứng cho trách nhiệm, chất lượng và sự minh bạch mà Đức Trí 226 kiên định theo đuổi.', 'mozlex' ); ?></p>
+			<!-- <p><?php esc_html_e( 'Chúng tôi cam kết mang đến sản phẩm chính hãng, chất lượng vượt trội cùng dịch vụ tư vấn, lắp đặt và bảo hành chuyên nghiệp.', 'mozlex' ); ?></p> -->
 			<a class="btn btn-ink" href="<?php echo esc_url( home_url( '/ve-mozlex/' ) ); ?>" style="text-transform:uppercase"><?php esc_html_e( 'XEM THÊM', 'mozlex' ); ?> <span class="arrow">&rarr;</span></a>
 		</div>
 		<div class="about-video">
-			<div class="video-placeholder">
-				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+			<div class="video-placeholder" style="background-image:url('<?php echo esc_url( get_template_directory_uri() . '/assets/img/showroom-about.jpg' ); ?>'); background-size:cover; background-position:center; position:relative; box-shadow:0 12px 36px rgba(0,0,0,0.15); border:1px solid rgba(0,0,0,0.08);">
+				<div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%);"></div>
+				<a href="<?php echo esc_url( home_url( '/ve-mozlex/' ) ); ?>" class="video-play-btn" aria-label="Xem không gian showroom" style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:12px; text-decoration:none;">
+					<span style="width:68px; height:68px; border-radius:50%; background:rgba(255,255,255,0.92); display:grid; place-items:center; color:var(--dark); box-shadow:0 8px 28px rgba(0,0,0,0.3); transition:transform 200ms; backdrop-filter:blur(4px);">
+						<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+					</span>
+					<span style="color:#fff; font-size:0.9rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; text-shadow:0 2px 6px rgba(0,0,0,0.8);">Showroom & Trưng bày</span>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -460,12 +470,12 @@ $hero_slides_q = new WP_Query( array(
 <?php
 $shelf_on = ( 'shelf' === mozlex_opt( 'featured_layout', 'shelf' ) );
 if ( '1' === mozlex_opt( 'show_featured', '1' ) ) : ?>
-<!-- FEATURED PRODUCTS — chỉ khóa thông minh, custom ở Mozlex → Cấu hình -->
-<section class="home-section<?php echo $shelf_on ? ' is-shelf-full' : ''; ?>" aria-labelledby="featured-title">
+<!-- FEATURED PRODUCTS — Đưa xuống dưới Thống kê (13+ năm kinh nghiệm, 200+ sản phẩm...) -->
+<section class="home-section alt-bg<?php echo $shelf_on ? ' is-shelf-full' : ''; ?>" aria-labelledby="featured-title">
 	<div class="shell">
 		<header class="section-header section-header-row">
 			<div>
-				<p class="eyebrow"><?php esc_html_e( 'Khóa thông minh', 'mozlex' ); ?></p>
+				<p class="eyebrow"><?php esc_html_e( 'Sản phẩm & Thiết bị tiêu biểu', 'mozlex' ); ?></p>
 				<h2 class="section-title" id="featured-title"><?php echo esc_html( $featured_title ); ?></h2>
 			</div>
 			<?php
@@ -496,6 +506,8 @@ if ( '1' === mozlex_opt( 'show_featured', '1' ) ) : ?>
 	</div>
 </section>
 <?php endif; ?>
+
+
 
 <?php if ( '1' === mozlex_opt( 'show_wizard', '0' ) ) : ?>
 <!-- CONSULT WIZARD TEASER -->

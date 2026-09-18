@@ -101,7 +101,7 @@ while ( have_posts() ) : the_post();
 					</div>
 
 					<div class="product-ctas">
-						<a class="btn btn-ink product-cta-primary" href="<?php echo esc_url( home_url('/lien-he/?san-pham='.rawurlencode($model_short)) ); ?>">Nhận tư vấn</a>
+						<a class="btn btn-ink product-cta-primary" href="<?php echo esc_url( home_url('/lien-he/?san-pham='.rawurlencode($model_short)) ); ?>">Nhận báo giá &amp; Tư vấn</a>
 						<a class="btn btn-outline-dark" href="tel:<?php echo esc_attr($hotline); ?>">Gọi ngay</a>
 						<a class="btn btn-zalo" href="<?php echo esc_url($zalo_url); ?>" target="_blank" rel="noopener">Zalo</a>
 					</div>
@@ -115,9 +115,20 @@ while ( have_posts() ) : the_post();
 						<div class="product-share">
 							<span>Chia sẻ:</span>
 							<?php
-							$enc_url=rawurlencode($share_url); $enc_title=rawurlencode(get_the_title());
-							$links=[['f','https://www.facebook.com/sharer.php?u='.$enc_url,'Facebook'],['t','https://twitter.com/share?url='.$enc_url,'Twitter'],['@','mailto:?subject='.$enc_title.'&body='.$enc_url,'Email'],['p','https://pinterest.com/pin/create/button/?url='.$enc_url.'&media='.rawurlencode($share_img).'&description='.$enc_title,'Pinterest']];
-							foreach($links as $s): ?><a href="<?php echo esc_url($s[1]); ?>" target="_blank" rel="noopener" aria-label="<?php echo esc_attr($s[2]); ?>"><?php echo esc_html($s[0]); ?></a><?php endforeach; ?>
+							$enc_url=rawurlencode($share_url);
+							?>
+							<a href="https://www.facebook.com/sharer.php?u=<?php echo esc_attr($enc_url); ?>" target="_blank" rel="noopener" class="share-btn share-fb" aria-label="Chia sẻ lên Facebook">
+								<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+								<span>Facebook</span>
+							</a>
+							<a href="https://zalo.me/share?url=<?php echo esc_attr($enc_url); ?>" target="_blank" rel="noopener" class="share-btn share-zalo" aria-label="Chia sẻ qua Zalo">
+								<span class="zalo-dot">Z</span>
+								<span>Zalo</span>
+							</a>
+							<button type="button" class="share-btn share-copy" data-copy-url="<?php echo esc_url($share_url); ?>" aria-label="Sao chép liên kết">
+								<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+								<span class="share-copy-text">Sao chép link</span>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -125,15 +136,25 @@ while ( have_posts() ) : the_post();
 		</div>
 	</div>
 
-	<?php if ( trim(strip_tags($desc_remaining)) ) : ?>
+	<nav class="product-section-nav shell" data-product-tabs aria-label="Thông tin sản phẩm">
+		<a href="#product-description">Đặc điểm nổi bật</a>
+		<a href="#product-specifications">Thông số kỹ thuật</a>
+		<a href="#product-policies">Giao hàng &amp; Bảo hành</a>
+	</nav>
+	<div class="product-mobile-actions" hidden data-product-actions aria-label="Tư vấn sản phẩm">
+		<strong><?php echo esc_html( $model_short ); ?></strong>
+		<a class="btn btn-zalo" href="<?php echo esc_url( $zalo_url ); ?>" target="_blank" rel="noopener">Zalo</a>
+		<a class="btn btn-ink" href="tel:<?php echo esc_attr( $hotline ); ?>">Gọi tư vấn</a>
+	</div>
+
+	<div id="product-description" data-product-panel>
 	<section class="product-desc-section">
 		<div class="shell shell-narrow">
 			<div class="product-desc-inner">
-				<?php echo apply_filters('the_content',$desc_remaining); ?>
+				<?php echo trim( strip_tags( $desc_remaining ) ) ? apply_filters( 'the_content', $desc_remaining ) : $bullets_html; ?>
 			</div>
 		</div>
 	</section>
-	<?php endif; ?>
 
 	<?php if ( $feat ) : ?>
 	<section class="product-highlights">
@@ -144,7 +165,9 @@ while ( have_posts() ) : the_post();
 	</section>
 	<?php endif; ?>
 
-	<section class="product-specs">
+	</div><!-- #product-description -->
+
+	<section class="product-specs" id="product-specifications" data-product-panel>
 		<div class="shell">
 			<h2 class="section-title-sm">Thông số kỹ thuật</h2>
 			<table class="spec-table">
@@ -158,6 +181,12 @@ while ( have_posts() ) : the_post();
 		</div>
 	</section>
 
+	<section class="product-policies shell" id="product-policies" data-product-panel>
+		<h2 class="section-title-sm">Giao hàng &amp; Bảo hành</h2>
+		<p>Xem chính sách áp dụng hoặc liên hệ để xác nhận thời gian giao hàng, lắp đặt và bảo hành cho sản phẩm này.</p>
+		<a class="text-link" href="<?php echo esc_url( home_url( '/bao-hanh/' ) ); ?>">Chính sách bảo hành</a>
+		<a class="text-link" href="<?php echo esc_url( home_url( '/mua-hang-thanh-toan/' ) ); ?>">Mua hàng &amp; thanh toán</a>
+	</section>
 	<?php if($cats):
 		$related=new WP_Query(['post_type'=>'product','posts_per_page'=>4,'post__not_in'=>[get_the_ID()],'tax_query'=>[['taxonomy'=>'product_category','field'=>'term_id','terms'=>$cats[0]->term_id]],'no_found_rows'=>true]);
 		if($related->have_posts()): ?>

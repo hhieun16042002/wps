@@ -16,6 +16,10 @@ function mozlex_has_seo_plugin() {
 }
 
 function mozlex_meta_description() {
+	if ( is_search() ) {
+		$sq = get_search_query();
+		return sprintf( __( 'Kết quả tìm kiếm sản phẩm cho từ khóa "%s" tại Đức Trí 226 — Nhà phân phối khóa thông minh, khóa tay gạt Mozlex chính hãng.', 'mozlex' ), esc_attr( $sq ) );
+	}
 	if ( is_singular( 'product' ) ) {
 		$excerpt = get_the_excerpt();
 		return $excerpt ?: wp_trim_words( wp_strip_all_tags( get_the_content() ), 30, '…' );
@@ -27,6 +31,14 @@ function mozlex_meta_description() {
 	return __( 'Mozlex — khóa cao cấp cho không gian sống hiện đại. 13 năm kinh nghiệm phân phối khóa thông minh, khóa tay gạt tại thị trường Châu Âu, Mỹ.', 'mozlex' );
 }
 
+add_filter( 'document_title_parts', function ( $title ) {
+	if ( is_search() ) {
+		$sq = get_search_query();
+		$title['title'] = sprintf( __( 'Tìm kiếm: %s', 'mozlex' ), esc_html( $sq ) );
+	}
+	return $title;
+} );
+
 add_action( 'wp_head', function () {
 	if ( mozlex_has_seo_plugin() ) {
 		return;
@@ -37,6 +49,8 @@ add_action( 'wp_head', function () {
 	$url   = is_front_page() ? home_url('/') : ( is_singular() ? get_permalink() : '' );
 	if ( is_tax() && get_queried_object() instanceof WP_Term ) {
 		$url = get_term_link( get_queried_object() );
+	} elseif ( is_search() ) {
+		$url = home_url( add_query_arg( array( 's' => get_search_query(), 'post_type' => 'product' ), '/' ) );
 	}
 
 	echo '<meta name="description" content="' . esc_attr( $desc ) . '">' . "\n";
@@ -57,11 +71,11 @@ add_action( 'wp_head', function () {
 }, 20 );
 
 /**
- * Filtered archive URLs (?price=...) → noindex để tránh index query vô nghĩa.
+ * Filtered archive URLs (?price=...) & search results → noindex, follow để tránh index query vô nghĩa.
  */
 add_action( 'wp_head', function () {
-	if ( is_archive() && ! empty( $_GET ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only check.
-		echo '<meta name="robots" content="noindex,follow">' . "\n";
+	if ( is_search() || ( is_archive() && ! empty( $_GET ) ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		echo '<meta name="robots" content="noindex, follow">' . "\n";
 	}
 }, 1 );
 
@@ -76,6 +90,21 @@ add_action( 'wp_head', function () {
 		'@id'   => home_url( '/#organization' ),
 		'name'  => 'MOZLEX',
 		'url'   => home_url( '/' ),
+	);
+
+	$graph[] = array(
+		'@type'           => 'WebSite',
+		'@id'             => home_url( '/#website' ),
+		'name'            => get_bloginfo( 'name' ) ?: 'Đức Trí 226',
+		'url'             => home_url( '/' ),
+		'potentialAction' => array(
+			'@type'       => 'SearchAction',
+			'target'      => array(
+				'@type'       => 'EntryPoint',
+				'urlTemplate' => home_url( '/?s={search_term_string}&post_type=product' ),
+			),
+			'query-input' => 'required name=search_term_string',
+		),
 	);
 
 	if ( is_singular( 'product' ) ) {
@@ -114,7 +143,7 @@ add_action( 'wp_head', function () {
 
 	// BreadcrumbList trên mọi page chính.
 	$crumbs = array();
-	if ( is_singular( 'product' ) || is_tax( 'product_category' ) ) {
+	if ( is_singular( 'product' ) || is_tax( 'product_category' ) || is_search() ) {
 		$crumbs[] = array( 'name' => 'Trang chủ', 'url' => home_url( '/' ) );
 		if ( is_singular( 'product' ) ) {
 			$cats = wp_get_post_terms( get_the_ID(), 'product_category' );
@@ -122,8 +151,10 @@ add_action( 'wp_head', function () {
 				$crumbs[] = array( 'name' => $cats[0]->name, 'url' => get_term_link( $cats[0] ) );
 			}
 			$crumbs[] = array( 'name' => get_the_title(), 'url' => get_permalink() );
-		} else {
+		} elseif ( is_tax() ) {
 			$crumbs[] = array( 'name' => single_term_title( '', false ), 'url' => '' );
+		} elseif ( is_search() ) {
+			$crumbs[] = array( 'name' => sprintf( 'Tìm kiếm: "%s"', get_search_query() ), 'url' => '' );
 		}
 	}
 	if ( count( $crumbs ) > 1 ) {

@@ -59,16 +59,7 @@ function mozlex_rest_products( WP_REST_Request $request ) {
 	);
 
 	if ( $s && ! $compare ) {
-		$feature_ids = get_terms( array(
-			'taxonomy'   => array( 'feature', 'unlock_method' ),
-			'hide_empty' => true,
-			'search'     => $s,
-			'fields'     => 'ids',
-		) );
 		$args['s'] = $s;
-		if ( ! is_wp_error( $feature_ids ) && $feature_ids ) {
-			$args['_moz_feature_ids'] = $feature_ids;
-		}
 	}
 
 	if ( $compare ) {
@@ -101,11 +92,7 @@ function mozlex_rest_products( WP_REST_Request $request ) {
 	elseif ( 'price-desc' === $sort ) { $args['meta_key'] = 'mozlex_price'; $args['meta_type'] = 'NUMERIC'; $args['orderby'] = 'meta_value_num'; $args['order'] = 'DESC'; }
 	elseif ( 'name-az' === $sort ) { $args['orderby'] = array( 'title' => 'ASC' ); $args['order'] = 'ASC'; }
 
-	if ( ! empty( $args['_moz_feature_ids'] ) ) {
-		add_filter( 'posts_clauses', 'mozlex_rest_or_tax_search', 10, 2 );
-	}
 	$query = new WP_Query( $args );
-	remove_filter( 'posts_clauses', 'mozlex_rest_or_tax_search', 10, 2 );
 
 	$out = array();
 	foreach ( $query->posts as $post ) {
@@ -114,49 +101,34 @@ function mozlex_rest_products( WP_REST_Request $request ) {
 		$cat_slug  = ( $cat_terms && ! is_wp_error( $cat_terms ) ) ? $cat_terms[0]->slug : '';
 		$thumb     = get_the_post_thumbnail_url( $post->ID, 'medium' );
 		$thumb_sm  = get_the_post_thumbnail_url( $post->ID, 'thumbnail' );
+		$specs     = get_post_meta( $post->ID, 'mozlex_specs', true );
 		$out[] = array(
-			'id'         => $post->ID,
-			'model'      => get_post_meta( $post->ID, 'mozlex_model', true ) ?: $post->post_title,
-			'title'      => $post->post_title,
-			'url'        => get_permalink( $post ),
-			'price_text' => mozlex_price_text( $post->ID ),
-			'price'      => (float) get_post_meta( $post->ID, 'mozlex_price', true ),
-			'features'   => wp_list_pluck( wp_get_post_terms( $post->ID, 'feature' ), 'slug' ),
-			'thumb'      => $thumb_sm ?: '',
+			'id'           => $post->ID,
+			'model'        => get_post_meta( $post->ID, 'mozlex_model', true ) ?: $post->post_title,
+			'title'        => $post->post_title,
+			'url'          => get_permalink( $post ),
+			'price_text'   => mozlex_price_text( $post->ID ),
+			'price'        => (float) get_post_meta( $post->ID, 'mozlex_price', true ),
+			'features'     => wp_list_pluck( wp_get_post_terms( $post->ID, 'feature' ), 'slug' ),
+			'thumb'        => $thumb_sm ?: '',
 			'thumb_medium' => $thumb ?: $thumb_sm ?: '',
-			'category'   => $cat_name,
-			'category_slug' => $cat_slug,
+			'category'     => $cat_name,
+			'category_slug'=> $cat_slug,
+			'specs'        => is_array( $specs ) ? array_slice( $specs, 0, 4 ) : array(),
 		);
 	}
-	// For filter AJAX we also return total to update count.
-	if ( $has_filter ) {
-		return rest_ensure_response( array( 'items' => $out, 'total' => (int) $query->found_posts, 'total_pages' => (int) $query->max_num_pages ) );
+
+	$categories  = ( $s && function_exists( 'mozlex_search_categories' ) ) ? mozlex_search_categories( $s, 3 ) : array();
+	$suggestions = function_exists( 'mozlex_get_popular_search_hints' ) ? mozlex_get_popular_search_hints() : array();
+
+	if ( $has_filter || $s ) {
+		return rest_ensure_response( array(
+			'items'       => $out,
+			'total'       => (int) $query->found_posts,
+			'total_pages' => (int) $query->max_num_pages,
+			'categories'  => $categories,
+			'suggestions' => $suggestions,
+		) );
 	}
 	return rest_ensure_response( $out );
-}
-
-/**
- * Mở rộng search: OR với taxonomy feature/unlock_method ids.
- */
-function mozlex_rest_or_tax_search( $clauses, $q ) {
-	$ids = $q->get( '_moz_feature_ids' );
-	if ( ! $ids || empty( $ids[0] ) ) {
-		return $clauses;
-	}
-	global $wpdb;
-	$in        = implode( ',', array_map( 'absint', $ids ) );
-	$tax_where = "OR {$wpdb->posts}.ID IN (
-		SELECT tr.object_id FROM {$wpdb->term_relationships} tr
-		INNER JOIN {$wpdb->term_taxonomy} tt ON tt.term_taxonomy_id = tr.term_taxonomy_id AND tt.taxonomy IN ('feature','unlock_method')
-		WHERE tt.term_id IN ({$in})
-	)";
-	$clauses['where'] = preg_replace_callback(
-		"/\((?:{$wpdb->posts}\.post_title LIKE[^)]+)\)/",
-		function ( $m ) use ( $tax_where ) {
-			return '((' . substr( $m[0], 1, -1 ) . ')' . $tax_where . ')';
-		},
-		$clauses['where'],
-		1
-	);
-	return $clauses;
 }

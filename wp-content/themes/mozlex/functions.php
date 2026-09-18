@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MOZLEX_VERSION', '2.8.77' );
+define( 'MOZLEX_VERSION', '2.9.9' );
 define( 'MOZLEX_DIR', get_template_directory() );
 
 require_once MOZLEX_DIR . '/inc/cpt.php';
@@ -19,6 +19,7 @@ require_once MOZLEX_DIR . '/inc/theme-options.php';
 require_once MOZLEX_DIR . '/inc/contact-handler.php';
 require_once MOZLEX_DIR . '/inc/seo-schema.php';
 require_once MOZLEX_DIR . '/inc/nav-fallback.php';
+require_once MOZLEX_DIR . '/inc/search-engine.php';
 require_once MOZLEX_DIR . '/inc/rest.php';
 require_once MOZLEX_DIR . '/inc/importer.php';
 require_once MOZLEX_DIR . '/inc/category-thumbnails.php';
@@ -91,8 +92,8 @@ add_filter( 'wp_resource_hints', function ( $urls, $relation ) {
 }, 10, 2 );
 
 add_action( 'wp_head', function () {
-	// Inter/Manrope (footer) + Roboto (body) + Cabin (nav) + Literata (headings) + Monsieur La Doulaise (decorative) + Be Vietnam Pro.
-	$fonts = 'Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&family=Cabin:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Monsieur+La+Doulaise&family=Be+Vietnam+Pro:wght@400;500;600;700;800';
+	// Two families only: Vietnamese UI and numeric specifications.
+	$fonts = 'Be+Vietnam+Pro:wght@400;500;600;700&family=Inter:wght@400;600';
 	$url = 'https://fonts.googleapis.com/css2?family=' . $fonts . '&display=swap';
 	echo '<link rel="preload" as="style" href="' . esc_url( $url ) . '">' . "\n";
 	echo '<link rel="stylesheet" href="' . esc_url( $url ) . '" media="print" onload="this.media=\'all\'">' . "\n";

@@ -10,6 +10,7 @@ function mozlex_default_nav( $args = array() ) {
 		'/ve-mozlex/'            => array( 'GIỚI THIỆU', 'menu_gioithieu' ),
 		'/san-pham/'             => array( 'SẢN PHẨM', 'menu_sanpham' ),
 		'/linh-vuc-hoat-dong/'    => array( 'LĨNH VỰC HOẠT ĐỘNG', 'menu_linhvuc' ),
+		'/du-an/'                => array( 'DỰ ÁN', 'menu_duan' ),
 		'/tin-tuc/'              => array( 'TIN TỨC', 'menu_tintuc' ),
 		'/lien-he/'              => array( 'LIÊN HỆ', 'menu_lienhe' ),
 	);
@@ -18,7 +19,18 @@ function mozlex_default_nav( $args = array() ) {
 		list( $label, $opt ) = $data;
 		$show = mozlex_opt( $opt, '1' );
 		if ( '0' === $show ) continue;
-		$is_current = ( '/' === $path ) ? is_front_page() : ( $_SERVER['REQUEST_URI'] ?? '' ) === $path;
+		$req_uri = strtok( $_SERVER['REQUEST_URI'] ?? '', '?' );
+		$is_current = false;
+		if ( '/' === $path ) {
+			$is_current = is_front_page();
+		} else {
+			$trimmed_req = rtrim( $req_uri, '/' );
+			$trimmed_path = rtrim( $path, '/' );
+			$is_current = ( $trimmed_req === $trimmed_path )
+				|| ( '/san-pham/' === $path && ( is_post_type_archive( 'product' ) || is_singular( 'product' ) || is_tax( 'product_category' ) ) )
+				|| ( '/du-an/' === $path && ( is_page( 'du-an' ) || is_page_template( 'page-templates/template-projects.php' ) ) )
+				|| ( '/tin-tuc/' === $path && ! is_front_page() && ( is_home() || is_singular( 'post' ) || is_category() ) );
+		}
 		if ( '/san-pham/' === $path ) {
 			// Lấy tất cả danh mục cha để linh hoạt: thêm Sơn, Sơn đỏ... tự hiện
 			$top_cats = get_terms( array( 'taxonomy' => 'product_category', 'hide_empty' => false, 'parent' => 0, 'orderby' => 'name', 'order' => 'ASC', 'number' => 20 ) );
@@ -53,8 +65,8 @@ function mozlex_default_nav( $args = array() ) {
 				echo '</ul></li>';
 			} else {
 				// Desktop — mega linh hoạt: mỗi danh mục cha là 1 ô, có con thì hiện sub
-				printf( '<li class="has-mega%s"><a href="%s">%s</a>', $is_current ? ' is-current' : '', esc_url( home_url( $path ) ), esc_html( $label ) );
-				echo '<div class="mega-menu" aria-hidden="true"><div class="mega-inner">';
+				printf( '<li class="has-mega%s"><a href="%s" aria-haspopup="true" aria-expanded="false"><span>%s</span><span class="nav-caret" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a>', $is_current ? ' is-current' : '', esc_url( home_url( $path ) ), esc_html( $label ) );
+				echo '<div class="mega-menu"><div class="mega-inner">';
 				if ( $top_cats ) {
 					foreach ( array_slice( $top_cats, 0, 8 ) as $tc ) {
 						$children = get_terms( array( 'taxonomy' => 'product_category', 'hide_empty' => false, 'parent' => (int) $tc->term_id, 'orderby' => 'name' ) );

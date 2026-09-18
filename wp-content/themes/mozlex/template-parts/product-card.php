@@ -19,6 +19,7 @@ $extra_class = get_query_var( 'mozlex_card_extra_class', '' );
 $img_size = ( 'is-featured' === $extra_class ) ? 'large' : 'mozlex-card';
 $img = get_the_post_thumbnail( $post_id, $img_size, array(
 	'loading' => 'lazy',
+	'alt' => get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_image_alt', true ) ?: $model,
 	'class'   => 'card-image',
 ) );
 ?>
@@ -32,6 +33,7 @@ $img = get_the_post_thumbnail( $post_id, $img_size, array(
 	) ) ); ?>">
 	<a class="card-link" href="<?php the_permalink(); ?>">
 		<figure class="card-figure">
+			<span class="card-badge">Chính hãng</span>
 			<?php
 			echo $img ?: '<div class="card-image card-image-placeholder" aria-hidden="true"><span>' . esc_html( $model ) . '</span></div>'; // phpcs:ignore WordPress.Security.EscapeOutput -- output escaping bên trong.
 			?>

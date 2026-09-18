@@ -117,9 +117,13 @@ if ( ! $is_category ) {
 			if ( $oa !== $ob ) return $oa <=> $ob;
 			return strcmp( $a->name, $b->name );
 		});
-		echo '<section class="shell" style="margin-top:18px;"><h2 style="margin:0 0 12px; font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--dark);">Xem theo danh mục</h2><ul style="display:flex; flex-wrap:wrap; gap:10px; list-style:none; margin:0; padding:0;">';
+		$active_cat_param = isset( $_GET['product_category'] ) ? sanitize_title( (string) $_GET['product_category'] ) : '';
+		echo '<section class="shell cat-nav-section" style="margin-top:20px;"><div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;"><h2 style="margin:0; font-size:0.95rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--dark);">Xem theo danh mục</h2></div><ul class="cat-nav-list">';
+		$is_all_active = empty($active_cat_param);
+		echo '<li><a href="' . esc_url( home_url( '/san-pham/' ) ) . '" class="cat-nav-pill' . ( $is_all_active ? ' is-active' : '' ) . '">Tất cả</a></li>';
 		foreach ( $top_cats as $tc ) {
-			echo '<li><a href="' . esc_url( get_term_link( $tc ) ) . '" style="display:inline-block; padding:8px 14px; border:1px solid rgba(0,0,0,0.1); border-radius:999px; background:#fff; color:var(--dark); text-decoration:none; font-size:0.86rem;">' . esc_html( $tc->name ) . '</a></li>';
+			$is_active = ( $active_cat_param === $tc->slug );
+			echo '<li><a href="' . esc_url( get_term_link( $tc ) ) . '" class="cat-nav-pill' . ( $is_active ? ' is-active' : '' ) . '">' . esc_html( $tc->name ) . '</a></li>';
 		}
 		echo '</ul></section>';
 	}
@@ -132,6 +136,7 @@ if ( ! $is_category ) {
 		<aside class="filter-sidebar" id="filter-sidebar" aria-label="<?php esc_attr_e( 'Bộ lọc sản phẩm', 'mozlex' ); ?>">
 			<div class="filter-sidebar-head">
 				<h2 class="filter-sidebar-title"><?php esc_html_e( 'Bộ lọc', 'mozlex' ); ?></h2>
+				<button type="button" class="filter-close" data-filter-close aria-label="Đóng bộ lọc">×</button>
 				<button type="button" class="filter-clear-all" data-filter-reset><?php esc_html_e( 'Xóa tất cả', 'mozlex' ); ?></button>
 			</div>
 
@@ -229,25 +234,26 @@ if ( ! $is_category ) {
 					</details>
 				<?php endif; ?>
 
-				<!-- Sort: bỏ giá, chỉ giữ mới nhất / tên -->
-				<div class="filter-sort-row">
-					<label class="filter-field">
-						<span class="filter-label"><?php esc_html_e( 'Sắp xếp', 'mozlex' ); ?></span>
-						<select name="sort">
-							<option value="" <?php selected( $current_sort, 'newest' ); ?>><?php esc_html_e( 'Mới nhất', 'mozlex' ); ?></option>
-							<option value="name-az" <?php selected( $current_sort, 'name-az' ); ?>><?php esc_html_e( 'Tên A–Z', 'mozlex' ); ?></option>
-													</select>
-					</label>
-				</div>
+				<noscript><button type="submit" class="btn btn-ink">Áp dụng bộ lọc</button></noscript>
 			</form>
 		</aside>
 
 		<div class="archive-main">
 			<div class="archive-toolbar">
-				<p class="result-count" id="result-count">
+				<!-- Sort: bỏ giá, chỉ giữ mới nhất / tên -->
+				<div class="filter-sort-row">
+					<label class="filter-field">
+						<span class="filter-label"><?php esc_html_e( 'Sắp xếp', 'mozlex' ); ?></span>
+						<select name="sort" form="filter-form" id="product-sort">
+							<option value="" <?php selected( $current_sort, 'newest' ); ?>><?php esc_html_e( 'Mới nhất', 'mozlex' ); ?></option>
+							<option value="name-az" <?php selected( $current_sort, 'name-az' ); ?>><?php esc_html_e( 'Tên A–Z', 'mozlex' ); ?></option>
+													</select>
+					</label>
+				</div>
+				<p class="result-count" id="result-count" aria-live="polite">
 					<?php printf( esc_html( _n( '%s sản phẩm', '%s sản phẩm', $wp_query->found_posts, 'mozlex' ) ), number_format_i18n( $wp_query->found_posts ) ); ?>
 				</p>
-				<button type="button" class="btn btn-line btn-sm filter-toggle-mobile" data-filter-toggle aria-expanded="false" aria-controls="filter-sidebar">
+				<button type="button" class="btn btn-ink filter-toggle-mobile" data-filter-toggle aria-expanded="false" aria-controls="filter-sidebar">
 					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h18M7 12h10M10 18h4"/></svg>
 					<?php esc_html_e( 'Bộ lọc', 'mozlex' ); ?>
 				</button>
