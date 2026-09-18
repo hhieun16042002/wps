@@ -220,23 +220,31 @@
 		var megaItems = document.querySelectorAll('.primary-nav .has-mega');
 		if (!megaItems.length) return;
 
+		function closeAllMega() {
+			megaItems.forEach(function (item) {
+				if (item._megaTimer) clearTimeout(item._megaTimer);
+				item.classList.remove('is-open');
+				var link = item.querySelector(':scope > a');
+				if (link) link.setAttribute('aria-expanded', 'false');
+			});
+		}
+
 		megaItems.forEach(function (item) {
 			var menu = item.querySelector('.mega-menu');
 			var link = item.querySelector(':scope > a');
-			var timer = null;
 
 			function show() {
-				clearTimeout(timer);
+				if (item._megaTimer) clearTimeout(item._megaTimer);
 				item.classList.add('is-open');
 				if (link) link.setAttribute('aria-expanded', 'true');
 			}
 
 			function hide() {
-				clearTimeout(timer);
-				timer = setTimeout(function () {
+				if (item._megaTimer) clearTimeout(item._megaTimer);
+				item._megaTimer = setTimeout(function () {
 					item.classList.remove('is-open');
 					if (link) link.setAttribute('aria-expanded', 'false');
-				}, 280);
+				}, 120);
 			}
 
 			item.addEventListener('mouseenter', show);
@@ -256,6 +264,14 @@
 			});
 		});
 
+		// Immediately close mega menu when mouse enters ANY other navigation item
+		var otherNavItems = document.querySelectorAll('.primary-nav .nav-list > li:not(.has-mega)');
+		otherNavItems.forEach(function (other) {
+			other.addEventListener('mouseenter', function () {
+				closeAllMega();
+			});
+		});
+
 		// Submenu hover intent for .mega-group inside mega menu (e.g. Công nghệ -> Ắc quy...)
 		var megaGroups = document.querySelectorAll('.mega-group');
 		megaGroups.forEach(function (group) {
@@ -271,7 +287,7 @@
 				clearTimeout(groupTimer);
 				groupTimer = setTimeout(function () {
 					group.classList.remove('is-open');
-				}, 200);
+				}, 150);
 			}
 
 			group.addEventListener('mouseenter', openSub);
@@ -286,20 +302,12 @@
 		// Close menu when clicking outside or pressing Escape
 		document.addEventListener('keydown', function (e) {
 			if (e.key === 'Escape') {
-				megaItems.forEach(function (item) {
-					item.classList.remove('is-open');
-					var link = item.querySelector(':scope > a');
-					if (link) link.setAttribute('aria-expanded', 'false');
-				});
+				closeAllMega();
 			}
 		});
 		document.addEventListener('click', function (e) {
 			if (!e.target.closest('.has-mega')) {
-				megaItems.forEach(function (item) {
-					item.classList.remove('is-open');
-					var link = item.querySelector(':scope > a');
-					if (link) link.setAttribute('aria-expanded', 'false');
-				});
+				closeAllMega();
 			}
 		});
 	})();
@@ -617,24 +625,50 @@
 		});
 	})();
 
-	/* ---------- Filter: sidebar + chips + AJAX (premium) ---------- */
+	/* ---------- Filter: sidebar + chips + AJAX + skeleton (luxury) ---------- */
 	(function () {
 		var root = document.querySelector('[data-filter-root]');
 		var form = document.getElementById('filter-form');
 		var grid = document.getElementById('archive-grid');
 		var countEl = document.getElementById('result-count');
-		var chips = document.getElementById('active-chips');
-		var chipsMobile = document.getElementById('active-chips-mobile');
+		var chipsContainer = document.getElementById('active-chips');
+		var activeFilterBar = document.getElementById('active-filter-bar');
 		var pagination = document.getElementById('archive-pagination');
 		var emptyEl = document.getElementById('archive-empty');
 		var sidebar = document.getElementById('filter-sidebar');
 		var toggleBtn = document.querySelector('[data-filter-toggle]');
+		var backdrop = document.querySelector('[data-filter-backdrop]');
+		var keywordInput = document.getElementById('filter-keyword-input');
+		var clearSearchBtn = document.querySelector('[data-clear-search]');
+		var badgeCountEl = document.querySelector('[data-filter-badge-count]');
+		var drawerCountEl = document.querySelector('[data-filter-drawer-count]');
+		var viewModeBtns = document.querySelectorAll('[data-view-mode]');
+
 		if (!root || !form || !grid) return;
 
-		var sortSelect = root.querySelector('select[name="sort"]');
+		var sortSelect = document.getElementById('product-sort');
 		var debounceTimer = null;
 		var filterRequest = 0;
 
+		// 1. View mode toggle (Grid 4 vs Grid 2)
+		var currentViewMode = localStorage.getItem('mozlex_view_mode') || 'grid-4';
+		function setViewMode(mode) {
+			currentViewMode = mode;
+			localStorage.setItem('mozlex_view_mode', mode);
+			grid.classList.remove('grid-4', 'grid-2');
+			grid.classList.add(mode);
+			viewModeBtns.forEach(function (btn) {
+				btn.classList.toggle('is-active', btn.getAttribute('data-view-mode') === mode);
+			});
+		}
+		setViewMode(currentViewMode);
+		viewModeBtns.forEach(function (btn) {
+			btn.addEventListener('click', function () {
+				setViewMode(this.getAttribute('data-view-mode'));
+			});
+		});
+
+		// 2. Params Collector
 		function collectParams() {
 			var params = new URLSearchParams();
 			var groups = {};
@@ -643,8 +677,18 @@
 				if (!groups[name]) groups[name] = [];
 				groups[name].push(cb.value);
 			});
-			Object.keys(groups).forEach(function (k) { if (groups[k].length) params.set(k, groups[k].join(',')); });
-			if (sortSelect && sortSelect.value) params.set('sort', sortSelect.value);
+			Object.keys(groups).forEach(function (k) {
+				if (groups[k].length) params.set(k, groups[k].join(','));
+			});
+
+			if (keywordInput && keywordInput.value.trim()) {
+				params.set('s', keywordInput.value.trim());
+			}
+
+			if (sortSelect && sortSelect.value) {
+				params.set('sort', sortSelect.value);
+			}
+
 			// Preserve hidden category on taxonomy archive
 			var hiddenCat = form.querySelector('input[type="hidden"][name="product_category"]');
 			if (hiddenCat && hiddenCat.value) {
@@ -654,38 +698,127 @@
 			return params;
 		}
 
-		function renderChips() {
+		// 3. Render Chips & Sync Swatches
+		function syncSwatches() {
+			form.querySelectorAll('.swatch-item').forEach(function (swatch) {
+				var input = swatch.querySelector('input[type="checkbox"]');
+				if (input) {
+					swatch.classList.toggle('is-active', input.checked);
+				}
+			});
+		}
+
+		function renderChips(totalCount) {
+			syncSwatches();
 			var params = collectParams();
 			var html = '';
-			var labelMap = {};
+			var activeFilterCount = 0;
+
+			// Checkboxes
 			form.querySelectorAll('input[type="checkbox"]:checked').forEach(function (cb) {
 				var name = cb.name;
 				var val = cb.value;
-				var label = cb.closest('.filter-check').querySelector('.filter-check-label').textContent.trim();
-				html += '<span class="chip" data-chip="' + name + ':' + val + '">' + escapeHtml(label) + ' <button type="button" aria-label="Xóa lọc">&times;</button></span>';
+				var label = '';
+				var swatch = cb.closest('.swatch-item');
+				var checkLabel = cb.closest('.filter-check');
+
+				if (swatch) {
+					var nameEl = swatch.querySelector('.swatch-name');
+					label = nameEl ? nameEl.textContent.trim() : val;
+				} else if (checkLabel) {
+					var textEl = checkLabel.querySelector('.filter-check-label');
+					label = textEl ? textEl.textContent.trim() : val;
+				} else {
+					label = val;
+				}
+
+				html += '<span class="filter-chip" data-chip="' + name + ':' + val + '">' +
+					'<span class="chip-text">' + escapeHtml(label) + '</span>' +
+					'<button type="button" class="chip-remove" aria-label="Xóa bộ lọc">&times;</button>' +
+				'</span>';
+				activeFilterCount++;
 			});
+
+			// Keyword search chip
+			if (keywordInput && keywordInput.value.trim()) {
+				var kw = keywordInput.value.trim();
+				html += '<span class="filter-chip is-keyword" data-chip="s:' + escapeHtml(kw) + '">' +
+					'<span class="chip-text">Từ khóa: "' + escapeHtml(kw) + '"</span>' +
+					'<button type="button" class="chip-remove" aria-label="Xóa từ khóa">&times;</button>' +
+				'</span>';
+				activeFilterCount++;
+			}
+
+			// Sort chip (only if not default newest)
 			if (sortSelect && sortSelect.value) {
 				var sortLabel = sortSelect.options[sortSelect.selectedIndex].textContent.trim();
-				html += '<span class="chip" data-chip="sort:' + sortSelect.value + '">' + escapeHtml(sortLabel) + ' <button type="button" aria-label="Xóa">&times;</button></span>';
+				html += '<span class="filter-chip is-sort" data-chip="sort:' + sortSelect.value + '">' +
+					'<span class="chip-text">' + escapeHtml(sortLabel) + '</span>' +
+					'<button type="button" class="chip-remove" aria-label="Xóa sắp xếp">&times;</button>' +
+				'</span>';
 			}
-			[chips, chipsMobile].forEach(function (c) {
-				if (!c) return;
-				c.innerHTML = html;
-				c.hidden = !html;
-			});
+
+			if (chipsContainer) {
+				chipsContainer.innerHTML = html;
+			}
+			if (activeFilterBar) {
+				activeFilterBar.hidden = !html;
+			}
+
+			// Mobile trigger badge count
+			if (badgeCountEl) {
+				badgeCountEl.textContent = activeFilterCount;
+				badgeCountEl.hidden = activeFilterCount === 0;
+			}
+			if (drawerCountEl && typeof totalCount === 'number') {
+				drawerCountEl.textContent = '(' + totalCount + ')';
+			}
 		}
 
 		function escapeHtml(s) {
-			return String(s).replace(/[&<>"']/g, function (c) { return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]; });
+			return String(s).replace(/[&<>"']/g, function (c) {
+				return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+			});
+		}
+
+		function renderSkeletons() {
+			var skels = '';
+			for (var i = 0; i < 8; i++) {
+				skels += '<article class="product-card skeleton-card">' +
+					'<div class="skeleton-figure"></div>' +
+					'<div class="skeleton-content">' +
+						'<div class="skeleton-bar bar-xs"></div>' +
+						'<div class="skeleton-bar bar-title"></div>' +
+						'<div class="skeleton-bar bar-meta"></div>' +
+					'</div>' +
+				'</article>';
+			}
+			grid.innerHTML = skels;
+			grid.hidden = false;
+			if (emptyEl) emptyEl.hidden = true;
 		}
 
 		function buildCard(item) {
-			var price = '';
 			var cat = item.category ? '<p class="card-eyebrow">' + escapeHtml(item.category) + '</p>' : '';
-			var feat = (item.features && item.features.length) ? '<p class="card-features">' + escapeHtml(item.features.slice(0,3).join(' · ')) + '</p>' : '';
+			var feat = (item.features && item.features.length) ? '<p class="card-features">' + escapeHtml(item.features.slice(0, 3).join(' · ')) + '</p>' : '';
 			var thumb = item.thumb_medium || item.thumb;
 			var img = thumb ? '<img src="' + encodeURI(thumb) + '" alt="' + escapeHtml(item.model) + '" class="card-image" loading="lazy">' : '<div class="card-image card-image-placeholder"><span>' + escapeHtml(item.model) + '</span></div>';
-			return '<article class="product-card" data-model="' + escapeHtml(item.model) + '"><a class="card-link" href="' + encodeURI(item.url) + '"><figure class="card-figure"><span class="card-badge">Chính hãng</span>' + img + '</figure><div class="card-body">' + cat + '<h3 class="card-title">' + escapeHtml(item.model) + '</h3>' + feat + '<p class="card-meta">' + price + '<span class="card-more">Xem chi tiết <span class="arrow">&rarr;</span></span></p></div></a></article>';
+			return '<article class="product-card" data-model="' + escapeHtml(item.model) + '">' +
+				'<a class="card-link" href="' + encodeURI(item.url) + '">' +
+					'<figure class="card-figure">' +
+						'<span class="card-badge">Chính hãng</span>' +
+						img +
+					'</figure>' +
+					'<div class="card-body">' +
+						cat +
+						'<h3 class="card-title">' + escapeHtml(item.model) + '</h3>' +
+						feat +
+						'<p class="card-meta">' +
+							'<span class="card-more">Xem chi tiết <span class="arrow">&rarr;</span></span>' +
+						'</p>' +
+					'</div>' +
+				'</a>' +
+			'</article>';
 		}
 
 		function fetchAndRender() {
@@ -695,116 +828,232 @@
 			var qs = params.toString();
 			var basePath = window.location.pathname.replace(/\/page\/\d+\/?$/, '/');
 			var url = window.MozlexData ? window.MozlexData.restUrl + 'products?' + qs + '&per_page=16' : '';
+
 			if (!url || !window.MozlexData) {
-				// Fallback: submit form
 				window.location.href = basePath + (qs ? '?' + qs : '');
 				return;
 			}
+
 			var archiveMain = document.querySelector('.archive-main');
 			archiveMain && archiveMain.classList.add('is-loading');
+			renderSkeletons();
+
 			fetch(url, { headers: { 'X-WP-Nonce': window.MozlexData.nonce } })
-				.then(function (r) { if (!r.ok) throw new Error('Filter failed'); return r.json(); })
+				.then(function (r) {
+					if (!r.ok) throw new Error('Filter fetch failed');
+					return r.json();
+				})
 				.then(function (data) {
 					if (request !== filterRequest) return;
 					var items = data.items || data;
 					var total = typeof data.total === 'number' ? data.total : items.length;
-					if (countEl) countEl.textContent = total + ' sản phẩm';
+
+					if (countEl) {
+						countEl.innerHTML = 'Hiển thị <strong class="count-number">' + total + '</strong> sản phẩm';
+					}
+
 					if (!items.length) {
 						grid.innerHTML = '';
 						grid.hidden = true;
-						if (!emptyEl) { emptyEl = document.createElement('p'); emptyEl.id = 'archive-empty'; emptyEl.className = 'empty-note'; emptyEl.textContent = 'Không có sản phẩm phù hợp. Hãy thử ít tiêu chí hơn.'; grid.before(emptyEl); }
 						if (emptyEl) emptyEl.hidden = false;
 						if (pagination) pagination.hidden = true;
 					} else {
 						grid.innerHTML = items.map(buildCard).join('');
 						grid.hidden = false;
 						if (emptyEl) emptyEl.hidden = true;
-						if (pagination) pagination.hidden = true;
 					}
-					renderChips();
+
+					renderChips(total);
+
 					var newUrl = basePath + (qs ? '?' + qs : '');
 					if (pagination) {
 						pagination.innerHTML = '';
 						for (var page = 1; page <= (data.total_pages || 1); page++) {
-							var link = document.createElement('a'); var pageParams = new URLSearchParams(qs); pageParams.set('paged', page);
-							link.href = basePath + '?' + pageParams; link.textContent = page; link.className = 'page-numbers';
-							link.setAttribute('aria-label', 'Trang ' + page); if (page === 1) link.setAttribute('aria-current', 'page'); pagination.appendChild(link);
+							var link = document.createElement('a');
+							var pageParams = new URLSearchParams(qs);
+							pageParams.set('paged', page);
+							link.href = basePath + '?' + pageParams;
+							link.textContent = page;
+							link.className = 'page-numbers';
+							link.setAttribute('aria-label', 'Trang ' + page);
+							if (page === 1) link.setAttribute('aria-current', 'page');
+							pagination.appendChild(link);
 						}
 						pagination.hidden = !(data.total_pages > 1);
 					}
 					history.replaceState(null, '', newUrl);
 				})
-				.catch(function () { if (request === filterRequest) window.location.assign(basePath + (qs ? '?' + qs : '')); })
-				.finally(function () { if (request === filterRequest) archiveMain && archiveMain.classList.remove('is-loading'); });
+				.catch(function () {
+					if (request === filterRequest) {
+						window.location.assign(basePath + (qs ? '?' + qs : ''));
+					}
+				})
+				.finally(function () {
+					if (request === filterRequest) {
+						archiveMain && archiveMain.classList.remove('is-loading');
+					}
+				});
 		}
 
 		function scheduleFetch() {
 			filterRequest++;
 			clearTimeout(debounceTimer);
-			debounceTimer = setTimeout(fetchAndRender, 280);
+			debounceTimer = setTimeout(fetchAndRender, 240);
 		}
 
+		// Input events
 		root.addEventListener('change', function (e) {
 			if (e.target.matches('input[type="checkbox"], select')) {
+				syncSwatches();
 				renderChips();
-				if (e.target.matches('select')) { fetchAndRender(); } else { scheduleFetch(); }
+				if (e.target.matches('select')) {
+					fetchAndRender();
+				} else {
+					scheduleFetch();
+				}
 			}
 		});
 
-		// Chips remove
-		[chips, chipsMobile].forEach(function (c) {
-			if (!c) return;
-			c.addEventListener('click', function (e) {
-				var btn = e.target.closest('button');
+		// Keyword search input
+		if (keywordInput) {
+			keywordInput.addEventListener('input', function () {
+				if (clearSearchBtn) {
+					clearSearchBtn.hidden = !this.value;
+				}
+				scheduleFetch();
+			});
+		}
+		if (clearSearchBtn) {
+			clearSearchBtn.addEventListener('click', function () {
+				if (keywordInput) {
+					keywordInput.value = '';
+					this.hidden = true;
+					fetchAndRender();
+				}
+			});
+		}
+
+		// Remove individual chips
+		if (chipsContainer) {
+			chipsContainer.addEventListener('click', function (e) {
+				var btn = e.target.closest('.chip-remove');
 				if (!btn) return;
 				var chip = btn.closest('[data-chip]');
 				if (!chip) return;
 				var parts = chip.getAttribute('data-chip').split(':');
-				var name = parts[0], val = parts.slice(1).join(':');
+				var name = parts[0];
+				var val = parts.slice(1).join(':');
+
 				if (name === 'sort') {
 					if (sortSelect) sortSelect.value = '';
+				} else if (name === 's') {
+					if (keywordInput) {
+						keywordInput.value = '';
+						if (clearSearchBtn) clearSearchBtn.hidden = true;
+					}
 				} else {
 					var cb = form.querySelector('input[name="' + name + '"][value="' + CSS.escape(val) + '"]');
 					if (cb) cb.checked = false;
 				}
+				syncSwatches();
 				renderChips();
 				fetchAndRender();
 			});
-		});
+		}
 
-		// Reset all
+		// Reset all filters
 		document.querySelectorAll('[data-filter-reset]').forEach(function (btn) {
 			btn.addEventListener('click', function () {
-				form.querySelectorAll('input[type="checkbox"]').forEach(function (cb) { cb.checked = false; });
+				form.querySelectorAll('input[type="checkbox"]').forEach(function (cb) {
+					cb.checked = false;
+				});
+				if (keywordInput) {
+					keywordInput.value = '';
+					if (clearSearchBtn) clearSearchBtn.hidden = true;
+				}
 				if (sortSelect) sortSelect.value = '';
+				syncSwatches();
 				renderChips();
 				fetchAndRender();
 			});
 		});
 
-		// Mobile toggle
-		function closeFilters() { sidebar.classList.remove('is-open'); toggleBtn.setAttribute('aria-expanded', 'false'); sidebar.removeAttribute('role'); sidebar.removeAttribute('aria-modal'); document.body.style.overflow = ''; toggleBtn.focus(); }
+		// Mobile drawer interactions
+		function closeFilters() {
+			if (!sidebar) return;
+			sidebar.classList.remove('is-open');
+			if (backdrop) backdrop.classList.remove('is-open');
+			if (toggleBtn) {
+				toggleBtn.setAttribute('aria-expanded', 'false');
+				toggleBtn.focus();
+			}
+			sidebar.removeAttribute('role');
+			sidebar.removeAttribute('aria-modal');
+			document.body.style.overflow = '';
+		}
+
+		function openFilters() {
+			if (!sidebar) return;
+			sidebar.classList.add('is-open');
+			if (backdrop) backdrop.classList.add('is-open');
+			if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
+			document.body.style.overflow = 'hidden';
+			sidebar.setAttribute('role', 'dialog');
+			sidebar.setAttribute('aria-modal', 'true');
+			var closeBtn = sidebar.querySelector('[data-filter-close]');
+			if (closeBtn) closeBtn.focus();
+		}
+
 		if (toggleBtn && sidebar) {
-			sidebar.querySelector('[data-filter-close]').addEventListener('click', closeFilters);
-			sidebar.addEventListener('keydown', function (e) { if (!sidebar.classList.contains('is-open')) return; if (e.key === 'Escape') closeFilters(); else trapFocus(sidebar, e); });
-			window.matchMedia('(max-width: 768px)').addEventListener('change', function (e) { if (!e.matches && sidebar.classList.contains('is-open')) closeFilters(); });
 			toggleBtn.addEventListener('click', function () {
-				var open = sidebar.classList.toggle('is-open');
-				toggleBtn.setAttribute('aria-expanded', String(open));
-				document.body.style.overflow = open ? 'hidden' : '';
-				if (open) { sidebar.setAttribute('role', 'dialog'); sidebar.setAttribute('aria-modal', 'true'); sidebar.querySelector('[data-filter-close]').focus(); } else { closeFilters(); }
+				if (sidebar.classList.contains('is-open')) {
+					closeFilters();
+				} else {
+					openFilters();
+				}
 			});
-			document.addEventListener('click', function (e) {
-				if (sidebar.classList.contains('is-open') && !e.target.closest('#filter-sidebar') && !e.target.closest('[data-filter-toggle]')) {
+
+			var closeBtn = sidebar.querySelector('[data-filter-close]');
+			if (closeBtn) {
+				closeBtn.addEventListener('click', closeFilters);
+			}
+
+			if (backdrop) {
+				backdrop.addEventListener('click', closeFilters);
+			}
+
+			var applyBtn = sidebar.querySelector('[data-filter-apply]');
+			if (applyBtn) {
+				applyBtn.addEventListener('click', function () {
+					closeFilters();
+					var mainTop = document.querySelector('.archive-main');
+					if (mainTop) {
+						mainTop.scrollIntoView({ behavior: 'smooth', block: 'start' });
+					}
+				});
+			}
+
+			sidebar.addEventListener('keydown', function (e) {
+				if (!sidebar.classList.contains('is-open')) return;
+				if (e.key === 'Escape') closeFilters();
+			});
+
+			window.matchMedia('(max-width: 991px)').addEventListener('change', function (e) {
+				if (!e.matches && sidebar.classList.contains('is-open')) {
 					closeFilters();
 				}
 			});
 		}
 
+		// Initial sync
+		syncSwatches();
 		renderChips();
 
-		// Non-JS fallback: prevent full submit, use AJAX instead
-		form.addEventListener('submit', function (e) { e.preventDefault(); fetchAndRender(); });
+		// Non-JS fallback
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			fetchAndRender();
+		});
 	})();
 
 	/* ---------- Consultation wizard ---------- */
@@ -1129,6 +1378,27 @@
 				textEl.textContent = '✓ Đã chép!';
 				setTimeout(function () { textEl.textContent = orig; }, 2000);
 			}
+		}
+	});
+
+	/* ---------- Ensure clicking anywhere on product card navigates to product page ---------- */
+	document.addEventListener('click', function (e) {
+		var card = e.target.closest('.product-card');
+		if (!card) return;
+		// If clicking an interactive control like button or input, let it handle itself
+		if (e.target.closest('button, input, select, textarea, label, [data-prevent-nav]')) return;
+
+		var link = card.querySelector('a.card-link') || card.querySelector('a[href]');
+		if (!link || !link.href) return;
+
+		// If click was already on an <a> element itself, browser default will handle it
+		var clickedLink = e.target.closest('a');
+		if (clickedLink) return;
+
+		if (e.ctrlKey || e.metaKey || e.button === 1) {
+			window.open(link.href, '_blank');
+		} else {
+			window.location.href = link.href;
 		}
 	});
 })();

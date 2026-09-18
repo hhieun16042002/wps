@@ -443,8 +443,8 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 		if (!wasDrag) {
 			var b = pick(ev);
 			if (b) {
-				if (b === selected) {
-					if (b.userData.item.url) window.location.href = b.userData.item.url;
+				if (b.userData && b.userData.item && b.userData.item.url) {
+					window.location.href = b.userData.item.url;
 				} else {
 					selectBook(b);
 				}

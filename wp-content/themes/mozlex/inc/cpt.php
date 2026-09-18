@@ -299,3 +299,13 @@ function mozlex_seed_terms() {
 		}
 	}
 }
+
+/**
+ * Tự động đồng bộ Rewrite Rules nếu đường dẫn /san-pham/ bị thiếu trên máy chủ mới.
+ */
+add_action( 'init', function () {
+	$rules = get_option( 'rewrite_rules' );
+	if ( is_array( $rules ) && ! isset( $rules['san-pham/([^/]+)(?:/([0-9]+))?/?$'] ) ) {
+		flush_rewrite_rules( false );
+	}
+}, 99 );

@@ -110,7 +110,13 @@ add_action( 'wp_footer', function () {
 			<div class="mozlex-promo-body <?php echo ! empty( $image ) ? 'has-media' : 'no-media'; ?>">
 				<?php if ( ! empty( $image ) ) : ?>
 					<div class="mozlex-promo-media">
-						<img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $title ); ?>" loading="eager" width="560" height="420">
+						<?php if ( ! empty( $btn_url ) ) : ?>
+							<a href="<?php echo esc_url( $btn_url ); ?>" data-promo-cta style="display:block; width:100%; height:100%;">
+								<img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $title ); ?>" loading="eager" width="560" height="420">
+							</a>
+						<?php else : ?>
+							<img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $title ); ?>" loading="eager" width="560" height="420">
+						<?php endif; ?>
 					</div>
 				<?php endif; ?>
 
@@ -119,7 +125,15 @@ add_action( 'wp_footer', function () {
 						<span class="mozlex-promo-badge"><?php echo esc_html( $badge ); ?></span>
 					<?php endif; ?>
 
-					<h2 id="mozlex-promo-title" class="mozlex-promo-title"><?php echo esc_html( $title ); ?></h2>
+					<h2 id="mozlex-promo-title" class="mozlex-promo-title">
+						<?php if ( ! empty( $btn_url ) ) : ?>
+							<a href="<?php echo esc_url( $btn_url ); ?>" data-promo-cta style="color:inherit; text-decoration:none;">
+								<?php echo esc_html( $title ); ?>
+							</a>
+						<?php else : ?>
+							<?php echo esc_html( $title ); ?>
+						<?php endif; ?>
+					</h2>
 
 					<?php if ( ! empty( $desc ) ) : ?>
 						<p id="mozlex-promo-desc" class="mozlex-promo-desc"><?php echo nl2br( esc_html( $desc ) ); ?></p>
