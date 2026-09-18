@@ -285,8 +285,8 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 }
 .brand-logo {
 	width: auto;
-	height: 50px;
-	max-height: 50px;
+	height: 54px;
+	max-height: 54px;
 	object-fit: contain;
 	object-position: center;
 	display: block;
@@ -294,8 +294,8 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 	filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
 }
 .site-header.is-scrolled .brand-logo {
-	height: 40px;
-	max-height: 40px;
+	height: 42px;
+	max-height: 42px;
 }
 .brand-caption {
 	display: flex;
@@ -333,8 +333,9 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 .primary-nav {
 	flex: 1 1 auto;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	margin-left: clamp(24px, 3.2vw, 48px);
 	position: relative;
 	z-index: 140;
 }
@@ -342,7 +343,7 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 	list-style: none;
 	display: flex;
 	align-items: center;
-	gap: clamp(12px, 1.8vw, 28px);
+	gap: clamp(14px, 1.8vw, 28px);
 	margin: 0;
 	padding: 0;
 }
@@ -352,17 +353,17 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 }
 .primary-nav .nav-list > li > a {
 	font-family: var(--font-nav);
-	font-size: 0.81rem;
+	font-size: 0.94rem;
 	font-weight: 600;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.88);
+	color: rgba(255, 255, 255, 0.92);
 	text-decoration: none;
 	white-space: nowrap;
 	display: inline-flex;
 	align-items: center;
-	gap: 5px;
-	padding: 8px 2px;
+	gap: 6px;
+	padding: 8px 4px;
 	position: relative;
 	z-index: 142;
 	transition: color 220ms ease;
@@ -1069,11 +1070,12 @@ a:hover .arrow, .card-link:hover .arrow { transform: translateX(6px); }
 	transition: transform 250ms var(--ease), opacity 200ms;
 }
 
-/* Tablet & Compact Desktop Adaptations (769px - 1120px) */
-@media (min-width: 769px) and (max-width: 1120px) {
+/* Tablet & Compact Desktop Adaptations (769px - 1180px) */
+@media (min-width: 769px) and (max-width: 1180px) {
 	.header-inner { gap: 14px; }
-	.nav-list { gap: 12px; }
-	.primary-nav .nav-list > li > a { font-size: 0.76rem; letter-spacing: 0.03em; }
+	.primary-nav { margin-left: clamp(12px, 1.8vw, 24px); }
+	.nav-list { gap: clamp(10px, 1.2vw, 16px); }
+	.primary-nav .nav-list > li > a { font-size: 0.83rem; letter-spacing: 0.02em; }
 	.header-hotline-btn { padding: 7px 12px; font-size: 0.78rem; }
 	.header-hotline-btn .hotline-text { display: inline-block; }
 }
