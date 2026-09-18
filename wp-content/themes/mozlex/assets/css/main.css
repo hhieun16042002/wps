@@ -3825,11 +3825,64 @@ body.page-linh-vuc-hoat-dong .footer-pro-bottom p { margin:0; font-size:0.82rem;
   .hero-slide .hero-inner { padding-inline: 56px; padding-bottom: 85px; }
   .hero-slide .hero-title { font-size: clamp(1.5rem, 5.5vw, 2rem); }
   .hero-cta .btn { padding: 10px 16px; }
-  .product-mobile-actions:not([hidden]) { display: flex; align-items: center; gap: 8px; position: fixed; inset: auto 0 0; z-index: 90; padding: 10px 12px max(10px, env(safe-area-inset-bottom)); background: #fff; border-top: 1px solid var(--color-border-subtle); box-shadow: 0 -4px 16px #1113150d; }
-  .product-mobile-actions strong { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
-  .product-mobile-actions .btn { padding: 10px 14px; flex-shrink: 0; }
-  body.has-product-actions { padding-bottom: 86px; }
-  body.has-product-actions .floating-contact { bottom: 100px; }
+  .product-mobile-actions:not([hidden]) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 999;
+    padding: 8px 12px max(8px, env(safe-area-inset-bottom));
+    background: #fff;
+    border-top: 1px solid var(--color-border-subtle);
+    box-shadow: 0 -4px 16px rgba(17, 19, 21, 0.08);
+  }
+  .product-mobile-actions .product-mobile-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+  .product-mobile-actions .product-mobile-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--black, #111315);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+  }
+  .product-mobile-actions .product-mobile-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--primary, #c97c5d);
+    white-space: nowrap;
+    line-height: 1.2;
+  }
+  .product-mobile-actions .product-mobile-btns {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .product-mobile-actions .product-mobile-btns .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    white-space: nowrap;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  body.has-product-actions { padding-bottom: 74px; }
+  body.has-product-actions .floating-contact,
+  body:has(.product-mobile-actions:not([hidden])) .floating-contact { display: none !important; }
   .page-search-form { gap: 8px; }
   .page-search-form .btn { padding-inline: 14px; }
   input[type="search"] { font-size: 16px; }
@@ -3859,7 +3912,8 @@ body.page-linh-vuc-hoat-dong .footer-pro-bottom p { margin:0; font-size:0.82rem;
   .hero-slide .hero-inner { padding-inline: 52px; }
 }
 
-body:has(.mobile-drawer.is-open, .filter-sidebar.is-open, .lightbox) .floating-contact { visibility: hidden; }
+body:has(.mobile-drawer.is-open, .filter-sidebar.is-open, .lightbox) .floating-contact,
+body:has(.mobile-drawer.is-open, .filter-sidebar.is-open, .lightbox) .product-mobile-actions { visibility: hidden; pointer-events: none; }
 
 /* ==========================================================================
    NEWS & BLOG (ARCHIVE & SINGLE) & PROJECTS SHOWCASE STYLING

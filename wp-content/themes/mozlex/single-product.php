@@ -7,10 +7,12 @@
 declare( strict_types=1 );
 get_header();
 while ( have_posts() ) : the_post();
-	$model = get_post_meta( get_the_ID(), 'mozlex_model', true ) ?: get_the_title();
-	// Normalize model: last token
+	$model_meta  = get_post_meta( get_the_ID(), 'mozlex_model', true );
+	$model       = $model_meta ?: get_the_title();
 	$model_short = $model;
-	if ( preg_match( '/([A-Z0-9\-]+)$/', $model, $m ) ) $model_short = $m[1];
+	if ( $model_meta && preg_match( '/([A-Z0-9\-]+)$/', $model_meta, $m ) ) {
+		$model_short = $m[1];
+	}
 	$cats  = wp_get_post_terms( get_the_ID(), 'product_category' );
 	$cat   = $cats ? $cats[0] : null;
 	$cat_name = $cat ? $cat->name : '';
@@ -39,8 +41,10 @@ while ( have_posts() ) : the_post();
 	}
 	$share_url = get_permalink();
 	$share_img = $gallery_ids ? wp_get_attachment_image_url( $gallery_ids[0], 'full' ) : '';
-	$hotline = preg_replace( '/[^0-9+]/', '', mozlex_opt( 'hotline', '0355514686' ) );
-	$zalo_url = 'https://zalo.me/' . ltrim( $hotline, '+' );
+	$hotline   = preg_replace( '/[^0-9+]/', '', mozlex_opt( 'hotline', '0355514686' ) );
+	$zalo_opt  = mozlex_opt( 'zalo' );
+	$zalo_num  = preg_replace( '/[^0-9]/', '', $zalo_opt ?: $hotline );
+	$zalo_url  = 'https://zalo.me/' . $zalo_num;
 ?>
 <article <?php post_class( 'product-single' ); ?> itemscope itemtype="https://schema.org/Product">
 	<div class="shell">
@@ -94,7 +98,9 @@ while ( have_posts() ) : the_post();
 				<div class="product-info">
 					<p class="product-eyebrow"><?php echo esc_html( mb_strtoupper($cat_name ?: 'Khóa cao cấp','UTF-8') ); ?></p>
 					<h1 class="product-title" itemprop="name"><?php echo esc_html( get_the_title() ); ?></h1>
-					<p class="product-model">Model: <strong><?php echo esc_html($model_short); ?></strong></p>
+					<?php if ( $model_meta ) : ?>
+					<p class="product-model">Model: <strong><?php echo esc_html( $model_meta ); ?></strong></p>
+					<?php endif; ?>
 
 					<div class="product-bullets">
 						<?php echo $bullets_html; ?>
@@ -141,10 +147,15 @@ while ( have_posts() ) : the_post();
 		<a href="#product-specifications">Thông số kỹ thuật</a>
 		<a href="#product-policies">Giao hàng &amp; Bảo hành</a>
 	</nav>
-	<div class="product-mobile-actions" hidden data-product-actions aria-label="Tư vấn sản phẩm">
-		<strong><?php echo esc_html( $model_short ); ?></strong>
-		<a class="btn btn-zalo" href="<?php echo esc_url( $zalo_url ); ?>" target="_blank" rel="noopener">Zalo</a>
-		<a class="btn btn-ink" href="tel:<?php echo esc_attr( $hotline ); ?>">Gọi tư vấn</a>
+	<div class="product-mobile-actions" hidden data-product-actions aria-label="<?php esc_attr_e( 'Tư vấn sản phẩm', 'mozlex' ); ?>">
+		<div class="product-mobile-info">
+			<span class="product-mobile-title"><?php echo esc_html( get_the_title() ); ?></span>
+			<span class="product-mobile-price"><?php echo esc_html( $price ?: __( 'Giá: Liên hệ', 'mozlex' ) ); ?></span>
+		</div>
+		<div class="product-mobile-btns">
+			<a class="btn btn-zalo" href="<?php echo esc_url( $zalo_url ); ?>" target="_blank" rel="noopener">Zalo</a>
+			<a class="btn btn-ink" href="tel:<?php echo esc_attr( $hotline ); ?>">Gọi tư vấn</a>
+		</div>
 	</div>
 
 	<div id="product-description" data-product-panel>

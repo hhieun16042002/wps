@@ -1392,12 +1392,24 @@
 	var productActions = document.querySelector('[data-product-actions]');
 	var primaryActions = document.querySelector('.product-ctas');
 	if (productActions && primaryActions && 'IntersectionObserver' in window) {
-		var actionObserver = new IntersectionObserver(function (entries) {
+		var updateProductActions = function (entries) {
+			if (window.innerWidth > 768) {
+				productActions.hidden = true;
+				document.body.classList.remove('has-product-actions');
+				return;
+			}
 			var show = !entries[0].isIntersecting && entries[0].boundingClientRect.bottom < 0;
 			productActions.hidden = !show;
 			document.body.classList.toggle('has-product-actions', show);
-		});
+		};
+		var actionObserver = new IntersectionObserver(updateProductActions);
 		actionObserver.observe(primaryActions);
+		window.addEventListener('resize', function () {
+			if (window.innerWidth > 768) {
+				productActions.hidden = true;
+				document.body.classList.remove('has-product-actions');
+			}
+		}, { passive: true });
 	}
 
 	/* ---------- Social Copy Link Handler ---------- */
