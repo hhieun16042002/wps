@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MOZLEX_VERSION', '2.8.75' );
+define( 'MOZLEX_VERSION', '2.8.76' );
 define( 'MOZLEX_DIR', get_template_directory() );
 
 require_once MOZLEX_DIR . '/inc/cpt.php';

@@ -9,9 +9,11 @@ declare( strict_types=1 );
 
 get_header();
 
-// Featured: chỉ hiện khóa thông minh, custom được ở Mozlex → Cấu hình
+// Featured: 3 chế độ — auto / manual / mixed. Custom ở Cài đặt → Mozlex.
 $featured_title = mozlex_opt( 'featured_title', 'Những sản phẩm đáng chú ý' );
 if ( ! $featured_title ) $featured_title = 'Những sản phẩm đáng chú ý';
+$featured_mode  = mozlex_opt( 'featured_mode', 'mixed' );
+if ( ! in_array( $featured_mode, array( 'auto', 'manual', 'mixed' ), true ) ) $featured_mode = 'mixed';
 $featured_cat   = mozlex_opt( 'featured_category', 'khoa-cua-thong-minh' );
 if ( ! $featured_cat ) $featured_cat = 'khoa-cua-thong-minh';
 $featured_count = (int) mozlex_opt( 'featured_count', '8' );
@@ -23,30 +25,110 @@ foreach ( $exclude_slugs as $ex_slug ) {
 	$ex = get_page_by_path( $ex_slug, OBJECT, 'product' );
 	if ( $ex ) $exclude_ids[] = (int) $ex->ID;
 }
-$featured = new WP_Query( array(
-	'post_type'           => 'product',
-	'posts_per_page'      => $featured_count,
-	'post__not_in'        => $exclude_ids,
-	'tax_query'           => array(
-		array(
-			'taxonomy' => 'product_category',
-			'field'    => 'slug',
-			'terms'    => $featured_cat,
-		),
-	),
-	'ignore_sticky_posts' => true,
-	'no_found_rows'       => true,
-) );
-// Fallback: nếu danh mục rỗng thì thử sản phẩm ghim featured
-if ( ! $featured->have_posts() ) {
+
+// Parse danh sách thủ công: chấp nhận ID hoặc slug, cách nhau dấu phẩy / xuống dòng.
+$manual_ids = array();
+$manual_raw = (string) mozlex_opt( 'featured_manual_ids', '' );
+if ( '' !== trim( $manual_raw ) ) {
+	$parts = preg_split( '/[\s,;]+/', $manual_raw );
+	foreach ( $parts as $p ) {
+		$p = trim( (string) $p );
+		if ( '' === $p ) continue;
+		if ( ctype_digit( $p ) ) {
+			$pid = (int) $p;
+			if ( 'product' === get_post_type( $pid ) && 'publish' === get_post_status( $pid ) ) $manual_ids[] = $pid;
+		} else {
+			$slug = sanitize_title( $p );
+			$found = get_page_by_path( $slug, OBJECT, 'product' );
+			if ( $found ) $manual_ids[] = (int) $found->ID;
+		}
+	}
+	$manual_ids = array_values( array_unique( $manual_ids ) );
+	$manual_ids = array_values( array_diff( $manual_ids, $exclude_ids ) );
+}
+
+$featured = null;
+if ( 'manual' === $featured_mode ) {
+	// Thủ công 100%: chỉ hiện đúng SP đã pick, đúng thứ tự đã dán.
+	if ( ! empty( $manual_ids ) ) {
+		$featured = new WP_Query( array(
+			'post_type'           => 'product',
+			'posts_per_page'      => min( $featured_count, count( $manual_ids ) ),
+			'post__in'            => array_slice( $manual_ids, 0, $featured_count ),
+			'orderby'             => 'post__in',
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+		) );
+	} else {
+		$featured = new WP_Query( array( 'post_type' => 'product', 'posts_per_page' => 0 ) );
+	}
+} else {
 	$featured = new WP_Query( array(
 		'post_type'           => 'product',
 		'posts_per_page'      => $featured_count,
-		'meta_key'            => 'mozlex_featured',
-		'meta_value'          => '1',
+		'post__not_in'        => array_merge( $exclude_ids, ( 'mixed' === $featured_mode ? $manual_ids : array() ) ),
+		'tax_query'           => array(
+			array(
+				'taxonomy' => 'product_category',
+				'field'    => 'slug',
+				'terms'    => $featured_cat,
+			),
+		),
 		'ignore_sticky_posts' => true,
 		'no_found_rows'       => true,
 	) );
+	// Fallback: nếu danh mục rỗng thì thử sản phẩm ghim featured
+	if ( ! $featured->have_posts() && empty( $manual_ids ) ) {
+		$featured = new WP_Query( array(
+			'post_type'           => 'product',
+			'posts_per_page'      => $featured_count,
+			'meta_key'            => 'mozlex_featured',
+			'meta_value'          => '1',
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+		) );
+	}
+
+	// Fill-up: nếu danh mục chưa đủ số lượng thì lấy thêm SP khác cho đủ grid.
+	if ( $featured->post_count > 0 && $featured->post_count < $featured_count ) {
+		$already_ids = wp_list_pluck( $featured->posts, 'ID' );
+		$already_ids = array_merge( $already_ids, $exclude_ids, $manual_ids );
+		$more = new WP_Query( array(
+			'post_type'           => 'product',
+			'posts_per_page'      => $featured_count - $featured->post_count,
+			'post__not_in'        => $already_ids,
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+			'orderby'             => 'date',
+			'order'               => 'DESC',
+		) );
+		if ( $more->have_posts() ) {
+			$featured->posts      = array_merge( $featured->posts, $more->posts );
+			$featured->post_count = count( $featured->posts );
+		}
+	}
+
+	// Mixed: ghim SP pick tay lên đầu, giữ đúng thứ tự dán, rồi tới auto.
+	if ( 'mixed' === $featured_mode && ! empty( $manual_ids ) ) {
+		$pinned = new WP_Query( array(
+			'post_type'           => 'product',
+			'post__in'            => $manual_ids,
+			'posts_per_page'      => min( $featured_count, count( $manual_ids ) ),
+			'orderby'             => 'post__in',
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+		) );
+		if ( $pinned->have_posts() ) {
+			$merged_ids = wp_list_pluck( $pinned->posts, 'ID' );
+			$rest = array();
+			foreach ( $featured->posts as $fp ) {
+				if ( ! in_array( $fp->ID, $merged_ids, true ) ) $rest[] = $fp;
+			}
+			$need = $featured_count - count( $merged_ids );
+			$featured->posts = array_merge( $pinned->posts, array_slice( $rest, 0, max( 0, $need ) ) );
+			$featured->post_count = count( $featured->posts );
+		}
+	}
 }
 
 			$categories = get_terms( array(
@@ -375,9 +457,11 @@ $hero_slides_q = new WP_Query( array(
 	</div>
 </section>
 
-<?php if ( '1' === mozlex_opt( 'show_featured', '1' ) ) : ?>
+<?php
+$shelf_on = ( 'shelf' === mozlex_opt( 'featured_layout', 'shelf' ) );
+if ( '1' === mozlex_opt( 'show_featured', '1' ) ) : ?>
 <!-- FEATURED PRODUCTS — chỉ khóa thông minh, custom ở Mozlex → Cấu hình -->
-<section class="home-section" aria-labelledby="featured-title">
+<section class="home-section<?php echo $shelf_on ? ' is-shelf-full' : ''; ?>" aria-labelledby="featured-title">
 	<div class="shell">
 		<header class="section-header section-header-row">
 			<div>
@@ -403,10 +487,17 @@ $hero_slides_q = new WP_Query( array(
 			wp_reset_postdata();
 			?>
 		</div>
+		<?php
+		if ( $shelf_on ) {
+			set_query_var( 'mozlex_featured_posts', $featured->posts );
+			get_template_part( 'template-parts/featured-shelf' );
+		}
+		?>
 	</div>
 </section>
 <?php endif; ?>
 
+<?php if ( '1' === mozlex_opt( 'show_wizard', '0' ) ) : ?>
 <!-- CONSULT WIZARD TEASER -->
 <section class="home-section" aria-labelledby="wizard-title">
 	<div class="shell wizard-teaser">
@@ -418,5 +509,6 @@ $hero_slides_q = new WP_Query( array(
 		</div>
 	</div>
 </section>
+<?php endif; ?>
 
 <?php get_footer(); ?>

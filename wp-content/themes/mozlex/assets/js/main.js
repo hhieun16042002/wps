@@ -567,7 +567,11 @@
 		if (items.length > 1) {
 			var goStep = function (dir) {
 				index = (index + dir + items.length) % items.length;
-				lb.querySelector('img').src = items[index].getAttribute('data-full');
+				var imgEl = lb.querySelector('img');
+				imgEl.classList.remove('is-swap');
+				void imgEl.offsetWidth;
+				imgEl.src = items[index].getAttribute('data-full');
+				imgEl.classList.add('is-swap');
 				lb.querySelector('.lightbox-caption').textContent = items[index].getAttribute('data-caption') || '';
 			};
 			lb.querySelector('.lightbox-prev').addEventListener('click', function () { goStep(-1); });

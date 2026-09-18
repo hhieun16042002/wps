@@ -53,9 +53,13 @@ function mozlex_option_fields() {
 		'show_giaiphap'    => __( 'Hiện GIẢI PHÁP CHO MỌI CÔNG TRÌNH', 'mozlex' ),
 		'show_dichvu'      => __( 'Hiện DỊCH VỤ CỦA ĐỨC TRÍ', 'mozlex' ),
 		'show_featured'    => __( 'Hiện Sản phẩm nổi bật', 'mozlex' ),
+		'show_wizard'      => __( 'Hiện khối Tư vấn / Consultation wizard (trang chủ)', 'mozlex' ),
 		'featured_title'   => __( 'Tiêu đề khối Sản phẩm nổi bật', 'mozlex' ),
+		'featured_layout'  => __( 'Kiểu hiển thị khối nổi bật (Lưới / Kệ 3D)', 'mozlex' ),
+		'featured_mode'    => __( 'Chế độ Sản phẩm nổi bật (tự động / thủ công)', 'mozlex' ),
 		'featured_category'=> __( 'Danh mục hiển thị (slug)', 'mozlex' ),
 		'featured_count'   => __( 'Số sản phẩm hiển thị', 'mozlex' ),
+		'featured_manual_ids' => __( 'Danh sách SP nổi bật thủ công (ID hoặc slug, cách nhau dấu phẩy)', 'mozlex' ),
 		'_section_branches'=> __( '3 nhánh Đức Trí 226 (Xây dựng/Thương mại/Công nghệ) — ảnh & mô tả', 'mozlex' ),
 		'branch_xaydung_image' => __( 'Ảnh XÂY DỰNG (URL)', 'mozlex' ),
 		'branch_xaydung_desc'  => __( 'Mô tả XÂY DỰNG', 'mozlex' ),
@@ -90,7 +94,7 @@ function mozlex_option_fields() {
 
 function mozlex_sanitize_options( $input ) {
 	$clean = array();
-	$checkboxes = array( 'menu_trangchu','menu_gioithieu','menu_sanpham','menu_linhvuc','menu_tintuc','menu_lienhe','show_danhmuc','show_giaiphap','show_dichvu','show_featured' );
+	$checkboxes = array( 'menu_trangchu','menu_gioithieu','menu_sanpham','menu_linhvuc','menu_tintuc','menu_lienhe','show_danhmuc','show_giaiphap','show_dichvu','show_featured','show_wizard' );
 	foreach ( mozlex_option_fields() as $key => $label ) {
 		if ( str_starts_with( $key, '_' ) ) {
 			continue;
@@ -106,6 +110,12 @@ function mozlex_sanitize_options( $input ) {
 				$sanitizer = 'esc_url_raw';
 			} elseif ( 'banner_subtitle' === $key ) {
 				$sanitizer = 'sanitize_textarea_field';
+			} elseif ( 'featured_mode' === $key ) {
+				$v = sanitize_key( wp_unslash( $input[ $key ] ) );
+				$sanitizer = fn( $_ ) => in_array( $v, array( 'auto', 'manual', 'mixed' ), true ) ? $v : 'mixed';
+			} elseif ( 'featured_layout' === $key ) {
+				$v = sanitize_key( wp_unslash( $input[ $key ] ) );
+				$sanitizer = fn( $_ ) => in_array( $v, array( 'grid', 'shelf' ), true ) ? $v : 'shelf';
 			} elseif ( in_array( $key, array( 'primary_color', 'primary_hover', 'color_dark' ), true ) ) {
 				$val = sanitize_hex_color( wp_unslash( $input[ $key ] ) );
 				$clean[ $key ] = $val ? $val : '';
@@ -158,11 +168,44 @@ function mozlex_render_options_page() {
 							<textarea id="mozlex-<?php echo esc_attr( $key ); ?>" name="mozlex_options[<?php echo esc_attr( $key ); ?>]" rows="2" class="large-text" style="max-width:600px;"><?php echo esc_textarea( isset( $opts[ $key ] ) ? $opts[ $key ] : '' ); ?></textarea>
 						</td>
 					</tr>
-				<?php elseif ( in_array( $key, array( 'menu_trangchu','menu_gioithieu','menu_sanpham','menu_linhvuc','menu_tintuc','menu_lienhe','show_danhmuc','show_giaiphap','show_dichvu','show_featured' ), true ) ) : ?>
-					<?php $checked = ! isset( $opts[ $key ] ) || '1' === $opts[ $key ]; ?>
+				<?php elseif ( in_array( $key, array( 'menu_trangchu','menu_gioithieu','menu_sanpham','menu_linhvuc','menu_tintuc','menu_lienhe','show_danhmuc','show_giaiphap','show_dichvu','show_featured','show_wizard' ), true ) ) : ?>
+					<?php $checked = ( 'show_wizard' === $key ) ? ( isset( $opts[ $key ] ) && '1' === $opts[ $key ] ) : ( ! isset( $opts[ $key ] ) || '1' === $opts[ $key ] ); ?>
 					<tr>
 						<th scope="row"><?php echo esc_html( $label ); ?></th>
 						<td><label><input type="checkbox" name="mozlex_options[<?php echo esc_attr( $key ); ?>]" value="1" <?php checked( $checked ); ?>> <?php esc_html_e( 'Hiển thị', 'mozlex' ); ?></label></td>
+					</tr>
+				<?php elseif ( 'featured_layout' === $key ) : ?>
+					<?php $val = isset( $opts[ $key ] ) ? $opts[ $key ] : 'shelf'; ?>
+					<tr>
+						<th scope="row"><label for="mozlex-<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $label ); ?></label></th>
+						<td>
+							<select id="mozlex-<?php echo esc_attr( $key ); ?>" name="mozlex_options[<?php echo esc_attr( $key ); ?>]" style="min-width:280px;">
+								<option value="shelf" <?php selected( $val, 'shelf' ); ?>>Kệ 3D kiểu AshenPress (khuyên dùng)</option>
+								<option value="grid" <?php selected( $val, 'grid' ); ?>>Lưới phẳng truyền thống</option>
+							</select>
+							<p class="description">Kệ 3D tự rớt về lưới khi mất mạng CDN hoặc máy khách không có WebGL.</p>
+						</td>
+					</tr>
+				<?php elseif ( 'featured_mode' === $key ) : ?>
+					<?php $val = isset( $opts[ $key ] ) ? $opts[ $key ] : 'mixed'; ?>
+					<tr>
+						<th scope="row"><label for="mozlex-<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $label ); ?></label></th>
+						<td>
+							<select id="mozlex-<?php echo esc_attr( $key ); ?>" name="mozlex_options[<?php echo esc_attr( $key ); ?>]" style="min-width:280px;">
+								<option value="auto" <?php selected( $val, 'auto' ); ?>>Tự động — theo danh mục + số lượng</option>
+								<option value="manual" <?php selected( $val, 'manual' ); ?>>Thủ công — chỉ hiện SP Bạn pick bên dưới</option>
+								<option value="mixed" <?php selected( $val, 'mixed' ); ?>>Cả hai — ưu tiên SP pick tay, thiếu thì auto bù (khuyên dùng)</option>
+							</select>
+							<p class="description">Muốn 4 → 8 → 16 ô thì sửa “Số sản phẩm hiển thị” bên dưới. Muốn pick tay thì chọn “Cả hai” hoặc “Thủ công” rồi dán ID/slug vào ô bên dưới.</p>
+						</td>
+					</tr>
+				<?php elseif ( 'featured_manual_ids' === $key ) : ?>
+					<tr>
+						<th scope="row"><label for="mozlex-<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $label ); ?></label></th>
+						<td>
+							<textarea id="mozlex-<?php echo esc_attr( $key ); ?>" name="mozlex_options[<?php echo esc_attr( $key ); ?>]" rows="2" class="large-text code" style="max-width:600px;" placeholder="VD: 638, 562, 558, khoa-tay-gat-mozlex-ks19"><?php echo esc_textarea( isset( $opts[ $key ] ) ? $opts[ $key ] : '' ); ?></textarea>
+							<p class="description">Cách lấy ID: vào <a href="<?php echo esc_url( admin_url( 'edit.php?post_type=product' ) ); ?>">Sản phẩm Mozlex</a> → di chuột vào tên SP → nhìn góc trái dưới trình duyệt sẽ thấy <code>post=123</code> — đó là ID. Hoặc mở SP ra, URL có <code>/wp-admin/post.php?post=123</code>. Cũng chấp nhận slug (phần cuối link, VD <code>khoa-tay-gat-mozlex-ks19</code>). Thứ tự Bạn dán = thứ tự hiện ở trang chủ.</p>
+						</td>
 					</tr>
 				<?php elseif ( 'featured_category' === $key ) : ?>
 					<?php $val = isset( $opts[ $key ] ) ? $opts[ $key ] : 'khoa-cua-thong-minh'; $cats = get_terms(['taxonomy'=>'product_category','hide_empty'=>false]); ?>

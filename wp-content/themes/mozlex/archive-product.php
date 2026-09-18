@@ -13,8 +13,7 @@ global $wp_query;
 $is_category = is_tax( 'product_category' );
 
 $title = $is_category ? single_term_title( '', false ) : __( 'Tất cả sản phẩm', 'mozlex' );
-$intro = ( $is_category && term_description() ) ? wp_strip_all_tags( term_description() )
-	: __( 'Toàn bộ catalogue Mozlex — lọc theo nhu cầu để tìm mẫu khóa phù hợp.', 'mozlex' );
+$intro = ( $is_category && term_description() ) ? wp_strip_all_tags( term_description() ) : '';
 
 /**
  * Filter: chấp nhận slug tồn tại thật, hỗ trợ multi-value comma-separated.
@@ -82,7 +81,9 @@ function mozlex_is_filter_active( $tax, $slug ) {
 	<div class="shell">
 		<?php mozlex_breadcrumb(); ?>
 		<h1 class="page-title"><?php echo esc_html( $title ); ?></h1>
+		<?php if ( $intro ) : ?>
 		<p class="section-intro"><?php echo esc_html( $intro ); ?></p>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -92,9 +93,9 @@ if ( $is_category ) {
 	$term = get_queried_object();
 	$children = get_terms( array( 'taxonomy' => 'product_category', 'hide_empty' => false, 'parent' => (int) $term->term_id, 'orderby' => 'name', 'order' => 'ASC' ) );
 	if ( $children && ! is_wp_error( $children ) && count( $children ) ) {
-		echo '<section class="shell" style="margin-top:18px;"><div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;"><h2 style="margin:0; font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--dark);">Danh mục con của ' . esc_html( $term->name ) . '</h2><span style="font-size:0.78rem; color:#6b6b6b; background:var(--warm-white); padding:4px 8px; border-radius:999px; border:1px solid rgba(0,0,0,0.06);">' . count( $children ) . ' mục</span></div><ul style="display:flex; flex-wrap:wrap; gap:10px; list-style:none; margin:0; padding:0;">';
+		echo '<section class="shell" style="margin-top:18px;"><div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;"><h2 style="margin:0; font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--dark);">Danh mục con của ' . esc_html( $term->name ) . '</h2></div><ul style="display:flex; flex-wrap:wrap; gap:10px; list-style:none; margin:0; padding:0;">';
 		foreach ( $children as $child ) {
-			echo '<li><a href="' . esc_url( get_term_link( $child ) ) . '" style="display:inline-block; padding:8px 14px; border:1px solid rgba(0,0,0,0.1); border-radius:999px; background:#fff; color:var(--dark); text-decoration:none; font-size:0.86rem;">' . esc_html( $child->name ) . ' (' . $child->count . ')</a></li>';
+			echo '<li><a href="' . esc_url( get_term_link( $child ) ) . '" style="display:inline-block; padding:8px 14px; border:1px solid rgba(0,0,0,0.1); border-radius:999px; background:#fff; color:var(--dark); text-decoration:none; font-size:0.86rem;">' . esc_html( $child->name ) . '</a></li>';
 		}
 		echo '</ul></section>';
 	}
@@ -115,14 +116,7 @@ if ( ! $is_category ) {
 		});
 		echo '<section class="shell" style="margin-top:18px;"><h2 style="margin:0 0 12px; font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--dark);">Xem theo danh mục</h2><ul style="display:flex; flex-wrap:wrap; gap:10px; list-style:none; margin:0; padding:0;">';
 		foreach ( $top_cats as $tc ) {
-			$display_count = (int)$tc->count;
-			if ( $tc->slug === 'khoa' ) {
-				$children = get_terms(['taxonomy'=>'product_category','hide_empty'=>false,'parent'=>(int)$tc->term_id]);
-				if(!is_wp_error($children)) foreach($children as $ch) $display_count += (int)$ch->count;
-				$extra = get_terms(['taxonomy'=>'product_category','slug'=>['khoa-cua-thong-minh','khoa-cua-thong-phong'],'hide_empty'=>false]);
-				if(!is_wp_error($extra)) foreach($extra as $ex) $display_count += (int)$ex->count;
-			}
-			echo '<li><a href="' . esc_url( get_term_link( $tc ) ) . '" style="display:inline-block; padding:8px 14px; border:1px solid rgba(0,0,0,0.1); border-radius:999px; background:#fff; color:var(--dark); text-decoration:none; font-size:0.86rem;">' . esc_html( $tc->name ) . ' (' . $display_count . ')</a></li>';
+			echo '<li><a href="' . esc_url( get_term_link( $tc ) ) . '" style="display:inline-block; padding:8px 14px; border:1px solid rgba(0,0,0,0.1); border-radius:999px; background:#fff; color:var(--dark); text-decoration:none; font-size:0.86rem;">' . esc_html( $tc->name ) . '</a></li>';
 		}
 		echo '</ul></section>';
 	}
@@ -187,26 +181,15 @@ if ( ! $is_category ) {
 							?>
 								<label class="filter-check" style="font-weight:700;">
 									<input type="checkbox" name="<?php echo esc_attr( $tax ); ?>" value="<?php echo esc_attr( $parent->slug ); ?>" <?php checked( $active ); ?>>
-									<span class="filter-check-label"><?php echo esc_html( $parent->name ); ?></span>
-									<?php
-									$pc = (int)$parent->count;
-									if($parent->slug==='khoa'){
-										$ch=get_terms(['taxonomy'=>'product_category','hide_empty'=>false,'parent'=>(int)$parent->term_id]);
-										if(!is_wp_error($ch)) foreach($ch as $c) $pc+=(int)$c->count;
-										$ex=get_terms(['taxonomy'=>'product_category','slug'=>['khoa-cua-thong-minh','khoa-cua-thong-phong'],'hide_empty'=>false]);
-										if(!is_wp_error($ex)) foreach($ex as $c) $pc+=(int)$c->count;
-									}
-									?>
-									<span class="filter-check-count"><?php echo number_format_i18n( $pc ); ?></span>
-								</label>
+								<span class="filter-check-label"><?php echo esc_html( $parent->name ); ?></span>
+							</label>
 								<?php if ( !empty($children_by_parent[(int)$parent->term_id]) ) : ?>
 									<div style="margin-left:16px; border-left:1px solid rgba(0,0,0,0.06); padding-left:10px; display:grid; gap:6px; margin-bottom:6px;">
 									<?php foreach ( $children_by_parent[(int)$parent->term_id] as $child ) : $active = mozlex_is_filter_active( $tax, $child->slug ); ?>
 										<label class="filter-check">
 											<input type="checkbox" name="<?php echo esc_attr( $tax ); ?>" value="<?php echo esc_attr( $child->slug ); ?>" <?php checked( $active ); ?>>
-											<span class="filter-check-label"><?php echo esc_html( $child->name ); ?></span>
-											<span class="filter-check-count"><?php echo number_format_i18n( $child->count ); ?></span>
-										</label>
+										<span class="filter-check-label"><?php echo esc_html( $child->name ); ?></span>
+									</label>
 									<?php endforeach; ?>
 									</div>
 								<?php endif; ?>
@@ -215,17 +198,16 @@ if ( ! $is_category ) {
 								// Các term mồ côi (không cha) nếu có
 								foreach ( $terms as $term ) if ( (int)$term->parent===0 && !in_array($term,$parents,true) ) {
 									$active = mozlex_is_filter_active( $tax, $term->slug );
-									echo '<label class="filter-check"><input type="checkbox" name="'.esc_attr($tax).'" value="'.esc_attr($term->slug).'" '.checked($active,false,false).'><span class="filter-check-label">'.esc_html($term->name).'</span><span class="filter-check-count">'.number_format_i18n($term->count).'</span></label>';
+									echo '<label class="filter-check"><input type="checkbox" name="'.esc_attr($tax).'" value="'.esc_attr($term->slug).'" '.checked($active,false,false).'><span class="filter-check-label">'.esc_html($term->name).'</span></label>';
 								}
 							} else {
 								foreach ( $terms as $term ) : $active = mozlex_is_filter_active( $tax, $term->slug );
 							?>
 								<label class="filter-check">
 									<input type="checkbox" name="<?php echo esc_attr( $tax ); ?>" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
-									<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
-									<span class="filter-check-count"><?php echo number_format_i18n( $term->count ); ?></span>
-								</label>
-							<?php endforeach; } ?>
+								<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
+							</label>
+						<?php endforeach; } ?>
 						</div>
 					</details>
 				<?php endforeach; ?>
@@ -237,9 +219,8 @@ if ( ! $is_category ) {
 							<?php foreach ( $feature_terms as $term ) : $active = mozlex_is_filter_active( 'feature', $term->slug ); ?>
 								<label class="filter-check">
 									<input type="checkbox" name="feature" value="<?php echo esc_attr( $term->slug ); ?>" <?php checked( $active ); ?>>
-									<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
-									<span class="filter-check-count"><?php echo number_format_i18n( $term->count ); ?></span>
-								</label>
+								<span class="filter-check-label"><?php echo esc_html( $term->name ); ?></span>
+							</label>
 							<?php endforeach; ?>
 						</div>
 					</details>

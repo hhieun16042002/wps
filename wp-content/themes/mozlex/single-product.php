@@ -171,4 +171,6 @@ while ( have_posts() ) : the_post();
 	</section>
 	<?php endif; wp_reset_postdata(); endif; ?>
 </article>
-<?php endwhile; get_footer(); ?>
+<?php endwhile; ?>
+
+<?php get_footer(); ?>

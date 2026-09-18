@@ -864,7 +864,7 @@ body:not(.header-transparent) .site-header { background: rgba(0,0,0,0.9); }
 .product-desc-section { margin-top:40px; background:#fff; border-top:1px solid rgba(0,0,0,0.06); border-bottom:1px solid rgba(0,0,0,0.06); padding:32px 0; }
 .shell-narrow { max-width:860px; }
 .product-desc-inner { line-height:1.8; }
-.product-desc-inner h2, .product-desc-inner h3 { text-align:center; margin-top:24px; }
+.product-desc-inner h2, .product-desc-inner h3 { text-align:left; margin-top:24px; }
 .product-desc-inner ul { max-width:640px; margin:0 auto 1.2em; text-align:left; }
 .product-desc-inner img { margin:16px auto; display:block; max-width:100%; border-radius:8px; }
 .product-highlights, .product-specs, .product-related { margin-top:48px; }
@@ -1552,4 +1552,66 @@ body.page-linh-vuc-hoat-dong .footer-pro-bottom p { margin:0; font-size:0.82rem;
   .brand-values { text-align:center !important; }
   .brand-values li { text-align:center !important; display:flex; flex-direction:column; align-items:center; }
   .brand-values h2, .brand-values p { text-align:center !important; }
+}
+
+/* ---------- Lightbox phóng to ảnh sản phẩm (hiệu ứng kính tối Nocturne) ---------- */
+.lightbox {
+	position: fixed; inset: 0; z-index: 1000;
+	display: grid; place-items: center; padding: 5vh 4vw calc(5vh + 44px);
+	background: rgba(8, 8, 10, 0.9);
+	-webkit-backdrop-filter: blur(14px) saturate(1.1);
+	backdrop-filter: blur(14px) saturate(1.1);
+	animation: lbFade 240ms ease-out;
+}
+.lightbox::after {
+	content: ""; position: absolute; inset: 0; pointer-events: none;
+	background: radial-gradient(90% 75% at 50% 45%, transparent 55%, rgba(0, 0, 0, 0.5) 100%);
+}
+.lightbox img {
+	position: relative; z-index: 1;
+	max-width: min(92vw, 1100px); max-height: 78vh; object-fit: contain;
+	border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.14);
+	box-shadow: 0 30px 90px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.4), 0 0 120px rgba(201, 163, 129, 0.12);
+	background: #111;
+	animation: lbZoom 320ms cubic-bezier(0.2, 0.9, 0.25, 1.2);
+}
+.lightbox img.is-swap { animation: lbSwap 260ms ease-out; }
+.lightbox-caption {
+	position: absolute; z-index: 2; left: 0; right: 0; bottom: max(18px, env(safe-area-inset-bottom));
+	margin: 0; text-align: center; color: #f5ead6;
+	font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600;
+	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+	padding: 0 16px;
+}
+.lightbox-close, .lightbox-nav {
+	position: absolute; z-index: 3;
+	width: 46px; height: 46px; border-radius: 50%;
+	background: rgba(20, 20, 24, 0.6); color: #f5ead6;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+	font-size: 1.25rem; line-height: 1; cursor: pointer;
+	display: grid; place-items: center;
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
+	transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+.lightbox-close:hover, .lightbox-nav:hover { background: rgba(201, 163, 129, 0.85); color: #14100a; border-color: transparent; transform: scale(1.08); }
+.lightbox-close:focus-visible, .lightbox-nav:focus-visible { outline: 2px solid #e8d5a8; outline-offset: 2px; }
+.lightbox-close { top: 18px; right: 18px; }
+.lightbox-prev { left: max(14px, 3vw); top: 50%; transform: translateY(-50%); }
+.lightbox-next { right: max(14px, 3vw); top: 50%; transform: translateY(-50%); }
+.lightbox-prev:hover { transform: translateY(-50%) scale(1.08); }
+.lightbox-next:hover { transform: translateY(-50%) scale(1.08); }
+@keyframes lbFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes lbZoom { from { opacity: 0; transform: scale(0.92) translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes lbSwap { from { opacity: 0.25; transform: scale(0.985); } to { opacity: 1; transform: none; } }
+@media (max-width: 640px) {
+	.lightbox { padding: 8vh 3vw calc(8vh + 40px); }
+	.lightbox-close, .lightbox-nav { width: 40px; height: 40px; font-size: 1.05rem; }
+	.lightbox-prev { left: 8px; }
+	.lightbox-next { right: 8px; }
+	.lightbox-caption { font-size: 0.7rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+	.lightbox, .lightbox img, .lightbox img.is-swap { animation: none; }
+	.lightbox-close, .lightbox-nav { transition: none; }
 }
