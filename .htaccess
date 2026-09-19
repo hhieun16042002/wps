@@ -1,3 +1,31 @@
+# BEGIN Security Hardening
+# Tắt duyệt thư mục
+<IfModule mod_autoindex.c>
+  Options -Indexes
+</IfModule>
+
+# Chặn truy cập thư mục ẩn (.git, .env, .bangiao, v.v.) và các file cấu hình
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^\.git - [F,L]
+  RewriteRule ^\..+ - [F,L]
+  RewriteRule ^wp-config\.php$ - [F,L]
+  RewriteRule ^(readme\.html|license\.txt|README\.md|package\.json|composer\.json)$ - [F,L]
+</IfModule>
+
+# Chặn truy cập trực tiếp xmlrpc.php chống Brute Force & Pingback DDoS
+<Files xmlrpc.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Chặn truy cập file wp-config.php
+<Files wp-config.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+# END Security Hardening
+
 # BEGIN WordPress
 # Các nội dung nằm giữa "BEGIN WordPress" và "END WordPress" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
 <IfModule mod_rewrite.c>
@@ -9,5 +37,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress
