@@ -1,2 +1,4 @@
 /wp-includes/
 /wp-content/uploads/
+/wp-content/plugins/ai-engine/
+!/.bangiao/
