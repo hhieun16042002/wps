@@ -895,7 +895,7 @@
 						return;
 					}
 
-					var desc = 'Phát hiện phiên cào dữ liệu từ URL: <strong>' + escapeHtml(job.source_url) + '</strong> (Mã phiên: #' + job.id + ') chưa hoàn tất.<br>' +
+					var desc = 'Phát hiện phiên cào dữ liệu từ URL : <strong>' + escapeHtml(job.source_url) + '</strong> (Mã phiên: #' + job.id + ') chưa hoàn tất.Xin vui lòng đợi.<br>' +
 						'Tiến độ: Đã nhập <strong>' + sessionStats.imported + ' / ' + sessionStats.total + '</strong> sản phẩm lên website • Còn lại <strong>' + sessionStats.pending + '</strong> sản phẩm chưa nhập.';
 
 					$('#dt-recovery-desc').html(desc);
