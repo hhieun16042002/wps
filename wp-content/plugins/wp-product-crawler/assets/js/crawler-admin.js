@@ -128,6 +128,7 @@
 
 				// Hiển thị cụm nút điều khiển khi bắt đầu bóc tách
 				$('#dt-progress-controls').show();
+				$('#dt-control-import-top-btn').show().prop('disabled', false).removeClass('updating-message');
 				$('#dt-control-pause-btn').show();
 				$('#dt-control-resume-btn').hide();
 				$('#dt-control-skip-btn').show();
@@ -151,16 +152,23 @@
 		if (isPaused) {
 			updateProgress(
 				Math.min(95, Math.round(25 + (stats.processed / stats.found) * 70)),
-				'⏸️ Đang tạm dừng bóc tách (' + stats.processed + '/' + stats.found + '). Nhấn "Tiếp tục làm tiếp" để chạy tiếp.'
+				'⏸️ Đang tạm dừng bóc tách (' + stats.processed + '/' + stats.found + '). Nhấn "Tiếp tục làm tiếp" để chạy tiếp, hoặc bấm "Nhập vào website ngay" để nhập ngay các sản phẩm đã cào.'
 			);
 			return;
 		}
 
 		if (itemsQueue.length === 0) {
 			isExtracting = false;
-			$('#dt-progress-controls').hide();
-			updateProgress(100, 'Đã bóc tách xong toàn bộ sản phẩm! Vui lòng kiểm tra danh sách trước khi nhập.');
+			updateProgress(100, '✅ Đã bóc tách xong toàn bộ sản phẩm! Nhấn "Nhập vào website ngay" để bắt đầu lưu vào kho dữ liệu.');
 			$('#dt-crawler-scan-btn').prop('disabled', false).removeClass('updating-message');
+
+			// Giữ thanh controls hiển thị với nút Nhập nổi bật
+			$('#dt-progress-controls').show();
+			$('#dt-control-import-top-btn').show().prop('disabled', false).removeClass('updating-message');
+			$('#dt-control-pause-btn').hide();
+			$('#dt-control-resume-btn').hide();
+			$('#dt-control-skip-btn').hide();
+			$('#dt-control-cancel-btn').hide();
 			return;
 		}
 
@@ -402,7 +410,33 @@
 			}
 		});
 
-		// Nút Bắt đầu nhập sản phẩm đã chọn
+		// Hàm khởi động tiến trình nhập sản phẩm
+		function startImportExecution(selectedIds) {
+			importQueue = selectedIds;
+			totalToImport = importQueue.length;
+			importedCount = 0;
+			isPaused = false;
+			isCancelled = false;
+			isImporting = true;
+			isExtracting = false;
+			itemsQueue = [];
+
+			$('#dt-start-import-btn').prop('disabled', true).addClass('updating-message');
+			$('#dt-control-import-top-btn').prop('disabled', true).addClass('updating-message').hide();
+			updateProgress(0, dtCrawlerData.i18n.importing);
+			$('#dt-crawler-progress-card').slideDown();
+
+			// Kích hoạt cụm nút điều khiển tiến trình
+			$('#dt-progress-controls').show();
+			$('#dt-control-pause-btn').show();
+			$('#dt-control-resume-btn').hide();
+			$('#dt-control-skip-btn').show();
+			$('#dt-control-cancel-btn').show();
+
+			importNext();
+		}
+
+		// Nút Bắt đầu nhập sản phẩm đã chọn (ở chân bảng)
 		$('#dt-start-import-btn').on('click', function (e) {
 			e.preventDefault();
 
@@ -420,27 +454,7 @@
 				return;
 			}
 
-			importQueue = selectedIds;
-			totalToImport = importQueue.length;
-			importedCount = 0;
-			isPaused = false;
-			isCancelled = false;
-			isImporting = true;
-			isExtracting = false;
-
-			var $btn = $(this);
-			$btn.prop('disabled', true).addClass('updating-message');
-			updateProgress(0, dtCrawlerData.i18n.importing);
-			$('#dt-crawler-progress-card').slideDown();
-
-			// Kích hoạt cụm nút điều khiển tiến trình
-			$('#dt-progress-controls').show();
-			$('#dt-control-pause-btn').show();
-			$('#dt-control-resume-btn').hide();
-			$('#dt-control-skip-btn').show();
-			$('#dt-control-cancel-btn').show();
-
-			importNext();
+			startImportExecution(selectedIds);
 		});
 
 		// Xóa một sản phẩm khỏi danh sách
@@ -584,6 +598,7 @@
 			$('#dt-progress-controls').hide();
 			updateProgress(100, dtCrawlerData.i18n.completed + ' Đã nhập thành công ' + importedCount + ' sản phẩm lên website.');
 			$('#dt-start-import-btn').prop('disabled', false).removeClass('updating-message');
+			$('#dt-control-import-top-btn').prop('disabled', false).removeClass('updating-message').show();
 			alert('Quá trình nhập sản phẩm đã hoàn tất thành công!');
 			return;
 		}
@@ -664,6 +679,32 @@
 	 * 4. BỘ NÚT ĐIỀU KHIỂN TIẾN TRÌNH (PROCESS CONTROLS: PAUSE, RESUME, SKIP, CANCEL)
 	 * ========================================================================= */
 	function initProcessControls() {
+		// Nút Nhập vào website ngay (nằm trên thanh điều khiển tiến trình)
+		$('#dt-control-import-top-btn').on('click', function (e) {
+			e.preventDefault();
+
+			var selectedIds = [];
+			$('.dt-item-checkbox:checked:not(:disabled)').each(function () {
+				selectedIds.push($(this).val());
+			});
+
+			if (selectedIds.length === 0) {
+				alert(dtCrawlerData.i18n.no_items_selected || 'Vui lòng chọn ít nhất 1 sản phẩm để nhập.');
+				return;
+			}
+
+			var confirmMsg = (dtCrawlerData.i18n.confirm_import || 'Bạn có chắc chắn muốn nhập các sản phẩm đã chọn?') + ' (' + selectedIds.length + ' sản phẩm)';
+			if (isExtracting) {
+				confirmMsg = 'Tiến trình cào dữ liệu đang chạy. Bạn có muốn dừng cào và tiến hành nhập ngay ' + selectedIds.length + ' sản phẩm đã chọn vào website không?';
+			}
+
+			if (!confirm(confirmMsg)) {
+				return;
+			}
+
+			startImportExecution(selectedIds);
+		});
+
 		// Nút Tạm dừng
 		$('#dt-control-pause-btn').on('click', function (e) {
 			e.preventDefault();
@@ -690,9 +731,10 @@
 					'⏸️ ' + dtCrawlerData.i18n.paused + ' tại sản phẩm ' + importedCount + '/' + totalToImport + '. Nhấn "Tiếp tục làm tiếp" để chạy tiếp.'
 				);
 			} else if (isExtracting) {
+				$('#dt-control-import-top-btn').show().prop('disabled', false).removeClass('updating-message');
 				updateProgress(
 					Math.min(95, Math.round(25 + (stats.processed / stats.found) * 70)),
-					'⏸️ ' + dtCrawlerData.i18n.paused + ' bóc tách (' + stats.processed + '/' + stats.found + '). Nhấn "Tiếp tục làm tiếp" để chạy tiếp.'
+					'⏸️ ' + dtCrawlerData.i18n.paused + ' bóc tách (' + stats.processed + '/' + stats.found + '). Nhấn "Tiếp tục làm tiếp" để chạy tiếp, hoặc bấm "Nhập vào website ngay" để nhập ngay.'
 				);
 			}
 		});
@@ -815,6 +857,7 @@
 					);
 					$('#dt-progress-controls').hide();
 					$('#dt-start-import-btn').prop('disabled', false).removeClass('updating-message');
+					$('#dt-control-import-top-btn').prop('disabled', false).removeClass('updating-message');
 					$('#dt-crawler-scan-btn').prop('disabled', false).removeClass('updating-message');
 					alert('Đã hủy tiến trình nhập thành công. ' + doneCount + ' sản phẩm đã nhập trước đó vẫn được lưu giữ nguyên vẹn trên website.');
 				}
@@ -923,6 +966,7 @@
 
 			if (sessionStats.pending > 0) {
 				$('#dt-progress-controls').show();
+				$('#dt-control-import-top-btn').show().prop('disabled', false).removeClass('updating-message');
 				$('#dt-control-pause-btn').hide();
 				$('#dt-control-resume-btn').show().html('<span class="dashicons dashicons-controls-play"></span> Tiếp tục nhập ' + sessionStats.pending + ' sản phẩm còn lại');
 				$('#dt-control-skip-btn').hide();

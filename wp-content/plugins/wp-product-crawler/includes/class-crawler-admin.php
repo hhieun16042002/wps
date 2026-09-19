@@ -715,6 +715,9 @@ class WP_Crawler_Admin {
 
 				<!-- CỤM NÚT ĐIỀU KHIỂN TIẾN TRÌNH (PROCESS CONTROLS) -->
 				<div class="dt-progress-controls-toolbar" id="dt-progress-controls" style="display:none;">
+					<button type="button" id="dt-control-import-top-btn" class="button button-primary dt-btn-import">
+						<span class="dashicons dashicons-database-import"></span> <?php esc_html_e( 'Nhập vào website ngay', 'wp-product-crawler' ); ?>
+					</button>
 					<button type="button" id="dt-control-pause-btn" class="button dt-btn-pause">
 						<span class="dashicons dashicons-controls-pause"></span> <?php esc_html_e( 'Tạm dừng', 'wp-product-crawler' ); ?>
 					</button>

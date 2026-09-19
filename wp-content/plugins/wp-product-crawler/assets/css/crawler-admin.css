@@ -712,6 +712,26 @@
 	line-height: 18px;
 }
 
+.dt-btn-import {
+	background: #2271b1 !important;
+	border-color: #135e96 !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+	box-shadow: 0 1px 3px rgba(34, 113, 177, 0.3) !important;
+}
+
+.dt-btn-import:hover {
+	background: #135e96 !important;
+	border-color: #0a4b78 !important;
+	color: #fff !important;
+}
+
+.dt-btn-import:disabled,
+.dt-btn-import.updating-message {
+	opacity: 0.6 !important;
+	cursor: not-allowed !important;
+}
+
 .dt-btn-pause {
 	background: #f0b849 !important;
 	border-color: #dba617 !important;
