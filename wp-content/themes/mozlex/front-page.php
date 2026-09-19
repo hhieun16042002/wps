@@ -207,7 +207,6 @@ $hero_slides_q = new WP_Query( array(
 	<?php if ( $hero_slides_q->post_count > 1 ) : ?>
 	<button type="button" class="hero-nav hero-prev" aria-label="<?php esc_attr_e( 'Slide trước', 'mozlex' ); ?>">&#8249;</button>
 	<button type="button" class="hero-nav hero-next" aria-label="<?php esc_attr_e( 'Slide sau', 'mozlex' ); ?>">&#8250;</button>
-	<button type="button" class="hero-pause" data-hero-pause aria-pressed="false">Tạm dừng trình chiếu</button>
 	<div class="hero-dots" role="group" aria-label="<?php esc_attr_e( 'Chọn slide', 'mozlex' ); ?>">
 		<?php for ( $d = 0; $d < $hero_slides_q->post_count; $d++ ) : ?>
 			<button type="button" class="hero-dot<?php echo 0 === $d ? ' is-active' : ''; ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Slide %d', 'mozlex' ), $d + 1 ) ); ?>" aria-pressed="<?php echo 0 === $d ? 'true' : 'false'; ?>" data-slide="<?php echo esc_attr( (string) $d ); ?>"></button>
