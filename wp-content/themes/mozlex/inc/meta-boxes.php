@@ -223,15 +223,76 @@ add_action( 'save_post_hero_slide', function ( $post_id ) {
 } );
 
 /**
- * Chỉ số tiền hỗ trợ admin column.
+ * Quản lý cột hiển thị trong danh sách sản phẩm (wp-admin/edit.php?post_type=product).
  */
 add_filter( 'manage_product_posts_columns', function ( $cols ) {
-	$cols['model'] = __( 'Model', 'mozlex' );
-	$cols['price'] = __( 'Giá', 'mozlex' );
-	return $cols;
+	$new_cols = array();
+	foreach ( $cols as $key => $label ) {
+		$new_cols[ $key ] = $label;
+		// Thêm cột Ảnh nhỏ ngay sau checkbox 'cb' (hoặc ngay trước 'title')
+		if ( 'cb' === $key ) {
+			$new_cols['thumb'] = '<span class="dashicons dashicons-format-image" title="' . esc_attr__( 'Ảnh sản phẩm', 'mozlex' ) . '" style="font-size:17px; vertical-align:middle;"></span>';
+		}
+	}
+	if ( ! isset( $new_cols['thumb'] ) ) {
+		$new_cols = array_merge(
+			array( 'thumb' => '<span class="dashicons dashicons-format-image" title="' . esc_attr__( 'Ảnh sản phẩm', 'mozlex' ) . '" style="font-size:17px; vertical-align:middle;"></span>' ),
+			$new_cols
+		);
+	}
+	$new_cols['model'] = __( 'Model', 'mozlex' );
+	$new_cols['price'] = __( 'Giá', 'mozlex' );
+	return $new_cols;
 }, 5 );
 
 add_action( 'manage_product_posts_custom_column', function ( $col, $post_id ) {
+	if ( 'thumb' === $col ) {
+		$img_url   = '';
+		$large_url = '';
+
+		if ( has_post_thumbnail( $post_id ) ) {
+			$thumb_id  = get_post_thumbnail_id( $post_id );
+			$img_url   = wp_get_attachment_image_url( $thumb_id, 'thumbnail' );
+			$large_url = wp_get_attachment_image_url( $thumb_id, 'medium' ) ?: $img_url;
+		} else {
+			// Thử lấy từ gallery nếu không có featured image
+			$gallery = get_post_meta( $post_id, 'mozlex_gallery', true ) ?: get_post_meta( $post_id, '_product_image_gallery', true );
+			if ( ! empty( $gallery ) ) {
+				$ids = array_filter( array_map( 'absint', explode( ',', (string) $gallery ) ) );
+				if ( ! empty( $ids ) ) {
+					$first_id  = reset( $ids );
+					$img_url   = wp_get_attachment_image_url( $first_id, 'thumbnail' );
+					$large_url = wp_get_attachment_image_url( $first_id, 'medium' ) ?: $img_url;
+				}
+			}
+		}
+
+		$edit_link = get_edit_post_link( $post_id ) ?: admin_url( 'post.php?post=' . $post_id . '&action=edit' );
+		$title     = get_the_title( $post_id );
+
+		if ( ! empty( $img_url ) ) {
+			printf(
+				'<div class="mozlex-admin-thumb-wrap">' .
+				'<a href="%s" class="mozlex-admin-thumb-link" data-preview-img="%s" data-preview-title="%s" title="%s">' .
+				'<img src="%s" alt="" class="mozlex-admin-thumb-img" />' .
+				'</a>' .
+				'</div>',
+				esc_url( $edit_link ),
+				esc_url( $large_url ),
+				esc_attr( $title ),
+				esc_attr__( 'Nhấp để chỉnh sửa sản phẩm, rê chuột để xem ảnh lớn', 'mozlex' ),
+				esc_url( $img_url )
+			);
+		} else {
+			printf(
+				'<div class="mozlex-admin-thumb-empty" title="%s">' .
+				'<span class="dashicons dashicons-format-image"></span>' .
+				'</div>',
+				esc_attr__( 'Chưa có ảnh đại diện', 'mozlex' )
+			);
+		}
+	}
+
 	if ( 'model' === $col ) {
 		echo esc_html( get_post_meta( $post_id, 'mozlex_model', true ) ?: '—' );
 	}
@@ -239,3 +300,162 @@ add_action( 'manage_product_posts_custom_column', function ( $col, $post_id ) {
 		echo esc_html( mozlex_price_text( $post_id ) ?: '—' );
 	}
 }, 10, 2 );
+
+/**
+ * Thêm style và hover preview cho ảnh sản phẩm trong trang quản trị edit.php?post_type=product.
+ */
+add_action( 'admin_head-edit.php', function () {
+	global $post_type;
+	if ( 'product' !== $post_type ) {
+		return;
+	}
+	?>
+	<style>
+		.wp-list-table .column-thumb,
+		.fixed .column-thumb {
+			width: 52px;
+			text-align: center;
+			vertical-align: middle;
+			padding: 8px 4px !important;
+		}
+		@media screen and (max-width: 782px) {
+			.wp-list-table .column-thumb {
+				display: table-cell !important;
+				width: 48px;
+			}
+		}
+		.mozlex-admin-thumb-wrap {
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+		}
+		.mozlex-admin-thumb-link {
+			display: block;
+			width: 40px;
+			height: 40px;
+			border-radius: 6px;
+			overflow: hidden;
+			border: 1px solid #ccd0d4;
+			background: #f6f7f7;
+			box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+			transition: all 0.2s ease;
+		}
+		.mozlex-admin-thumb-link:hover {
+			border-color: #2271b1;
+			box-shadow: 0 2px 8px rgba(34,113,177,0.25);
+			transform: scale(1.08);
+		}
+		.mozlex-admin-thumb-img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+		.mozlex-admin-thumb-empty {
+			width: 40px;
+			height: 40px;
+			border-radius: 6px;
+			border: 1px dashed #dcdcde;
+			background: #f6f7f7;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			color: #a7aaad;
+			vertical-align: middle;
+		}
+		.mozlex-admin-thumb-empty .dashicons {
+			font-size: 18px;
+			width: 18px;
+			height: 18px;
+			line-height: 1;
+		}
+		/* Floating Preview Card */
+		#mozlex-img-hover-preview {
+			position: fixed;
+			z-index: 999999;
+			display: none;
+			pointer-events: none;
+			background: #ffffff;
+			border-radius: 8px;
+			padding: 8px;
+			border: 1px solid #c3c4c7;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+			max-width: 240px;
+			text-align: center;
+			animation: mozlexPreviewFadeIn 0.15s ease-out;
+		}
+		@keyframes mozlexPreviewFadeIn {
+			from { opacity: 0; transform: scale(0.95); }
+			to { opacity: 1; transform: scale(1); }
+		}
+		#mozlex-img-hover-preview img {
+			max-width: 220px;
+			max-height: 220px;
+			border-radius: 6px;
+			object-fit: contain;
+			display: block;
+			margin: 0 auto;
+			background: #f9f9f9;
+		}
+		#mozlex-img-hover-preview .mozlex-preview-title {
+			font-size: 12px;
+			font-weight: 600;
+			color: #1d2327;
+			margin-top: 6px;
+			line-height: 1.35;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+	</style>
+	<script>
+		jQuery(document).ready(function ($) {
+			var $preview = $('<div id="mozlex-img-hover-preview"><img src="" alt="" /><div class="mozlex-preview-title"></div></div>').appendTo('body');
+			var $previewImg = $preview.find('img');
+			var $previewTitle = $preview.find('.mozlex-preview-title');
+
+			$(document).on('mouseenter', '.mozlex-admin-thumb-link', function (e) {
+				var largeImg = $(this).data('preview-img');
+				var title = $(this).data('preview-title') || '';
+				if (!largeImg) return;
+
+				$previewImg.attr('src', largeImg);
+				$previewTitle.text(title);
+				$preview.stop(true, true).fadeIn(100);
+				updatePreviewPos(e);
+			});
+
+			$(document).on('mousemove', '.mozlex-admin-thumb-link', function (e) {
+				updatePreviewPos(e);
+			});
+
+			$(document).on('mouseleave', '.mozlex-admin-thumb-link', function () {
+				$preview.stop(true, true).fadeOut(100);
+			});
+
+			function updatePreviewPos(e) {
+				var offset = 18;
+				var x = e.clientX + offset;
+				var y = e.clientY - 40;
+				var winW = $(window).width();
+				var winH = $(window).height();
+				var prevW = 250;
+				var prevH = 260;
+
+				if (x + prevW > winW) {
+					x = e.clientX - prevW - offset;
+				}
+				if (y + prevH > winH) {
+					y = winH - prevH - 10;
+				}
+				if (y < 10) {
+					y = 10;
+				}
+
+				$preview.css({ left: x + 'px', top: y + 'px' });
+			}
+		});
+	</script>
+	<?php
+} );

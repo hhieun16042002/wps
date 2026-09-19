@@ -1,0 +1,792 @@
+/**
+ * Stylesheet cho WP Product Crawler & Importer
+ */
+
+.dt-crawler-wrap {
+	max-width: 1200px;
+	margin: 20px 20px 40px 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.dt-crawler-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dcdcde;
+	padding-bottom: 15px;
+}
+
+.dt-crawler-header h1 {
+	margin: 0 0 5px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.dt-crawler-header-actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dt-crawler-header-actions .button {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	gap: 6px !important;
+	height: 36px !important;
+	line-height: 34px !important;
+	padding: 0 14px !important;
+	font-size: 13px !important;
+	font-weight: 500 !important;
+	white-space: nowrap !important;
+	vertical-align: middle !important;
+	box-sizing: border-box !important;
+}
+
+.dt-crawler-header-actions .button .dashicons {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 18px !important;
+	height: 18px !important;
+	font-size: 18px !important;
+	line-height: 1 !important;
+	color: #50575e !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	vertical-align: middle !important;
+	position: relative !important;
+	top: -1px !important;
+	flex-shrink: 0 !important;
+}
+
+.dt-crawler-header-actions .button:hover .dashicons {
+	color: #1d2327 !important;
+}
+
+.dt-crawler-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Scanner Input */
+.dt-crawler-scanner-box {
+	background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+	border: 1px solid #c3c4c7;
+}
+
+.dt-crawler-field-row {
+	display: flex;
+	gap: 12px;
+	margin: 10px 0 12px;
+}
+
+.dt-url-input {
+	flex: 1;
+	height: 46px;
+	font-size: 15px;
+	padding: 8px 14px;
+	border-radius: 6px;
+	border: 1px solid #8c8f94;
+}
+
+.dt-url-input:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.dt-crawler-field-row .button-hero {
+	height: 46px !important;
+	line-height: 44px !important;
+	padding: 0 24px !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	gap: 8px !important;
+	border-radius: 6px !important;
+	white-space: nowrap !important;
+	flex-shrink: 0 !important;
+	box-sizing: border-box !important;
+}
+
+.dt-crawler-field-row .button-hero .dashicons {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 20px !important;
+	height: 20px !important;
+	font-size: 20px !important;
+	line-height: 1 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	vertical-align: middle !important;
+	position: relative !important;
+	top: -1px !important;
+	flex-shrink: 0 !important;
+}
+
+/* Fix: Khi nút ở trạng thái đang cào / đang tải (updating-message / loading) */
+.dt-crawler-wrap .button.updating-message {
+	opacity: 0.85 !important;
+	cursor: wait !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	white-space: nowrap !important;
+}
+
+/* Ẩn icon dashicons tĩnh ban đầu khi đang load để không bị trùng 2 icon hoặc bị đẩy xuống dòng */
+.dt-crawler-wrap .button.updating-message .dashicons {
+	display: none !important;
+}
+
+/* Căn chỉnh spinner xoay :before chuẩn giữa */
+.dt-crawler-wrap .button.updating-message:before {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	line-height: 1 !important;
+	vertical-align: middle !important;
+	width: 18px !important;
+	height: 18px !important;
+	font-size: 18px !important;
+	margin: 0 6px 0 0 !important;
+	position: relative !important;
+	top: 0 !important;
+	flex-shrink: 0 !important;
+}
+
+.dt-crawler-wrap .button-hero.updating-message:before {
+	width: 20px !important;
+	height: 20px !important;
+	font-size: 20px !important;
+	margin: 0 8px 0 0 !important;
+}
+
+.dt-crawler-hints {
+	color: #646970;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.dt-pill {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 12px;
+	font-size: 11px;
+	font-weight: 600;
+	background: #e2e4e7;
+	color: #2c3338;
+}
+
+.dt-pill-info {
+	background: #cce5ff;
+	color: #004085;
+}
+
+.dt-detected-badge {
+	margin-top: 12px;
+	padding: 8px 12px;
+	background: #edf8ee;
+	border: 1px solid #bce2be;
+	border-radius: 6px;
+	color: #1e4620;
+	font-size: 13px;
+}
+
+/* Progress Bar */
+.dt-progress-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.dt-progress-header h3 {
+	margin: 0;
+	font-size: 16px;
+	color: #1d2327;
+}
+
+.dt-progress-badge {
+	font-size: 16px;
+	font-weight: 700;
+	color: #2271b1;
+}
+
+.dt-progress-bar-wrap {
+	height: 12px;
+	background: #f0f0f1;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.dt-progress-bar-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #2271b1, #72aee6);
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.dt-stats-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.dt-stat-item {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 12px 16px;
+	text-align: center;
+}
+
+.dt-stat-label {
+	display: block;
+	font-size: 12px;
+	color: #646970;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.dt-stat-value {
+	font-size: 24px;
+	font-weight: 700;
+	color: #1d2327;
+}
+
+.dt-val-error {
+	color: #d63638;
+}
+
+.dt-error-box {
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+	padding: 12px 16px;
+	border-radius: 0 6px 6px 0;
+	margin-top: 15px;
+}
+
+.dt-error-box h4 {
+	margin: 0 0 8px;
+	color: #d63638;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.dt-error-box h4 .dashicons {
+	color: #d63638;
+	font-size: 18px !important;
+	width: 18px !important;
+	height: 18px !important;
+	line-height: 1 !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin: 0 !important;
+	flex-shrink: 0 !important;
+}
+
+.dt-error-box ul {
+	margin: 0;
+	padding-left: 20px;
+	color: #2c3338;
+	font-size: 13px;
+}
+
+/* Preview Table */
+.dt-preview-topbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.dt-preview-topbar h2 {
+	margin: 0 0 4px;
+}
+
+.dt-preview-table th {
+	font-weight: 600;
+	background: #f6f7f7;
+}
+
+.dt-preview-table td {
+	vertical-align: middle;
+}
+
+.dt-thumb-img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 4px;
+	border: 1px solid #dcdcde;
+	background: #fff;
+	display: block;
+}
+
+.dt-thumb-placeholder {
+	width: 50px;
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #f0f0f1;
+	border-radius: 4px;
+	border: 1px solid #dcdcde;
+	box-sizing: border-box;
+}
+
+.dt-thumb-placeholder .dashicons {
+	font-size: 24px !important;
+	width: 24px !important;
+	height: 24px !important;
+	line-height: 1 !important;
+	color: #8c8f94 !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin: 0 !important;
+}
+
+.dt-status-badge {
+	display: inline-block;
+	padding: 3px 8px;
+	border-radius: 4px;
+	font-size: 11px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.dt-status-NEW {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+.dt-status-DUPLICATE {
+	background: #fff3cd;
+	color: #856404;
+	border: 1px solid #ffeeba;
+}
+
+.dt-status-UPDATED {
+	background: #cce5ff;
+	color: #004085;
+	border: 1px solid #b8daff;
+}
+
+.dt-status-ERROR {
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+.dt-status-completed {
+	background: #d4edda;
+	color: #155724;
+}
+
+.dt-status-failed {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.dt-status-importing, .dt-status-scanning {
+	background: #cce5ff;
+	color: #004085;
+}
+
+/* Import Controls */
+.dt-import-controls-card {
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	padding: 16px 20px;
+	margin-top: 20px;
+}
+
+.dt-import-options-grid {
+	display: flex;
+	gap: 20px;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.dt-control-col {
+	flex: 1;
+	min-width: 220px;
+}
+
+.dt-control-col label {
+	display: block;
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+
+.dt-control-col select {
+	height: 40px;
+}
+
+.dt-btn-col {
+	flex: 0 0 auto;
+}
+
+/* Modal */
+.dt-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100000;
+	backdrop-filter: blur(2px);
+}
+
+.dt-modal-content {
+	background: #fff;
+	border-radius: 8px;
+	width: 90%;
+	max-width: 600px;
+	max-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.dt-modal-large {
+	max-width: 800px;
+}
+
+.dt-modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 20px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.dt-modal-header h3 {
+	margin: 0;
+	font-size: 17px;
+}
+
+.dt-modal-close {
+	background: none;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	color: #646970;
+	line-height: 1;
+}
+
+.dt-modal-close:hover {
+	color: #d63638;
+}
+
+.dt-modal-body {
+	padding: 20px;
+	overflow-y: auto;
+	flex: 1;
+}
+
+.dt-modal-footer {
+	padding: 12px 20px;
+	border-top: 1px solid #dcdcde;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	background: #f6f7f7;
+}
+
+.dt-grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+}
+
+.dt-specs-box {
+	max-height: 160px;
+	overflow-y: auto;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 8px 12px;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.dt-spec-line {
+	padding: 4px 0;
+	border-bottom: 1px dashed #e2e4e7;
+}
+
+.dt-spec-line:last-child {
+	border-bottom: none;
+}
+
+/* Console Logs */
+.dt-logs-console {
+	background: #1e1e1e;
+	color: #d4d4d4;
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 14px;
+	border-radius: 4px;
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.dt-log-entry {
+	margin-bottom: 4px;
+	word-break: break-all;
+}
+
+.dt-log-INFO {
+	color: #9cdcfe;
+}
+
+.dt-log-WARN {
+	color: #ce9178;
+}
+
+.dt-log-ERROR {
+	color: #f14c4c;
+}
+
+.dt-status-SKIPPED,
+.dt-status-duplicate {
+	background: #f0f0f1;
+	color: #646970;
+	border: 1px solid #dcdcde;
+}
+
+.dt-status-CANCELLED,
+.dt-status-cancelled {
+	background: #fcf0f1;
+	color: #d63638;
+	border: 1px solid #f5c6cb;
+}
+
+.dt-status-IMPORTED,
+.dt-status-imported {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+/* ==========================================================================
+   Crash Recovery Banner
+   ========================================================================== */
+.dt-recovery-banner {
+	background: linear-gradient(135deg, #f0f7fc 0%, #e6f3fa 100%);
+	border: 1px solid #72aee6;
+	border-left: 5px solid #2271b1;
+	padding: 16px 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.dt-recovery-content {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+.dt-recovery-icon .dashicons {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+	color: #2271b1;
+}
+
+.dt-recovery-info {
+	flex: 1;
+	min-width: 250px;
+}
+
+.dt-recovery-title {
+	margin: 0 0 4px 0;
+	font-size: 15px;
+	color: #1d2327;
+	font-weight: 600;
+}
+
+.dt-recovery-desc {
+	margin: 0;
+	font-size: 13px;
+	color: #50575e;
+	line-height: 1.5;
+}
+
+.dt-recovery-desc strong {
+	color: #1d2327;
+}
+
+.dt-recovery-actions {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.dt-btn-restore {
+	height: 38px;
+	line-height: 36px;
+	font-weight: 600;
+	display: inline-flex !important;
+	align-items: center;
+	gap: 4px;
+}
+
+.dt-btn-discard {
+	height: 38px;
+	line-height: 36px;
+	display: inline-flex !important;
+	align-items: center;
+	gap: 4px;
+	color: #b32d2e !important;
+	border-color: #d63638 !important;
+}
+
+.dt-btn-discard:hover {
+	background: #fcf0f1 !important;
+}
+
+/* ==========================================================================
+   Process Controls Toolbar (Pause, Resume, Skip, Cancel)
+   ========================================================================== */
+.dt-progress-controls-toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	padding: 14px 16px;
+	margin-top: 15px;
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	flex-wrap: wrap;
+}
+
+.dt-progress-controls-toolbar .button {
+	display: inline-flex !important;
+	align-items: center;
+	gap: 5px;
+	height: 36px;
+	padding: 0 14px;
+	font-size: 13px;
+	font-weight: 500;
+	transition: all 0.15s ease;
+}
+
+.dt-progress-controls-toolbar .button .dashicons {
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.dt-btn-pause {
+	background: #f0b849 !important;
+	border-color: #dba617 !important;
+	color: #3c434a !important;
+}
+
+.dt-btn-pause:hover {
+	background: #dba617 !important;
+	color: #1d2327 !important;
+}
+
+.dt-btn-resume {
+	background: #00a32a !important;
+	border-color: #008a20 !important;
+	color: #fff !important;
+}
+
+.dt-btn-resume:hover {
+	background: #008a20 !important;
+}
+
+.dt-btn-skip {
+	background: #f6f7f7 !important;
+	border-color: #8c8f94 !important;
+	color: #2c3338 !important;
+}
+
+.dt-btn-skip:hover {
+	background: #e2e4e7 !important;
+	border-color: #50575e !important;
+}
+
+.dt-btn-cancel {
+	background: #fff !important;
+	border-color: #d63638 !important;
+	color: #d63638 !important;
+}
+
+.dt-btn-cancel:hover {
+	background: #d63638 !important;
+	color: #fff !important;
+}
+
+/* Nút xóa sản phẩm trong bảng Preview */
+.dt-delete-item-btn {
+	color: #b32d2e !important;
+	border-color: #dcdcde !important;
+	transition: all 0.2s ease !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 2px !important;
+}
+
+.dt-delete-item-btn:hover {
+	color: #fff !important;
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+}
+
+.dt-delete-item-btn .dashicons {
+	font-size: 14px !important;
+	width: 14px !important;
+	height: 14px !important;
+	line-height: 14px !important;
+	vertical-align: middle !important;
+}
+
+#dt-bulk-delete-btn {
+	color: #b32d2e !important;
+	border-color: #dcdcde !important;
+	transition: all 0.2s ease !important;
+}
+
+#dt-bulk-delete-btn:hover {
+	color: #fff !important;
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+}
