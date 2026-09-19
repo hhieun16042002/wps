@@ -890,11 +890,13 @@
 					var job = activeSessionData.job;
 					var sessionStats = activeSessionData.stats;
 
+					// Chỉ hiển thị banner khôi phục khi thực sự còn sản phẩm dở dang (pending > 0)
+					if (!sessionStats || sessionStats.pending <= 0) {
+						return;
+					}
+
 					var desc = 'Phát hiện phiên cào dữ liệu từ URL: <strong>' + escapeHtml(job.source_url) + '</strong> (Mã phiên: #' + job.id + ') chưa hoàn tất.<br>' +
-						'Tiến độ: Đã nhập <strong>' + sessionStats.imported + ' / ' + sessionStats.total + '</strong> sản phẩm lên website' +
-						(sessionStats.pending > 0
-							? ' • Còn lại <strong>' + sessionStats.pending + '</strong> sản phẩm chưa nhập.'
-							: ' • Toàn bộ sản phẩm đã được xử lý xong.');
+						'Tiến độ: Đã nhập <strong>' + sessionStats.imported + ' / ' + sessionStats.total + '</strong> sản phẩm lên website • Còn lại <strong>' + sessionStats.pending + '</strong> sản phẩm chưa nhập.';
 
 					$('#dt-recovery-desc').html(desc);
 					$('#dt-recovery-banner').slideDown();

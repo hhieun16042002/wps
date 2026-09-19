@@ -220,6 +220,12 @@ class WP_Crawler_Job_Manager {
 			}
 		}
 
+		// Nếu tất cả sản phẩm trong phiên đã được xử lý (pending == 0), tự động đánh dấu job hoàn tất và không báo dở dang
+		if ( 0 === $pending && $total > 0 ) {
+			$this->update_job( $job_id, array( 'status' => 'completed' ) );
+			return null;
+		}
+
 		return array(
 			'job'   => $job,
 			'stats' => array(

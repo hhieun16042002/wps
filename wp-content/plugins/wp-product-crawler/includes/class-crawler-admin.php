@@ -650,7 +650,7 @@ class WP_Crawler_Admin {
 						<p class="dt-recovery-desc" id="dt-recovery-desc"></p>
 					</div>
 					<div class="dt-recovery-actions">
-						<button type="button" id="dt-recovery-resume-btn" class="button button-primary button-hero dt-btn-restore">
+						<button type="button" id="dt-recovery-resume-btn" class="button button-primary dt-btn-restore">
 							<span class="dashicons dashicons-controls-play"></span> <?php esc_html_e( 'Khôi phục & Tiếp tục làm', 'wp-product-crawler' ); ?>
 						</button>
 						<button type="button" id="dt-recovery-discard-btn" class="button button-secondary dt-btn-discard">
