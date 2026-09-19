@@ -1,6 +1,2 @@
 /wp-includes/
 /wp-content/uploads/
-/wp-content/plugins/*
-!/wp-content/plugins/ductri-content-manager/
-!/wp-content/plugins/wp-product-crawler/
-!/.bangiao/
