@@ -1,4 +1,5 @@
 /wp-includes/
 /wp-content/uploads/
-/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/ductri-content-manager/
 /.bangiao/

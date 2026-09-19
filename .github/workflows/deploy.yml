@@ -34,3 +34,6 @@ jobs:
             wp-config-docker.php
             .bangiao/**
             .claude/**
+            .github/**
+            docker-compose*.yml
+            Dockerfile*
