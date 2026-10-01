@@ -1,0 +1,1946 @@
+window.PRODUCTS_DATA = [
+  {
+    "id": 1915,
+    "title": "Bình GS NS70L(12V-65Ah)",
+    "slug": "binh-gs-ns70l-12v-65ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">NS70L</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">65Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">260*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Honda: Honda:Accord 3.5, Pilot, RidgelineToyota:Fortuner dầu (trước 2017), Hilux 2.5 (trước 2016), FJ Cruiser, Prado, Rav4, Venza, Previa, Landcruiser Xăng (LC200), Landcruiser dầu (LC200, LC300)Isuzu:Trooper, D-Max (trước 2019), MU-X, Xe tải 1.9 tấn, Xe tải 1.4 tấn, Xe tải 5.5 tấn, NPK, NQL, QKR, FRRMitsubishi:Zinger, Grandis, Pajero Sport, Triton (trước 2015), Fuso FA 6.45 tấn, Fuso FA 6.7 tấnNissan:Murano, 370Z, Rogue, Navara (2015-2021)Ford:Escape 3.0Hino:300 Series, 500 Series, 700 Series</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1912\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:30:06"
+  },
+  {
+    "id": 1911,
+    "title": "Bình GS NS70(12V-65Ah)",
+    "slug": "binh-gs-ns70-12v-65ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">NS70</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">65Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">260*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Honda: Honda:InspireToyota:Hiace (xăng), Zace</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1908\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:58"
+  },
+  {
+    "id": 1907,
+    "title": "Bình GS NS60L(S)(12V-45Ah)",
+    "slug": "binh-gs-ns60ls-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">NS60L(S)</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">45Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">238*129*203</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Toyota: Toyota:Corolla Altis (từ 2007 tới trước 2022), Vios, Yaris, Innova (trước 2016)Mazda:Mazda 2 (trước 2015)KIA:Soluto MTSuzuki:Grand VitaraDongben:X30, T30, K9, Q20, SRM 930kg, 868</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1908\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:50"
+  },
+  {
+    "id": 1903,
+    "title": "Bình GS NS60L(12V-45Ah)",
+    "slug": "binh-gs-ns60l-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">NS60L</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">45Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">238*129*203</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Toyota: Toyota:Corolla Altis (trước 2007)Mitsubishi:X-Pander, XforceNissan:Sunny, Grand Livina, TiidaSuzuki:Carry Pro, Carry truck, Windows Van, Wagon, Blind Van, Swift, Ciaz, Jimny, Vitara, APV, Celerio</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1908\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:42"
+  },
+  {
+    "id": 1899,
+    "title": "Bình GS NS60(12V-45Ah)",
+    "slug": "binh-gs-ns60-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">NS60</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">45Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">238*129*203</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Honda: Honda:Integra</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1908\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:34"
+  },
+  {
+    "id": 1895,
+    "title": "Bình GS N70(12V-70Ah)",
+    "slug": "binh-gs-n70-12v-70ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N70</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">70Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">306*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Honda: Honda:InspireToyota:Hiace (xăng), Zace, Landcruiser dầu (LC200, LC300)Xe tải:Isuzu, Hino</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1892\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:26"
+  },
+  {
+    "id": 1891,
+    "title": "Bình GS N50L(12V-50Ah)",
+    "slug": "binh-gs-n50l-12v-50ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N50L</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">50Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">260*173*204</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1900\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:18"
+  },
+  {
+    "id": 1887,
+    "title": "Bình GS N50(12V-50Ah)",
+    "slug": "binh-gs-n50-12v-50ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N50</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">50Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">260*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Mitsubishi: Mitsubishi:Pajero, ZingerMazda:BT-50</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1908\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns70a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:09"
+  },
+  {
+    "id": 1883,
+    "title": "Bình GS N220(12V-220Ah)",
+    "slug": "binh-gs-n220-12v-220ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N220</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">220AH</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">521*278*220</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Hyundai:Aero Space, Aero Express, Aero Hi-Class, Hyundai UniverseMercedes Benz:Bus Euro II City StarThaco:Bus 39 &#8211; 50 chỗKamaz:Xe tải 10 TấnGMC:8 Tấn, 11 TấnTàu thuyền</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1880\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n220a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:29:01"
+  },
+  {
+    "id": 1879,
+    "title": "Bình GS N200(12V-200Ah)",
+    "slug": "binh-gs-n200-12v-200ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N200</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">200Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">521*278*220</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Hyundai:Aero Space, Aero Express, Aero Hi-Class, Hyundai UniverseMercedes Benz:Bus Euro II City StarThaco:Bus 39 &#8211; 50 chỗKamaz:Xe tải 10 TấnGMC:8 Tấn, 11 TấnTàu thuyền</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1876\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n200a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:54"
+  },
+  {
+    "id": 1875,
+    "title": "Bình GS N150(12V-150Ah)",
+    "slug": "binh-gs-n150-12v-150ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N150</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">150Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">508*222*213</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Hyundai:HD700 (7 tấn), HD250 (14 tấn), HD270 (15 tấn), Trago (25 tấn), HD260 (15 tấn), HD310 (17 tấn), HD 370 (24 tấn), HD320 (19 tấn), Aero Town, Đầu kéo Hyundai H1000Isuzu:Xe tải 8.8 tấn, Xe tải 9.1 tấn, Xe tải 15 tấnThaco:Thaco Dumptruck, Đầu kéo Thaco AumanHowo:371 HP, 336 HP, A7 375HPIFA:W50, L60FAW:JH6 370HP, J6L 7T2, J6L 7T8Dongfeng:YC180, B170, B190, C260, L315, YC315Xe bus 39 &#8211; 50 chỗ:Samco, Transinco, Daewoo, Mercedes Benz MB 800</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1872\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n150a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:46"
+  },
+  {
+    "id": 1871,
+    "title": "Bình GS N120(12V-120Ah)",
+    "slug": "binh-gs-n120-12v-120ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N120</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">120Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">505*182*213</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Hyundai:HD120 (5 tấn), HD170 (8 tấn), Aero TownVinaxuki:Xe tải 3.5 Tấn, Xe tải 6.5 TấnTMT:Ben 2.4 tấn, Ben 3.5 tấn, Ben 4.5 tấn, Ben 5 tấn, Ben 7 tấn, Ben 8 tấnDongfeng:YC180, B170, B190, C260, L315, YC315</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1868\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n120a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:39"
+  },
+  {
+    "id": 1867,
+    "title": "Bình GS N100(12V-100Ah)",
+    "slug": "binh-gs-n100-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">N100</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">100Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">410*176*213</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Hyundai:CountyKIA:Frontier K-series, Bongo 3Thaco:Thaco 1.4 tấn, Thaco Towner, Thaco OllinVinaxuki:Xe tải 1.21 tấn, Xe tải 3.49 tấnTMT:Xe tải 1 tấn, Xe tải 1.25 tấn, Xe tải 2.5 tấn, KM3820T, Daisaki 1.2 tấn, Daisaki 2.5 tấnForcia:Xe tải 1 tấn, Xe tải 1.25 tấn, Xe tải 5 tấnJAC:HFC 1061K(3.5 tấn)Daewoo:HC6AA 8.8 tấn, 15 tấn, 17 tấn</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1864\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/n100a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:32"
+  },
+  {
+    "id": 1863,
+    "title": "Bình GS L30(12V-30Ah)",
+    "slug": "binh-gs-l30-12v-30ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2.png",
+    "images": [],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">L30</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">30Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">260*95*180</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Nhu cầu dân dụng: Thắp sáng, quạt điện, chạy máy oxy,…</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n",
+    "date": "2026-09-23T08:28:25"
+  },
+  {
+    "id": 1859,
+    "title": "Bình GS L100(12V-100Ah)",
+    "slug": "binh-gs-l100-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2.png",
+    "images": [],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">L100</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">100Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">410*176*213</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Nhu cầu dân dụng: Thắp sáng, quạt điện, chạy máy oxy,…</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n",
+    "date": "2026-09-23T08:28:17"
+  },
+  {
+    "id": 1855,
+    "title": "Bình GS 55D23L(12V-60Ah)",
+    "slug": "binh-gs-55d23l-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">55D23L</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">60Ah</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">232*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Honda: Honda:OdysseyToyota:Camry (2.0E, 2.4G, 2.5Q trước 2019), Fortuner xăng (trước 2017)Hyundai:Veloster, Creta, I20, I30 CW, Verna, Azera, Avante, Getz, Tucson (xăng trước 2015)KIA:Rio, Ray, Forte, Forte Koup, Carens (trước 2023), Sportage (trước 2016), SpectraMitsubishi:Outlander, Lancer, Mirage, AttrageNissan:Teana, Juke, Almera, X-TrailFord:Laser, Escape 2.3, TelstarSubaru:Forester, XV 2.0CVT, WRX 2.0CVT, Levorg 1.6CVT, Crosstrek</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1900\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/ns60la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:09"
+  },
+  {
+    "id": 1851,
+    "title": "Bình GS 100D31R(12V-85Ah)",
+    "slug": "binh-gs-100d31r-12v-85ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "<h3 style=\"font-size: 16px; margin-bottom: 12px; font-weight: 600;\">Thông số kỹ thuật</h3>\n<table class=\"woocommerce-product-attributes shop_attributes\" style=\"width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden;\">\n<tbody>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Model sản phẩm</th>\n<td style=\"padding: 10px 14px;\">100D31R</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Điện áp</th>\n<td style=\"padding: 10px 14px;\">12V</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Dung lượng</th>\n<td style=\"padding: 10px 14px;\">85AH</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Kích thước (Dài x Rộng x Cao)</th>\n<td style=\"padding: 10px 14px;\">306*173*204</td>\n</tr>\n<tr style=\"border-bottom: 1px solid #e2e8f0;\">\n<th style=\"text-align: left; padding: 10px 14px; background-color: #f8fafc; font-weight: 600; width: 35%;\">Sử dụng cho</th>\n<td style=\"padding: 10px 14px;\">Hyundai: Porter II (1.5 tấn), HD (dưới 5 tấn), CountyBus 29 chỗ: Thaco, Transinco, Samco, Daewoo</td>\n</tr>\n</tbody>\n</table>\n<div class=\"product-detail-description\" style=\"margin-top: 15px; line-height: 1.6;\">\n<p>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1848\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/100d31ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T08:28:01"
+  },
+  {
+    "id": 1835,
+    "title": "Bình GS MF 115D33C (12V-100Ah)",
+    "slug": "binh-gs-mf-115d33c-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 115D33C</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 115D33C</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>100Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>330*171*215</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>KIA:</strong> Frontier K-series, Bongo 3<br><strong>Thaco:</strong> Thaco 1.4 tấn, Thaco Towner, Thaco Ollin<br><strong>Vinaxuki:</strong> Xe tải 1.21 tấn, Xe tải 3.49 tấn<br><strong>TMT:</strong> Xe tải 1 tấn, Xe tải 1.25 tấn, Xe tải 2.5 tấn, KM3820T, Daisaki 1.2 tấn, Daisaki 2.5 tấn<br><strong>Forcia:</strong> Xe tải 1 tấn, Xe tải 1.25 tấn, Xe tải 5 tấn<br><strong>JAC:</strong> HFC 1061K(3.5 tấn)<br><strong>Daewoo:</strong> HC6AA 8.8 tấn, 15 tấn, 17 tấn</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-1024x1024.png\" alt=\"\" class=\"wp-image-1836\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/115d33ca.png 1500w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:49:50"
+  },
+  {
+    "id": 1830,
+    "title": "Bình GS MF 115D33V (12V-100Ah)",
+    "slug": "binh-gs-mf-115d33v-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 115D33V</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 115D33V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>100Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>330*171*215</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Các dòng đầu kéo nhập khẩu Mỹ</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1831\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/115d33va-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:48:25"
+  },
+  {
+    "id": 1825,
+    "title": "Bình GS MF DIN100L (12V-100Ah)",
+    "slug": "binh-gs-mf-din100l-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN100L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN100L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>100Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>350*175*190</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Hyundai:</strong> Santafe (Dầu từ 2017), Solati (16 chỗ), Palisade<br><strong>Ford:</strong> Transit (từ 2024)<br><strong>Mercedes:</strong> R Class, V Class, S Class, G Class, CLS, GLE, GLS<br><strong>BMW:</strong> 3 Series, 5 Series, 640i, 7 Series, M3, M5, X3, X4, X5, X6, X7, X8<br><strong>Audi:</strong> A4, A5, A6, A7, A8, Q5 3.0, Q5 3.2, Q7, Q8<br><strong>Volkswagen:</strong> Touareg<br><strong>Vinfast:</strong> President<br><strong>Lincoln:</strong> Navigator, Aviator, Continental<br><strong>Jeep:</strong> Gladiator, Grand Cherokee<br><strong>Các dòng xe nhập khẩu khác:</strong> ROLLS-ROYCE, BENTLEY, JAGUAR, LAND ROVER, PORSCHE</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1826\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din100la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:47:03"
+  },
+  {
+    "id": 1820,
+    "title": "Bình GS MF 105D31R (12V-90Ah)",
+    "slug": "binh-gs-mf-105d31r-12v-90ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 105D31R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 105D31R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>90Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hiace (máy dầu)<br><strong>Mitsubishi:</strong> Pajero, Triton (máy dầu trước 2014), Canter 1.9 tấn, Canter 3.5 tấn, Canter 4.5 tấn<br><strong>Chevrolet:</strong> Captiva (máy dầu)<br><strong>Hyundai:</strong> Tucson (Dầu trước 2018), Starex (dầu), Veracruz, Galloper, County, Porter II (1.5 tấn), HD (dưới 5 tấn), County (Bus 29 chỗ)<br><strong>Ford:</strong> Everest (trước 2016), Ranger 2.5 (trước 2011)<br><strong>Infiniti:</strong> QX80<br><strong>Ssangyong:</strong> Stavic, Korando, Rexton II, Musso, Actyon<br><strong>Xe Bus 29 chỗ:</strong> Thaco, Daewo, Transinco, Samco</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1821\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/105d31ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:45:46"
+  },
+  {
+    "id": 1815,
+    "title": "Bình GS MF 105D31L (12V-90Ah)",
+    "slug": "binh-gs-mf-105d31l-12v-90ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 105D31L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 105D31L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>90Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hilux 3.0 (trước 2016), Landcruiser Xăng (LC200), Sequoia (2024)<br><strong>Nissan:</strong> Terra (trước 2018), Navara (trước 2015), Patrol<br><strong>Mitsubishi:</strong> Pajero<br><strong>Hyundai:</strong> Tucson (Dầu từ 2018), Santafe (Dầu trước 2017)<br><strong>KIA:</strong> Sorento (dầu trước 2020), Sedona (Dầu), Pregio<br><strong>Lexus:</strong> GX460, GX470, GX570, LX470, LX570, LS400, LS460</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1816\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/105d31la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:44:33"
+  },
+  {
+    "id": 1810,
+    "title": "Bình GS MF DIN80L (12V-80Ah)",
+    "slug": "binh-gs-mf-din80l-12v-80ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN80L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN80L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>80Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>315*174*190</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hilux 2.4E, 2.4G (từ 2016), Hilux 2.8 (từ 2016), Landcruiser Xăng (LC300)<br><strong>Hyundai:</strong> Custin, Santafe (Dầu từ 2017)<br><strong>KIA:</strong> Sorento (dầu từ 2020), Carnival<br><strong>Mitsubishi:</strong> Triton (từ 2024)<br><strong>Nissan:</strong> Navara (từ 2022), Terra (từ 2018)<br><strong>Mazda:</strong> BT-50<br><strong>Ford:</strong> Everest (từ 2016), Ranger 2.0, Ranger 2.2, Ranger 3.2, Tourneo, F150<br><strong>Chevrolet:</strong> Trailblazer, Colorado<br><strong>Lexus:</strong> GX550, LX600<br><strong>BMW:</strong> 428i, X1, X2, Z4, Mini Clubman, Mini Countryman<br><strong>Mercedes:</strong> A Class, C Class, CLA, E Class, SLK, GLA, GLB, GLC, GLK, R Class, V Class<br><strong>Audi:</strong> Q5 2.0, TT<br><strong>Vinfast:</strong> LUX A, LUX SA<br><strong>Lincoln:</strong>MKT, Navigator, Aviator, Continental<br><strong>Cadillac:</strong> XT4, XT5, XT6, CT4, CT5, Lyriq, Celestiq, SRX4, STS, Escalade<br><strong>Jeep:</strong> Renegade, Wrangler</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1811\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din80la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:42:58"
+  },
+  {
+    "id": 1805,
+    "title": "Bình GS MF 95D31R (12V-80Ah)",
+    "slug": "binh-gs-mf-95d31r-12v-80ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 95D31R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 95D31R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>80Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hiace (máy dầu)<br><strong>Mitsubishi:</strong> Canter 1.9 tấn, Canter 3.5 tấn, Canter 4.5 tấn<br><strong>Hyundai:</strong> Porter II (1.5 tấn), HD (dưới 5 tấn), County (Bus 29 chỗ)<br><strong>Xe Bus 29 chỗ:</strong> Thaco, Daewo, Transinco, Samco</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1806\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/95d31ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:41:13"
+  },
+  {
+    "id": 1800,
+    "title": "Bình GS MF 95D31L (12V-80Ah)",
+    "slug": "binh-gs-mf-95d31l-12v-80ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 95D31L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 95D31L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>80Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hilux 3.0 (trước 2016), Landcruiser Xăng (LC200)<br><strong>Nissan:</strong> Terra (trước 2018)<br><strong>Mitsubishi:</strong> Triton (từ 2015)<br><strong>KIA:</strong> Sorento (dầu trước 2020)</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1801\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/95d31la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:39:46"
+  },
+  {
+    "id": 1795,
+    "title": "Bình GS MF 85D26R (12V-75Ah)",
+    "slug": "binh-gs-mf-85d26r-12v-75ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 85D26R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 85D26R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>75Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>260*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Inspire<br><strong>Toyota:</strong> Hiace (xăng), Zace, Landcruiser dầu (LC200, LC300)<br><strong>Lexus:v IS 200T, IS250C, IS 300h, GS200T, GS300, GS350<br>Ford: Explorer Subaru:Outback, Legacy</strong></p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Mô tả khác:</strong></h3>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</strong></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1796\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/85d26ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:38:16"
+  },
+  {
+    "id": 1790,
+    "title": "Bình GS MF 85D26L (12V-75Ah)",
+    "slug": "binh-gs-mf-85d26l-12v-75ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 85D26L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 85D26L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>75Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>260*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Accord 3.5, Pilot, Ridgeline<br><strong>Acura:</strong> RDX, MDX, ZDX, TSX, TL, RL<br><strong>Toyota:</strong> Camry (3.0, 3.5, LE), Fortuner dầu (trước 2017), Hilux 2.5 (trước 2016), FJ Cruiser, Prado, Rav4, Venza, Previa, Alphard, Crown, Sienna, Landcruiser Xăng (LC200), Landcruiser dầu (LC200, LC300)<br><strong>Lexus:</strong> ES250, ES350, RX200T, RX350, NX200T, NX 300, RC 200T, LS460L, LS600HL, RX400H, RX450H<br><strong>Isuzu:</strong> Trooper, D-Max (trước 2019), MU-X, Xe tải 1.9 tấn, Xe tải 1.4 tấn, Xe tải 5.5 tấn, NPK, NQL, QKR, FRR<br><strong>Hyundai:</strong> Santafe (Xăng trước 2018), Starex (xăng), Genesis<br><strong>KIA:</strong> K5 (Optima) trước 2016, Rondo, Sorento (xăng trước 2020), Sedona (xăng)<br><strong>Mitsubishi:</strong> Zinger, Grandis, Pajero Sport, Triton (trước 2015), Fuso FA 6.45 tấn, Fuso FA 6.7 tấn<br><strong>Nissan:</strong> Murano, 370Z, Rogue, X-Trail (Nhật Bản), Navara (2015-2021)<br><strong>Ford:</strong> Escape 3.0<br><strong>Hino:</strong> 300 Series, 500 Series, 700 Series</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1791\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/85d26la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:36:50"
+  },
+  {
+    "id": 1785,
+    "title": "Bình GS MF DIN70L-LBN (12V-70Ah)",
+    "slug": "binh-gs-mf-din70l-lbn-12v-70ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN70L-LBN</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN70L-LBN</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>70Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>277*175*175</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Fortuner máy dầu (từ 2017)<br><strong>Hyundai:</strong> Tucson 1.6 Turbo, Santafe (Xăng từ 2018)<br><strong>KIA:</strong> K5 (Optima) (từ 2016), Sorento (xăng từ 2020)<br><strong>Nissan:</strong> X-Trail (từ 2018)<br><strong>Ford:</strong> Transit (trước 2024), Territory, Mondeo (2.5), Focus (2015)<br><strong>Chevrolet:</strong> Cruze (2010-2015), Silverado<br><strong>Lexus:</strong> ES250, ES350, RX200T, RX350<br><strong>BMW:</strong> 218i, Mini Cooper S<br><strong>Audi:</strong> A1, A2, A3, Q2, Q3<br><strong>Volkswagen:</strong> Viloran, Teramont, T-Cross, Beetle, Tiguan (từ 2018)<br><strong>Peugeot:</strong> 2008, 3008, 5008, 408, 508, RCZ, Traveller</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1024x1024.png\" alt=\"\" class=\"wp-image-1786\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din70l-lbna-1920x-1.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:35:02"
+  },
+  {
+    "id": 1780,
+    "title": "Bình GS MF 80D26R (12V-70Ah)",
+    "slug": "binh-gs-mf-80d26r-12v-70ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 80D26R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 80D26R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>70Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>260*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Inspire<br><strong>Toyota:</strong> Hiace (xăng), Zace, Landcruiser dầu (LC200, LC300)<br><strong>Lexus:</strong> IS 200T, IS250C, IS 300h, GS200T, GS300, GS350<br><strong>Subaru:</strong> Outback, Legacy</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1781\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/80d26ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:33:12"
+  },
+  {
+    "id": 1775,
+    "title": "Bình GS MF 80D26L (12V-70Ah)",
+    "slug": "binh-gs-mf-80d26l-12v-70ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 80D26L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 80D26L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>70Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>260*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Accord 3.5, Pilot, Ridgeline<br><strong>Acura:</strong> RDX, MDX, ZDX, TSX, TL, RL<br><strong>Toyota:</strong> Camry (3.0, 3.5, LE), Fortuner dầu (trước 2017), Hilux 2.5 (trước 2016), FJ Cruiser, Prado, Rav4, Venza, Previa, Alphard, Crown, Sienna, Landcruiser Xăng (LC200), Landcruiser dầu (LC200, LC300)<br><strong>Lexus:</strong> ES250, ES350, RX200T, RX350, NX200T, NX 300, RC 200T, LS460L, LS600HL, RX400H, RX450H<br>I<strong>suzu:</strong> Trooper, D-Max (trước 2019), MU-X, Xe tải 1.9 tấn, Xe tải 1.4 tấn, Xe tải 5.5 tấn, NPK, NQL, QKR, FRR<br><strong>Hyundai:</strong> Santafe (Xăng trước 2018), Starex (xăng), Genesis<br><strong>KIA:</strong> K5 (Optima) trước 2016, Rondo, Sorento (xăng trước 2020), Sedona (xăng)<br><strong>Mitsubishi:</strong> Zinger, Grandis, Pajero Sport, Triton (trước 2015), Fuso FA 6.45 tấn, Fuso FA 6.7 tấn<br><strong>Nissan:</strong> Murano, 370Z, Rogue, X-Trail (Nhật Bản), Navara (2015-2021)<br><strong>Ford:</strong> Escape 3.0<br><strong>Hino</strong>: 300 Series, 500 Series, 700 Series</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1776\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/80d26la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:31:33"
+  },
+  {
+    "id": 1770,
+    "title": "Bình GS MF 75D23R (12V-65Ah)",
+    "slug": "binh-gs-mf-75d23r-12v-65ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 75D23R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 75D23R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>65Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>232*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitsubishi:</strong> Jolie<br><strong>Chevrolet:</strong> Lacetti CDX, Aveo, Vivant<br><strong>Isuzu:</strong> Hi &#8211; Lander<br><strong>Daihatsu:</strong> Hijet Jumbo</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1771\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/75d23ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:29:58"
+  },
+  {
+    "id": 1765,
+    "title": "Bình GS MF 75D23L (12V-65Ah)",
+    "slug": "binh-gs-mf-75d23l-12v-65ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 75D23L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 75D23L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>65Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>232*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Accord 2.4, Odyssey<br><strong>Toyota:</strong> Camry (2.0E, 2.4G, 2.5Q trước 2019), Fortuner xăng (trước 2017)<br><strong>Mazda:</strong> Mazda 2 (từ 2015),Mazda 3, Mazda 6, CX-3, CX-30, CX-5, CX-8, CX-9, Premacy, 323, 626, Familia, Biante, Lantis, Tribute2.3<br><strong>Hyundai:</strong> Veloster, Creta, I20, I30 CW, Verna, Azera, Avante, Getz, Tucson (xăng trước 2015)<br><strong>KIA:</strong> Rio, Ray, Forte, Forte Koup, Carens (trước 2023), Sportage (trước 2016), Spectra<br><strong>Mitsubishi:</strong> Outlander, Lancer, Mirage, Attrage<br><strong>Nissan:</strong> Teana, Juke, Almera, X-Trail (Đài Loan /Việt Nam)<br><strong>Ford:</strong> Laser, Escape 2.3, Telstar<br><strong>Subaru:</strong> Forester, XV 2.0CVT, WRX 2.0CVT, Levorg 1.6CVT, Crosstrek</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1766\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/75d23la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:28:22"
+  },
+  {
+    "id": 1760,
+    "title": "Bình GS MF Q85 (12V-65Ah)",
+    "slug": "binh-gs-mf-q85-12v-65ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: Q85</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>Q85</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>65Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>230*170*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mazda:</strong> Mazda 2, Mazda 3, Mazda 6,CX-3, CX-5, CX-8, CX-30</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1761\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/q-85a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:26:50"
+  },
+  {
+    "id": 1755,
+    "title": "Bình GS MF DIN60L-LBN (12V-60Ah)",
+    "slug": "binh-gs-mf-din60l-lbn-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN60L-LBN</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN60L-LBN</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>60Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>242*175*175</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> HR-V (từ 2022), Civic (từ 2022), Accord (từ 2022)<br><strong>Toyota:</strong> Innova G, Innova V, Innova Venturer (từ 2016), Camry 2.0, Camry 2.5Q (từ 2019), Fortuner xăng (từ 2017)<br><strong>Hyundai:</strong> Elantra (từ 2011), Sonata, Kona, Venue, Tucson (Xăng từ 2015)<br><strong>KIA:</strong> Cerato, Cerato Koup, K3, Seltos<br><strong>Nissan:</strong> Qashqai (Đài Loan), Kicks<br><strong>Ford:</strong> Fiesta, Focus (trước 2015), EcoSport, Mustang, Transit (trước 2024)<br><strong>Chevrolet:</strong> Captiva (từ 2015), Cruze (từ 2015), Trax, Orlando<br><strong>BMW:</strong> 116i, 128i, 135i, Mini Cooper<br><strong>Volkswagen:</strong> Polo, Virtus, Tiguan (trước 2018), Scirocco, Passat<br><strong>Peugeot:</strong> 208, 308<br><strong>MG:</strong> MG5, MG7, MG ZS, MG HS, MG RX5, MG G50<br><strong>Baic:</strong> Beijing X7, U5 Plus, Beijing X55</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1756\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din60l-lbna-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:25:06"
+  },
+  {
+    "id": 1750,
+    "title": "Bình GS MF DIN60R (12V-60Ah)",
+    "slug": "binh-gs-mf-din60r-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN60R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN60R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>60Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>242*175*190</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Chevrolet:</strong> Lacetti CDX, Aveo, Vivant, Captiva (trước 2015)</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1751\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din60ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:23:22"
+  },
+  {
+    "id": 1745,
+    "title": "Bình GS MF DIN60L (12V-60Ah)",
+    "slug": "binh-gs-mf-din60l-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN60L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN60L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>60Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>242*175*190</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> HR-V (từ 2022), Civic (từ 2022), Accord (từ 2022)<br><strong>Toyota:</strong> Innova G, Innova V, Innova Venturer (từ 2016), Camry 2.0, Camry 2.5Q (từ 2019), Fortuner xăng (từ 2017)<br><strong>Hyundai:</strong> Elantra (từ 2011), Sonata, Kona, Venue, Tucson (Xăng từ 2015)<br><strong>KIA:</strong> Cerato, Cerato Koup, K3, Seltos, Soluto AT, Carens (từ 2023), Sportage (từ 2016)<br><strong>Nissan:</strong> Qashqai (Đài Loan), Kicks<br><strong>Ford:</strong> Fiesta, Focus (trước 2015), EcoSport, Mustang<br><strong>Chevrolet:</strong> Captiva (từ 2015), Cruze (từ 2015), Trax, Orlando<br><strong>BMW:</strong> 116i, 128i, 135i, Mini Cooper<br><strong>Volkswagen:</strong> Polo, Virtus, Tiguan (trước 2018), Scirocco, Passat<br><strong>Peugeot:</strong> 208, 308<br><strong>MG:</strong> MG5, MG7, MG ZS, MG HS, MG RX5, MG G50<br><strong>Baic:</strong> Beijing X7, U5 Plus, Beijing X55</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1746\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din60la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:21:54"
+  },
+  {
+    "id": 1739,
+    "title": "Bình GS MF 55D23R (12V-60Ah)",
+    "slug": "binh-gs-mf-55d23r-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 55D23R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 55D23R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>60Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>232*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitsubishi:</strong> Jolie<br><strong>Chevrolet:</strong> Lacetti CDX, Aveo, Vivant<br><strong>Isuzu:</strong> Hi &#8211; Lander<br><strong>Daihatsu:</strong> Hijet Jumbo</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1741\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/155d23ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:20:31"
+  },
+  {
+    "id": 1734,
+    "title": "Bình GS MF 55D23L (12V-60Ah)",
+    "slug": "binh-gs-mf-55d23l-12v-60ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 55D23L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 55D23L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>60Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>232*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Accord 2.4, Odyssey<br><strong>Toyota:</strong> Camry (2.0E, 2.4G, 2.5Q trước 2019), Fortuner xăng (trước 2017)<br><strong>Hyundai:</strong> Veloster, Creta, I20, I30 CW, Verna, Azera, Avante, Getz, Tucson (xăng trước 2015)<br><strong>KIA:</strong> Rio, Ray, Forte, Forte Koup, Carens (trước 2023), Sportage (trước 2016), Spectra<br><strong>Mitsubishi:</strong> Outlander, Lancer, Mirage, Attrage<br><strong>Nissan:</strong> Teana, Juke, Almera, X-Trail (Đài Loan /Việt Nam)<br><strong>Ford:</strong> Laser, Escape 2.3, Telstar<br><strong>Subaru:</strong> Forester, XV 2.0CVT, WRX 2.0CVT, Levorg 1.6CVT, Crosstrek</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1735\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/55d23la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:18:23"
+  },
+  {
+    "id": 1729,
+    "title": "Bình GS MF 46B24L(S) (12V-45Ah)",
+    "slug": "binh-gs-mf-46b24ls-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 46B24L(S)</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 46B24L(S)</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>45Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>238*129*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Civic (trước 2022), CR-V, BR-V, HR-V (trước 2022), Passport, Accord 2.0<br><strong>Toyota:</strong> Corolla Altis (từ 2007 tới trước 2022), Vios, Yaris, Innova (trước 2016)<br><strong>Mazda:</strong> Mazda 2 (trước 2015)<br><strong>KIA:</strong> Soluto MT<br><strong>Suzuki:</strong> Grand Vitara<br><strong>Vinfast:</strong> Limo Green<br><strong>Dongben:</strong> X30, T30, K9, Q20, SRM 930kg, 868</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1730\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/46b24lsa-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:16:48"
+  },
+  {
+    "id": 1724,
+    "title": "Bình GS MF 46B24R (12V-45Ah)",
+    "slug": "binh-gs-mf-46b24r-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 46B24R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 46B24R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>45Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>238*129*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Honda:</strong> Integra<br><strong>Vinfast:</strong> VFe34, VF5, VF6, VF7,VF8,VF9</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1725\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/46b24ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:15:17"
+  },
+  {
+    "id": 1719,
+    "title": "Bình GS MF 46B24L (12V-45Ah)",
+    "slug": "binh-gs-mf-46b24l-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 46B24L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 46B24L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>45Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>238*129*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong>Corolla Altis (trước 2007)<br><strong>Honda:</strong> City<br><strong>Mitsubishi:</strong> X-Pander, Xforce<br><strong>Nissan:</strong> Sunny, Grand Livina, Tiida<br><strong>Suzuki:</strong> Carry Pro, Carry truck, Windows Van, Wagon, Blind Van, Swift, Ciaz, Jimny, Vitara, APV, Celerio</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1720\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/46b24la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:13:38"
+  },
+  {
+    "id": 1714,
+    "title": "Bình GS MF DIN45L-LBN (12V-45Ah)",
+    "slug": "binh-gs-mf-din45l-lbn-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN45L-LBN</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN45L-LBN</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>45Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>207*175*175</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Corolla Altis (từ 2022), Corolla Cross, Innova E (từ 2016)<br><strong>Hyundai:</strong> Accent, Stargazer, Loniq 5<br><strong>KIA:</strong> Sonet<br><strong>Chevrolet:</strong> Spark 1.0L<br><strong>Vinfast:</strong> Fadil</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1715\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din45l-lbna-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:11:57"
+  },
+  {
+    "id": 1709,
+    "title": "Bình GS MF DIN45L (12V-45Ah)",
+    "slug": "binh-gs-mf-din45l-12v-45ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF DIN45L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF DIN45L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>45Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>207*175*190</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Corolla Altis (từ 2022), Corolla Cross, Innova E (từ 2016)<br><strong>BYD:</strong> M6, Dolphin, Atto 3, Han</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1710\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/din45la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:09:28"
+  },
+  {
+    "id": 1704,
+    "title": "Bình GS MF 44B19L (12V-40Ah)",
+    "slug": "binh-gs-mf-44b19l-12v-40ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 44B19L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 44B19L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>40Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>187*127*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>KIA:</strong> Morning, Picanco<br><strong>Mitsubishi:</strong> X-Pander, Xforce<br><strong>Suzuki:</strong> Carry, Ertiga, XL7, Carry Pro, Carry truck, Windows Van, Wagon, Blind Van, Swift, Ciaz<br><strong>Honda:</strong> City, Jazz, Brio<br><strong>Toyota:</strong> Avanza, Raize, Wigo, Veloz Cross<br><strong>Hyundai:</strong> I10<br><strong>Chevrolet:</strong> Spark 0.8L</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1705\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/44b19la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:07:35"
+  },
+  {
+    "id": 1699,
+    "title": "Bình GS MF 40B19L(S) (12V-35Ah)",
+    "slug": "binh-gs-mf-40b19ls-12v-35ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 40B19L(S)</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 40B19L(S)</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>35Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>187*127*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Vios, Yaris<br><strong>Honda:</strong> City, Civic, Passport, CRV</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1700\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/40b19lsa-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:06:01"
+  },
+  {
+    "id": 1694,
+    "title": "Bình GS MF 40B19R (12V-35Ah)",
+    "slug": "binh-gs-mf-40b19r-12v-35ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 40B19R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 40B19R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>35Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>187*127*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Rush, Avanza<br><strong>Hyundai:</strong> Eon</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1695\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/40b19ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:04:27"
+  },
+  {
+    "id": 1689,
+    "title": "Bình GS MF 40B19L (12V-35Ah)",
+    "slug": "binh-gs-mf-40b19l-12v-35ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: MF 40B19L</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>MF 40B19L</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>35Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>187*127*203</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>KIA:</strong> Morning, Picanco<br><strong>Mitsubishi:</strong> X-Pander, Xforce<br><strong>Suzuki:</strong> Carry, Ertiga, XL7<br><strong>Honda:</strong> City, Jazz, Brio<br><strong>Toyota:</strong> Avanza, Raize, Wigo, Veloz Cross<br><strong>Hyundai:</strong> I10<br><strong>Chevrolet:</strong> Spark 0.8L</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1690\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/40b19la-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T07:02:18"
+  },
+  {
+    "id": 1684,
+    "title": "Bình GS HYBRID N100 (12V-100Ah)",
+    "slug": "binh-gs-hybrid-n100-12v-100ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: HYB N100</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>HYB N100</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>100Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>410*176*213</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>KIA:</strong> K2700, K3000<br><strong>Hyundai:</strong> County, Mighty, xe tải 1~5 tấn,…</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1685\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-n100a-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T06:59:25"
+  },
+  {
+    "id": 1679,
+    "title": "Bình GS HYBRID 105D31R (12V-90Ah)",
+    "slug": "binh-gs-hybrid-105d31r-12v-90ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: HYB 105D31R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>HYB 105D31R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>90Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hiace (máy dầu)<br><strong>Mitsubishi:</strong> Pajero, Triton (máy dầu trước 2014), Canter 1.9 tấn, Canter 3.5 tấn, Canter 4.5 tấn<br><strong>Chevrolet:</strong> Captiva (máy dầu)<br><strong>Hyundai:</strong> Tucson (Dầu trước 2018), Starex (dầu), Veracruz, Galloper, County, Porter II (1.5 tấn), HD (dưới 5 tấn), County (Bus 29 chỗ)<br><strong>Ford:</strong> Everest (trước 2016), Ranger 2.5 (trước 2011)<br><strong>Infiniti:</strong>QX80<br><strong>Ssangyong:</strong> Stavic, Korando, Rexton II, Musso, Actyon<br><strong>Xe Bus 29 chỗ:</strong> Thaco, Daewo, Transinco, Samco</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1680\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-105d31ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T06:57:42"
+  },
+  {
+    "id": 1674,
+    "title": "Bình GS HYBRID 95D31R (12V-80Ah)",
+    "slug": "binh-gs-hybrid-95d31r-12v-80ah",
+    "cat": "battery",
+    "catName": "Ắc quy GS chính hãng",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1024x1024.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1024x1024.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\">Mã sản phẩm: HYB 95D31R</p>\n\n\n\n<p class=\"wp-block-paragraph\">Model sản phẩm:<strong>HYB 95D31R</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Điện áp:<strong>12V</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dung lượng:<strong>80Ah</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Kích thước (Dài x Rộng x Cao):<strong>306*173*204</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sử dụng cho:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Toyota:</strong> Hiace (máy dầu)<br><strong>Mitsubishi:</strong> Canter 1.9 tấn, Canter 3.5 tấn, Canter 4.5 tấn<br><strong>Hyundai:</strong> Porter II (1.5 tấn), HD (dưới 5 tấn), County (Bus 29 chỗ)<br><strong>Xe Bus 29 chỗ:</strong> Thaco, Daewo, Transinco, Samco</p>\n\n\n\n<h3 class=\"wp-block-heading\">Mô tả khác:</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Ắc quy ô tô GS Việt Nam ứng dụng công nghệ Nhật Bản, cho khả năng khởi động mạnh mẽ, điện áp ổn định, độ bền cao, tuổi thọ dài, phù hợp nhiều dòng xe và điều kiện vận hành tại Việt Nam.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1024x1024.png\" alt=\"\" class=\"wp-image-1675\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1536x1536.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x-1400x1400.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/hybrid-95d31ra-1920x.png 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-23T06:55:21"
+  },
+  {
+    "id": 1608,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 6",
+    "slug": "cua-thep-1-canh-luxury-king-bac-6",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-300x225.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-300x225.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p><strong data-start=\"6043\" data-end=\"6067\">Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"6043\" data-end=\"6076\">\n<p data-start=\"6043\" data-end=\"6076\"><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1609 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-300x225.png\" alt=\"\" width=\"773\" height=\"580\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-300x225.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-768x576.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6-640x480.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-6-cb43ace6.png 800w\" sizes=\"auto, (max-width: 773px) 100vw, 773px\" /></p>\n",
+    "date": "2026-09-21T04:20:41"
+  },
+  {
+    "id": 1602,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 5",
+    "slug": "cua-thep-1-canh-luxury-king-bac-5",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-300x225.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-300x225.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/3-8-300x276.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p><strong>Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1603 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-300x225.png\" alt=\"\" width=\"749\" height=\"562\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-300x225.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-768x576.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0-640x480.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-5-3f50d3c0.png 800w\" sizes=\"auto, (max-width: 749px) 100vw, 749px\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1621 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/3-8-300x276.png\" alt=\"\" width=\"679\" height=\"625\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/3-8-300x276.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/3-8-1024x942.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/3-8-768x707.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/3-8-640x589.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/3-8-900x828.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/3-8.png 1080w\" sizes=\"auto, (max-width: 679px) 100vw, 679px\" /></p>\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "date": "2026-09-21T04:20:38"
+  },
+  {
+    "id": 1598,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 4",
+    "slug": "cua-thep-1-canh-luxury-king-bac-4",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-300x225.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-300x225.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p><strong>Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1599 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-300x225.png\" alt=\"\" width=\"799\" height=\"599\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-300x225.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-768x576.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3-640x480.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/cua-thep-1-canh-luxury-king-bac-4-443f37f3.png 800w\" sizes=\"auto, (max-width: 799px) 100vw, 799px\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "date": "2026-09-21T04:20:37"
+  },
+  {
+    "id": 1590,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 3",
+    "slug": "cua-thep-1-canh-luxury-king-bac-3",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-15.png",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-15.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/4-11-300x276.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p><strong>Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<p><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-15.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-full wp-image-3011\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-15.png\" alt=\"\" width=\"800\" height=\"600\" /></a></p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1617 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/4-11-300x276.png\" alt=\"\" width=\"646\" height=\"594\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/4-11-300x276.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/4-11-1024x942.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/4-11-768x707.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/4-11-640x589.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/4-11-900x828.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/4-11.png 1080w\" sizes=\"auto, (max-width: 646px) 100vw, 646px\" /></p>\n",
+    "date": "2026-09-21T04:20:34"
+  },
+  {
+    "id": 1581,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 2",
+    "slug": "cua-thep-1-canh-luxury-king-bac-2",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-13.png",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-13.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/2-13-300x276.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"6043\" data-end=\"6076\"><strong data-start=\"6043\" data-end=\"6067\">Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<ul data-start=\"6077\" data-end=\"6240\">\n<li data-section-id=\"1k6l1oj\" data-start=\"6077\" data-end=\"6127\">Tư vấn mẫu cửa phù hợp với kiến trúc công trình.</li>\n<li data-section-id=\"if1b78\" data-start=\"6128\" data-end=\"6163\">Thiết kế theo kích thước yêu cầu.</li>\n<li data-section-id=\"1djkp8v\" data-start=\"6164\" data-end=\"6195\">Báo giá trực tiếp từ nhà máy.</li>\n<li data-section-id=\"g9a82r\" data-start=\"6196\" data-end=\"6240\">Hỗ trợ khảo sát và lắp đặt trên toàn quốc.</li>\n</ul>\n<p><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-13.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-full wp-image-3005\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-tren-web-800-x-600-px-13.png\" alt=\"\" width=\"800\" height=\"600\" /></a></p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1616 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/2-13-300x276.png\" alt=\"\" width=\"672\" height=\"618\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/2-13-300x276.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/2-13-1024x942.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/2-13-768x707.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/2-13-640x589.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/2-13-900x828.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/2-13.png 1080w\" sizes=\"auto, (max-width: 672px) 100vw, 672px\" /></p>\n",
+    "date": "2026-09-21T04:20:32"
+  },
+  {
+    "id": 1570,
+    "title": "CỬA THÉP 1 CÁNH LUXURY KING BAC 1",
+    "slug": "cua-thep-1-canh-luxury-king-bac-1",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-dai-dien-1080-x-1080-px-2.png",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-dai-dien-1080-x-1080-px-2.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/5-6-300x276.png"
+    ],
+    "specs": [],
+    "content": "<p style=\"text-align: justify;\">Cửa thép vân gỗ 1 cánh King Bac luxury là sự kết hợp hoàn hảo giữa vẻ đẹp sang trọng của gỗ tự nhiên và độ bền vượt trội của thép mạ điện cao cấp. Thiết kế nổi bật với các họa tiết dập nổi tinh xảo, gam màu đen ánh đồng quyền quý cùng tay khóa mạ vàng tạo điểm nhấn đẳng cấp, phù hợp cho cửa chính nhà phố, cửa thông phòng hoặc cửa phụ.</p>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"1072\" data-end=\"1092\"><strong data-start=\"1072\" data-end=\"1092\">Ưu điểm nổi bật:</strong></p>\n<ul data-start=\"1093\" data-end=\"1450\" data-is-last-node=\"\" data-is-only-node=\"\">\n<li style=\"text-align: justify;\" data-section-id=\"1vy42pi\" data-start=\"1093\" data-end=\"1158\">Thiết kế 1 cánh sang trọng, phù hợp nhiều phong cách kiến trúc.</li>\n<li style=\"text-align: justify;\" data-section-id=\"abxao\" data-start=\"1159\" data-end=\"1205\">Thép mạ điện cao cấp, bền bỉ theo thời gian.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1kug55k\" data-start=\"1206\" data-end=\"1243\">Chống cong vênh, mối mọt và han gỉ.</li>\n<li style=\"text-align: justify;\" data-section-id=\"p20je7\" data-start=\"1244\" data-end=\"1284\">Sơn tĩnh điện vân gỗ sắc nét, bền màu.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1ankwm9\" data-start=\"1285\" data-end=\"1332\">Khóa đa điểm, tăng cường khả năng chống trộm.</li>\n<li style=\"text-align: justify;\" data-section-id=\"1paf7xk\" data-start=\"1333\" data-end=\"1359\">Cách âm, cách nhiệt tốt.</li>\n<li style=\"text-align: justify;\" data-section-id=\"2wyho9\" data-start=\"1360\" data-end=\"1389\">Dễ dàng vệ sinh, bảo dưỡng.</li>\n<li style=\"text-align: justify;\" data-section-id=\"qk7kr8\" data-start=\"1390\" data-end=\"1450\" data-is-last-node=\"\">Bảo hành chính hãng, lắp đặt chuyên nghiệp trên toàn quốc.</li>\n</ul>\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"6043\" data-end=\"6076\"><strong data-start=\"6043\" data-end=\"6067\">Liên hệ ngay Đức trí 226: 0355514686</strong></p>\n<p><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-dai-dien-1080-x-1080-px-2.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-full wp-image-2710\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/Anh-dai-dien-1080-x-1080-px-2.png\" alt=\"\" width=\"1080\" height=\"1080\" /></a></p>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1615 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/5-6-300x276.png\" alt=\"\" width=\"739\" height=\"680\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/5-6-300x276.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/5-6-1024x942.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/5-6-768x707.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/5-6-640x589.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/5-6-900x828.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/5-6.png 1080w\" sizes=\"auto, (max-width: 739px) 100vw, 739px\" /></p>\n",
+    "date": "2026-09-21T04:20:28"
+  },
+  {
+    "id": 1506,
+    "title": "KING BAC PHARAON HOÀNG GIA",
+    "slug": "king-bac-pharaon-hoang-gia",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-hoang-gia.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-hoang-gia.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/3-7-1024x718.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-1024x712.png"
+    ],
+    "specs": [],
+    "content": "\n<p class=\"wp-block-paragraph\"><a href=\"https://cuathepvangokingbac.com/\"><br>Trang chủ</a>&nbsp;/&nbsp;<a href=\"https://cuathepvangokingbac.com/danh-muc-san-pham/cua-pharaon-king-bac/\">CỬA PHARAON KING BAC</a>&nbsp;/&nbsp;KING BAC PHARAON HOÀNG GIA</p>\n\n\n\n<h1 class=\"wp-block-heading\">KING BAC PHARAON HOÀNG GIA</h1>\n\n\n\n<p class=\"wp-block-paragraph\">Mẫu: 4 cánh lệch</p>\n\n\n\n<p class=\"wp-block-paragraph\">Thiết kế: Tràn viền</p>\n\n\n\n<p class=\"wp-block-paragraph\">Hoạ tiết: Sơn Thuỷ</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mã sản phẩm: KN-123-167</p>\n\n\n\n<h2 class=\"wp-block-heading\">MÔ TẢ</h2>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-hoang-gia.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-hoang-gia.jpg\" alt=\"\" class=\"wp-image-2644\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">1. Đặc điểm nổi bật của cửa KING BAC PHARAON HOÀNG GIA</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Không chỉ thu hút bởi thiết kế sang trọng, mẫu cửa còn đáp ứng đầy đủ các tiêu chí về độ bền, an toàn và tính thẩm mỹ.</p>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Thiết kế đẳng cấp</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Kiểu dáng tân cổ điển với hệ cột trang trí hai bên.</li>\n\n\n\n<li>Hoa văn nổi CNC tinh xảo tạo điểm nhấn sang trọng.</li>\n\n\n\n<li>Màu đen ánh đồng mang phong cách quý tộc.</li>\n\n\n\n<li>Phù hợp biệt thự, lâu đài, nhà phố cao cấp.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Độ bền vượt trội</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Không cong vênh, co ngót.</li>\n\n\n\n<li>Không mối mọt như cửa gỗ tự nhiên.</li>\n\n\n\n<li>Chống han gỉ trong điều kiện khí hậu nóng ẩm.</li>\n\n\n\n<li>Bền màu nhiều năm nhờ công nghệ sơn tĩnh điện.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">An toàn tối đa</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Kết cấu thép chắc chắn.</li>\n\n\n\n<li>Khả năng chịu va đập cao.</li>\n\n\n\n<li>Hệ khóa đa điểm tăng cường chống cạy phá.</li>\n\n\n\n<li>Có thể tích hợp khóa thông minh.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Cách âm – cách nhiệt hiệu quả</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Lõi cửa được bổ sung vật liệu Honeycomb Paper giúp giảm tiếng ồn, hạn chế truyền nhiệt và mang lại không gian yên tĩnh hơn cho ngôi nhà.</p>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2. Cấu tạo cửa KING BAC PHARAON HOÀNG GIA</h2>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2.1 Khung cửa thép chịu lực</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Khung cửa được chế tạo từ thép mạ điện dày khoảng&nbsp;<strong>1.2 mm</strong>, gia cường bằng các thanh tăng cứng bên trong nhằm đảm bảo khả năng chịu lực và độ ổn định trong suốt quá trình sử dụng.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ưu điểm:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Chịu tải trọng lớn.</li>\n\n\n\n<li>Không biến dạng khi sử dụng lâu dài.</li>\n\n\n\n<li>Lắp đặt chắc chắn trên nhiều loại tường.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2.2 Cánh cửa thép mạ điện</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Hai mặt cánh sử dụng thép mạ điện dày khoảng&nbsp;<strong>0.8 mm</strong>, được dập định hình bằng máy CNC hiện đại tạo nên những đường nét sắc sảo và đồng đều.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Đặc điểm nổi bật:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Độ cứng cao.</li>\n\n\n\n<li>Chống va đập tốt.</li>\n\n\n\n<li>Không cong vênh.</li>\n\n\n\n<li>Bề mặt phẳng đẹp.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2.3 Lõi Honeycomb cách âm</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Khoang giữa hai lớp thép được bố trí lớp Honeycomb Paper giúp:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Gia tăng độ cứng cho cánh cửa.</li>\n\n\n\n<li>Giảm truyền âm.</li>\n\n\n\n<li>Hạn chế thất thoát nhiệt.</li>\n\n\n\n<li>Hỗ trợ khả năng chống cháy.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2.4 Bề mặt sơn tĩnh điện và in chuyển nhiệt</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Sau khi xử lý chống oxy hóa, toàn bộ bề mặt cửa được phủ sơn tĩnh điện, sau đó đưa vào công đoạn in chuyển nhiệt ở nhiệt độ cao để tạo lớp vân gỗ tự nhiên.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ưu điểm:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Màu sắc đồng đều.</li>\n\n\n\n<li>Chống bong tróc.</li>\n\n\n\n<li>Chống trầy xước.</li>\n\n\n\n<li>Khả năng chống tia UV tốt.</li>\n\n\n\n<li>Giữ màu bền đẹp trong thời gian dài.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">2.5 Hệ hoa văn CNC nổi</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Điểm nổi bật của mẫu cửa này chính là các họa tiết nổi được gia công CNC kết hợp dập khuôn chính xác.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Các chi tiết trang trí giúp:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Tăng tính thẩm mỹ.</li>\n\n\n\n<li>Tạo chiều sâu cho bề mặt cửa.</li>\n\n\n\n<li>Mang phong cách tân cổ điển sang trọng.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">3. Ưu điểm khi lựa chọn cửa thép vân gỗ King Bac</h2>\n\n\n\n<p class=\"wp-block-paragraph\">So với nhiều dòng cửa truyền thống, cửa thép vân gỗ KingBac mang đến nhiều lợi ích vượt trội.</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Độ bền cao</li>\n\n\n\n<li>Chống cong vênh và mối mọt</li>\n\n\n\n<li>Đảm bảo an ninh</li>\n\n\n\n<li>Chống cháy hiệu quả</li>\n\n\n\n<li>Chi phí hợp lý</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">4. Phụ kiện đồng bộ theo tiêu chuẩn King Bac</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Để đảm bảo khả năng vận hành ổn định, mỗi bộ cửa được trang bị hệ phụ kiện chất lượng cao.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Bao gồm:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Bản lề inox chịu lực.</li>\n\n\n\n<li>Gioăng cao su kín khít chống ồn.</li>\n\n\n\n<li>Chốt âm dành cho cửa nhiều cánh.</li>\n\n\n\n<li>Tay nắm hợp kim cao cấp.</li>\n\n\n\n<li>Khóa cơ hoặc khóa điện tử.</li>\n\n\n\n<li>Mắt thần quan sát (tùy chọn).</li>\n\n\n\n<li>Tay co thủy lực nếu khách hàng yêu cầu.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Toàn bộ phụ kiện đều được lựa chọn đồng bộ nhằm tăng độ bền và đảm bảo cửa vận hành êm ái trong thời gian dài.</p>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">5. Vì sao nên chọn cửa thép vân gỗ King Bac?</h2>\n\n\n\n<p class=\"wp-block-paragraph\">King Bac là đơn vị chuyên sản xuất và cung cấp cửa thép vân gỗ với quy trình khép kín, kiểm soát chất lượng nghiêm ngặt.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Khách hàng lựa chọn King Bac sẽ nhận được:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Sản xuất trực tiếp tại nhà máy.</li>\n\n\n\n<li>Thiết kế theo kích thước thực tế.</li>\n\n\n\n<li>Mẫu mã đa dạng từ hiện đại đến tân cổ điển.</li>\n\n\n\n<li>Công nghệ sơn tĩnh điện và in chuyển nhiệt tiên tiến.</li>\n\n\n\n<li>Đội ngũ kỹ thuật lắp đặt chuyên nghiệp.</li>\n\n\n\n<li>Chính sách bảo hành rõ ràng.</li>\n\n\n\n<li>Giá thành cạnh tranh nhờ chủ động sản xuất.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-left\">6. Liên hệ tư vấn và báo giá</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Nếu bạn đang tìm kiếm một mẫu cửa thép vân gỗ đại sảnh vừa sang trọng, bền bỉ vừa đảm bảo an toàn cho công trình, mẫu cửa King Bac trong hình là lựa chọn đáng cân nhắc. Với thiết kế tân cổ điển đẳng cấp, kết cấu thép mạ điện chắc chắn và công nghệ hoàn thiện hiện đại, sản phẩm không chỉ nâng tầm giá trị mặt tiền mà còn mang lại sự yên tâm trong suốt quá trình sử dụng.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/3-7-1024x718.png\" alt=\"\" class=\"wp-image-1521\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/3-7-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/3-7-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/3-7-768x539.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/3-7-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/3-7-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/3-7.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"712\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-1024x712.png\" alt=\"\" class=\"wp-image-1538\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-1024x712.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-300x208.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-767x533.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-640x445.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-900x625.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-1536x1067.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1-1400x973.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1.png 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T03:01:44"
+  },
+  {
+    "id": 1502,
+    "title": "KING BAC PHARAON LẠC CẢNH MÔN",
+    "slug": "king-bac-pharaon-lac-canh-mon",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/pharaon-lac-canh-mon-3.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/pharaon-lac-canh-mon-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/2-11-1024x1024.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-1024x712.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực, đảm bảo độ ổn định và tuổi thọ lâu dài."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng độ cứng, cách âm và cách nhiệt hiệu quả."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện nhiều lớp, phủ vân gỗ bằng công nghệ in chuyển nhiệt ở nhiệt độ cao, cho màu sắc sang trọng và bền đẹp."
+      },
+      {
+        "label": "Hoa văn",
+        "value": "&nbsp;Phù điêu nổi 3D kết hợp họa tiết Lạc Cảnh Môn mang ý nghĩa phong thủy về tài lộc, bình an và thịnh vượng."
+      },
+      {
+        "label": "Phụ kiện",
+        "value": "&nbsp;Bản lề inox chịu lực, khóa đa điểm, tay nắm cao cấp và gioăng cao su kín khít giúp cửa vận hành êm ái, an toàn."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading\">MÔ TẢ</h2>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/pharaon-lac-canh-mon-3.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/pharaon-lac-canh-mon-3.jpg\" alt=\"\" class=\"wp-image-2643\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<h3 class=\"wp-block-heading\"></h3>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Cấu tạo cửa thép vân gỗ KingBac Pharaong</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực, đảm bảo độ ổn định và tuổi thọ lâu dài.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng độ cứng, cách âm và cách nhiệt hiệu quả.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện nhiều lớp, phủ vân gỗ bằng công nghệ in chuyển nhiệt ở nhiệt độ cao, cho màu sắc sang trọng và bền đẹp.</li>\n\n\n\n<li><strong>Hoa văn:</strong>&nbsp;Phù điêu nổi 3D kết hợp họa tiết Lạc Cảnh Môn mang ý nghĩa phong thủy về tài lộc, bình an và thịnh vượng.</li>\n\n\n\n<li><strong>Phụ kiện:</strong>&nbsp;Bản lề inox chịu lực, khóa đa điểm, tay nắm cao cấp và gioăng cao su kín khít giúp cửa vận hành êm ái, an toàn.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm nổi bật</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Thiết kế tân cổ điển sang trọng, nâng tầm đẳng cấp công trình.</li>\n\n\n\n<li>Chống cong vênh, co ngót và mối mọt tuyệt đối.</li>\n\n\n\n<li>Chống gỉ sét, chịu nắng mưa và độ ẩm cao.</li>\n\n\n\n<li>Cách âm, cách nhiệt tốt, mang đến không gian yên tĩnh.</li>\n\n\n\n<li>Độ an toàn cao nhờ kết cấu thép chắc chắn và hệ khóa đa điểm.</li>\n\n\n\n<li>Bề mặt vân gỗ bền màu, dễ vệ sinh, ít bảo dưỡng.</li>\n\n\n\n<li>Phù hợp lắp đặt cho biệt thự, nhà phố, dinh thự, villa và các công trình cao cấp.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Liên hệ tư vấn và báo giá</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Nếu bạn đang tìm kiếm một mẫu cửa thép vân gỗ đại sảnh vừa sang trọng, bền bỉ vừa đảm bảo an toàn cho công trình, mẫu cửa King Bac trong hình là lựa chọn đáng cân nhắc. Với thiết kế tân cổ điển đẳng cấp, kết cấu thép mạ điện chắc chắn và công nghệ hoàn thiện hiện đại, sản phẩm không chỉ nâng tầm giá trị mặt tiền mà còn mang lại sự yên tâm trong suốt quá trình sử dụng.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/2-11-1024x1024.png\" alt=\"\" class=\"wp-image-1523\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/2-11-1024x1024.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/2-11-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/2-11-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/2-11-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/2-11-768x768.png 768w, https://ductri226.vn/wp-content/uploads/2026/09/2-11-900x900.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/2-11.png 1080w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"712\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-1024x712.png\" alt=\"\" class=\"wp-image-1539\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-1024x712.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-300x208.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-767x533.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-640x445.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-900x625.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-1536x1067.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2-1400x973.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-2.png 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T03:00:04"
+  },
+  {
+    "id": 1497,
+    "title": "KING BAC PHARAON TRẤN LONG",
+    "slug": "king-bac-pharaon-tran-long",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-tran-long.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-tran-long.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/5-3-1024x718.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-1024x712.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực, chống cong vênh và biến dạng."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng khả năng cách âm, cách nhiệt và chịu lực."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện nhiều lớp kết hợp công nghệ in chuyển nhiệt tạo vân gỗ sắc nét, chống phai màu và chống trầy xước."
+      },
+      {
+        "label": "Hoa văn Trấn Long",
+        "value": "&nbsp;Thiết kế CNC kết hợp dập nổi 3D mang đậm phong cách hoàng gia, tạo điểm nhấn độc đáo cho mặt tiền."
+      },
+      {
+        "label": "Ô kính lấy sáng",
+        "value": "&nbsp;Bố trí phía trên cửa giúp tận dụng ánh sáng tự nhiên, tạo cảm giác thông thoáng cho không gian."
+      },
+      {
+        "label": "Phụ kiện đồng bộ",
+        "value": "&nbsp;Khóa đa điểm, bản lề inox chịu lực, gioăng cao su kín khít và tay nắm mạ PVD cao cấp."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading has-text-align-left\">MÔ TẢ</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Cửa thép vân gỗ KingBac Pharaong Trấn Long KN-406-167 là mẫu cửa đại sảnh cao cấp được thiết kế dành riêng cho những công trình biệt thự, villa và nhà phố sang trọng. Lấy cảm hứng từ hình tượng Rồng – biểu tượng của quyền uy, thịnh vượng và thành công, mẫu cửa mang đến vẻ đẹp bề thế, khẳng định vị thế của gia chủ ngay từ mặt tiền.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Điểm nhấn nổi bật của sản phẩm là họa tiết Trấn Long được chạm nổi tinh xảo trên hai cánh cửa, kết hợp hệ cột trụ, phào chỉ tân cổ điển và gam màu đồng ánh kim sang trọng. Không chỉ sở hữu thiết kế ấn tượng, cửa thép vân gỗ KingBac còn được sản xuất từ thép mạ điện cao cấp, giúp cửa bền bỉ trước mọi điều kiện thời tiết và duy trì vẻ đẹp theo thời gian.</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực, chống cong vênh và biến dạng.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng khả năng cách âm, cách nhiệt và chịu lực.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện nhiều lớp kết hợp công nghệ in chuyển nhiệt tạo vân gỗ sắc nét, chống phai màu và chống trầy xước.</li>\n\n\n\n<li><strong>Hoa văn Trấn Long:</strong>&nbsp;Thiết kế CNC kết hợp dập nổi 3D mang đậm phong cách hoàng gia, tạo điểm nhấn độc đáo cho mặt tiền.</li>\n\n\n\n<li><strong>Ô kính lấy sáng:</strong>&nbsp;Bố trí phía trên cửa giúp tận dụng ánh sáng tự nhiên, tạo cảm giác thông thoáng cho không gian.</li>\n\n\n\n<li><strong>Phụ kiện đồng bộ:</strong>&nbsp;Khóa đa điểm, bản lề inox chịu lực, gioăng cao su kín khít và tay nắm mạ PVD cao cấp.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm nổi bật của cửa thép vân gỗ King Bac Pharaong Trấn Long</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Thiết kế tân cổ điển sang trọng, phù hợp với biệt thự và nhà phố cao cấp.</li>\n\n\n\n<li>Họa tiết Trấn Long mang ý nghĩa phong thủy về quyền lực, tài lộc và sự hưng thịnh.</li>\n\n\n\n<li>Thép mạ điện cao cấp chống cong vênh, mối mọt và han gỉ.</li>\n\n\n\n<li>Khả năng cách âm, cách nhiệt tốt, mang đến không gian yên tĩnh.</li>\n\n\n\n<li>Sơn tĩnh điện kết hợp in chuyển nhiệt giúp vân gỗ bền đẹp nhiều năm.</li>\n\n\n\n<li>Chịu được điều kiện nắng nóng, mưa ẩm và khí hậu khắc nghiệt của Việt Nam.</li>\n\n\n\n<li>Độ an toàn cao với kết cấu thép chắc chắn và hệ khóa đa điểm.</li>\n\n\n\n<li>Tuổi thọ lâu dài, chi phí bảo trì thấp hơn nhiều so với cửa gỗ tự nhiên.</li>\n</ol>\n\n\n\n<figure class=\"wp-block-image is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-tran-long.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-tran-long.jpg\" alt=\"\" class=\"wp-image-2649\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Liên hệ tư vấn và báo giá</h3>\n\n\n\n<p class=\"wp-block-paragraph\"> Nếu bạn đang tìm kiếm một mẫu cửa thép vân gỗ đại sảnh vừa sang trọng, bền bỉ vừa đảm bảo an toàn cho công trình, mẫu cửa King Bac trong hình là lựa chọn đáng cân nhắc. Với thiết kế tân cổ điển đẳng cấp, kết cấu thép mạ điện chắc chắn và công nghệ hoàn thiện hiện đại, sản phẩm không chỉ nâng tầm giá trị mặt tiền mà còn mang lại sự yên tâm trong suốt quá trình sử dụng.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/5-3-1024x718.png\" alt=\"\" class=\"wp-image-1525\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/5-3-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/5-3-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/5-3-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/5-3-767x538.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/5-3-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/5-3.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"712\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-1024x712.png\" alt=\"\" class=\"wp-image-1540\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-1024x712.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-300x208.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-767x533.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-640x445.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-900x625.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-1536x1067.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3-1400x973.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-3.png 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T02:37:13"
+  },
+  {
+    "id": 1493,
+    "title": "KING BAC PHARAON TRẤN VƯƠNG",
+    "slug": "king-bac-pharaon-tran-vuong",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaong-tran-vuong.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaong-tran-vuong.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/1-12-1024x718.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-1024x712.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện cao cấp dày 1.2mm, gia cường chịu lực, chống cong vênh và biến dạng."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng độ cứng, cách âm và cách nhiệt hiệu quả."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện nhiều lớp kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và bền màu."
+      },
+      {
+        "label": "Hoa văn Trấn Vương",
+        "value": "&nbsp;Thiết kế CNC kết hợp dập nổi 3D với các đường nét uốn lượn mềm mại, tạo nên vẻ đẹp quyền quý và khác biệt."
+      },
+      {
+        "label": "Ô kính lấy sáng",
+        "value": "&nbsp;Hệ ô kính phía trên giúp tăng ánh sáng tự nhiên, tạo không gian thông thoáng mà vẫn giữ được sự sang trọng."
+      },
+      {
+        "label": "Phụ kiện",
+        "value": "&nbsp;Khóa đa điểm, bản lề inox chịu lực, gioăng cao su chống ồn và tay nắm mạ PVD cao cấp."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading has-text-align-left\">MÔ TẢ</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Cửa thép vân gỗ KingBac Pharaong Trấn Vương KN-708-167 là mẫu cửa đại sảnh thuộc bộ sưu tập Pharaong cao cấp của KingBac, nổi bật với phong cách tân cổ điển sang trọng và họa tiết Trấn Vương mang ý nghĩa quyền uy, vững bền và hưng thịnh. Thiết kế không chỉ tạo điểm nhấn cho mặt tiền mà còn thể hiện đẳng cấp và gu thẩm mỹ của gia chủ.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaong-tran-vuong.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaong-tran-vuong.jpg\" alt=\"\" class=\"wp-image-2654\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Mẫu cửa sử dụng gam màu vân gỗ xám kết hợp đường nét chạm nổi tinh xảo, hệ cột trụ chắc khỏe và các chi tiết phào chỉ được hoàn thiện tỉ mỉ. Tổng thể tạo nên vẻ đẹp cổ kính nhưng vẫn phù hợp với kiến trúc biệt thự, villa và nhà phố hiện đại.</p>\n\n\n\n<h3 class=\"wp-block-heading\"></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện cao cấp dày 1.2mm, gia cường chịu lực, chống cong vênh và biến dạng.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm kết hợp lõi Honeycomb giúp tăng độ cứng, cách âm và cách nhiệt hiệu quả.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện nhiều lớp kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và bền màu.</li>\n\n\n\n<li><strong>Hoa văn Trấn Vương:</strong>&nbsp;Thiết kế CNC kết hợp dập nổi 3D với các đường nét uốn lượn mềm mại, tạo nên vẻ đẹp quyền quý và khác biệt.</li>\n\n\n\n<li><strong>Ô kính lấy sáng:</strong>&nbsp;Hệ ô kính phía trên giúp tăng ánh sáng tự nhiên, tạo không gian thông thoáng mà vẫn giữ được sự sang trọng.</li>\n\n\n\n<li><strong>Phụ kiện:</strong>&nbsp;Khóa đa điểm, bản lề inox chịu lực, gioăng cao su chống ồn và tay nắm mạ PVD cao cấp.</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm nổi bật của cửa thép vân gỗ King Bac Pharaong Trấn Vương</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Thiết kế tân cổ điển sang trọng, phù hợp với các công trình cao cấp.</li>\n\n\n\n<li>Họa tiết Trấn Vương tượng trưng cho quyền lực, sự ổn định và thịnh vượng.</li>\n\n\n\n<li>Chống cong vênh, co ngót và mối mọt như cửa gỗ tự nhiên.</li>\n\n\n\n<li>Chống gỉ sét, chịu được điều kiện thời tiết khắc nghiệt.</li>\n\n\n\n<li>Cách âm, cách nhiệt tốt, mang đến không gian sống yên tĩnh.</li>\n\n\n\n<li>Bề mặt vân gỗ sắc nét, bền màu theo thời gian.</li>\n\n\n\n<li>Kết cấu thép chắc chắn giúp nâng cao khả năng bảo vệ và chống đột nhập.</li>\n\n\n\n<li>Tuổi thọ cao, ít bảo trì và tiết kiệm chi phí sử dụng lâu dài.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Liên hệ tư vấn và báo giá</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Nếu bạn đang tìm kiếm một mẫu cửa thép vân gỗ đại sảnh vừa sang trọng, bền bỉ vừa đảm bảo an toàn cho công trình, mẫu cửa King Bac trong hình là lựa chọn đáng cân nhắc. Với thiết kế tân cổ điển đẳng cấp, kết cấu thép mạ điện chắc chắn và công nghệ hoàn thiện hiện đại, sản phẩm không chỉ nâng tầm giá trị mặt tiền mà còn mang lại sự yên tâm trong suốt quá trình sử dụng.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/1-12-1024x718.png\" alt=\"\" class=\"wp-image-1529\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/1-12-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/1-12-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/1-12-767x538.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/1-12-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/1-12-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/1-12.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"712\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-1024x712.png\" alt=\"\" class=\"wp-image-1541\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-1024x712.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-300x208.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-767x533.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-640x445.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-900x625.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-1536x1067.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4-1400x973.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-4.png 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T02:34:29"
+  },
+  {
+    "id": 1486,
+    "title": "KING BAC PHARAON SONG PHÚC",
+    "slug": "king-bac-pharaon-song-phuc",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-Bac-Pharaon-song-phuc.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-Bac-Pharaon-song-phuc.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/4-10-1024x718.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện dày 1.2mm, gia cường chắc chắn, chịu lực tốt."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm, dập nổi họa tiết Song Phúc sắc nét."
+      },
+      {
+        "label": "Lõi cửa",
+        "value": "&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu."
+      },
+      {
+        "label": "Phụ kiện",
+        "value": "&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm và tay nắm cao cấp."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading has-text-align-left\">MÔ TẢ</h2>\n\n\n\n<figure class=\"wp-block-image is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-Bac-Pharaon-song-phuc.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-Bac-Pharaon-song-phuc.jpg\" alt=\"\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Thiết kế 4 cánh lệch sang trọng, phù hợp với biệt thự và nhà phố cao cấp.</li>\n\n\n\n<li>Họa tiết Song Phúc mang ý nghĩa phong thủy về may mắn, hạnh phúc và thịnh vượng.</li>\n\n\n\n<li>Hệ trụ cột và phào chỉ tân cổ điển tạo vẻ đẹp uy nghi, bề thế.</li>\n\n\n\n<li>Màu vân gỗ ánh đồng cao cấp, sang trọng và bền màu theo thời gian.</li>\n\n\n\n<li>Khóa đa điểm kết hợp tay nắm cao cấp, tăng tính an toàn và tiện nghi.</li>\n\n\n\n<li>Có thể kết hợp ô kính lấy sáng, giúp không gian luôn thông thoáng và hiện đại.</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Cấu tạo cửa thép vân gỗ King Bac PHARAON SONG PHÚC</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện dày 1.2mm, gia cường chắc chắn, chịu lực tốt.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm, dập nổi họa tiết Song Phúc sắc nét.</li>\n\n\n\n<li><strong>Lõi cửa:</strong>&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu.</li>\n\n\n\n<li><strong>Phụ kiện:</strong>&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm và tay nắm cao cấp.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm của cửa thép vân gỗ King Bac PHARAON SONG PHÚC</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Chống cong vênh, co ngót và mối mọt hiệu quả.</li>\n\n\n\n<li>Độ bền cao, tuổi thọ sử dụng lâu dài.</li>\n\n\n\n<li>Cách âm, cách nhiệt tốt, tạo không gian sống yên tĩnh.</li>\n\n\n\n<li>Chống chịu tốt với nắng mưa và điều kiện khí hậu Việt Nam.</li>\n\n\n\n<li>Thiết kế mang ý nghĩa phong thủy tốt đẹp, thu hút may mắn và tài lộc.</li>\n\n\n\n<li>Phù hợp với nhiều phong cách kiến trúc từ tân cổ điển đến hiện đại.</li>\n</ol>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\"><strong>Chi tiết</strong></p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/phu-kien-cua-thep-van-go-king-bac.jpg\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1779\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac.jpg\" alt=\"\" class=\"wp-image-1488\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac.jpg 2560w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-300x208.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-1024x712.jpg 1024w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-768x534.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-1536x1067.jpg 1536w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-2048x1423.jpg 2048w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-640x445.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-1400x973.jpg 1400w, https://ductri226.vn/wp-content/uploads/2026/09/phu-kien-cua-thep-van-go-king-bac-900x625.jpg 900w\" sizes=\"auto, (max-width: 2560px) 100vw, 2560px\" /></a></figure>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/4-10-1024x718.png\" alt=\"\" class=\"wp-image-1531\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/4-10-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/4-10-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/4-10-767x538.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/4-10-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/4-10-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/4-10.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T02:31:12"
+  },
+  {
+    "id": 1483,
+    "title": "KING BAC PHARAON KIM VƯƠNG",
+    "slug": "king-bac-pharaon-kim-vuong",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-kim-vuong.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-kim-vuong.jpg",
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/phu-kien-cua-thep-van-go-king-bac.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-1024x718.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện dày 1.2mm, gia cường chắc chắn, chịu lực cao."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm, dập nổi họa tiết Kim Vương sắc nét."
+      },
+      {
+        "label": "Lõi cửa",
+        "value": "&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu."
+      },
+      {
+        "label": "Phụ kiện",
+        "value": "&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm và tay nắm cao cấp."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading has-text-align-left\">MÔ TẢ</h2>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-kim-vuong.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/King-bac-pharaon-kim-vuong.jpg\" alt=\"\" class=\"wp-image-2666\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<h3 class=\"wp-block-heading\"></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Thiết kế&nbsp;<strong>4 cánh lệch</strong>&nbsp;sang trọng, tạo điểm nhấn nổi bật cho mặt tiền.</li>\n\n\n\n<li>Họa tiết&nbsp;<strong>Kim Vương</strong>&nbsp;tượng trưng cho quyền uy, sức mạnh và sự thành công.</li>\n\n\n\n<li>Hệ pano dập nổi kết hợp phào chỉ tân cổ điển tinh xảo.</li>\n\n\n\n<li>Gam màu vân gỗ nâu đồng cao cấp, bền màu và sang trọng.</li>\n\n\n\n<li>Khóa đa điểm cùng tay nắm cao cấp, tăng cường khả năng bảo vệ.</li>\n\n\n\n<li>Có thể kết hợp ô kính lấy sáng, giúp không gian thông thoáng và hiện đại hơn.</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Cấu tạo cửa thép vân gỗ King Bac PHARAON KIM VƯƠNG</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện dày 1.2mm, gia cường chắc chắn, chịu lực cao.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm, dập nổi họa tiết Kim Vương sắc nét.</li>\n\n\n\n<li><strong>Lõi cửa:</strong>&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu.</li>\n\n\n\n<li><strong>Phụ kiện:</strong>&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm và tay nắm cao cấp.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm của cửa thép vân gỗ King Bac PHARAON KIM VƯƠNG</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Độ bền cao, tuổi thọ sử dụng lên đến hàng chục năm.</li>\n\n\n\n<li>Chống cong vênh, co ngót, mối mọt và han gỉ hiệu quả.</li>\n\n\n\n<li>Cách âm, cách nhiệt tốt, mang đến không gian sống yên tĩnh.</li>\n\n\n\n<li>Chịu được điều kiện thời tiết khắc nghiệt của khí hậu Việt Nam.</li>\n\n\n\n<li>Thiết kế đẳng cấp, góp phần nâng tầm giá trị kiến trúc và vị thế gia chủ.</li>\n\n\n\n<li>Chi phí hợp lý hơn so với cửa gỗ tự nhiên cùng phân khúc.</li>\n</ol>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Chi tiết</h3>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/phu-kien-cua-thep-van-go-king-bac.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/phu-kien-cua-thep-van-go-king-bac.jpg\" alt=\"\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-1024x718.png\" alt=\"\" class=\"wp-image-1532\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-767x538.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-chua-co-ten-3-1.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "date": "2026-09-17T02:29:03"
+  },
+  {
+    "id": 1480,
+    "title": "KING BAC PHARAON BẢO ĐIỆN",
+    "slug": "king-bac-pharaon-bao-dien",
+    "cat": "steel-door",
+    "catName": "Cửa thép Luxury King Bac",
+    "image": "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-bao-dien-1-1.jpg",
+    "images": [
+      "https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-bao-dien-1-1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/2-12-1024x718.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1024x712.png"
+    ],
+    "specs": [
+      {
+        "label": "Khung cửa",
+        "value": "&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực cao."
+      },
+      {
+        "label": "Cánh cửa",
+        "value": "&nbsp;Thép mạ điện dày 0.8mm dập nổi hoa văn 3D sắc nét."
+      },
+      {
+        "label": "Lõi cửa",
+        "value": "&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh."
+      },
+      {
+        "label": "Bề mặt",
+        "value": "&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu."
+      },
+      {
+        "label": "Phụ kiện",
+        "value": "&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm cao cấp và tay nắm sang trọng."
+      }
+    ],
+    "content": "\n<h2 class=\"wp-block-heading has-text-align-left\">MÔ TẢ</h2>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter is-resized\"><a href=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-bao-dien-1-1.jpg\"><img decoding=\"async\" src=\"https://cuathepvangokingbac.com/wp-content/uploads/2026/08/king-bac-pharaon-bao-dien-1-1.jpg\" alt=\"\" style=\"aspect-ratio:1.4390106801573919;width:2560px;height:auto\"/></a></figure>\n</div>\n\n\n<ul class=\"wp-block-list\">\n<li>Thiết kế 4 cánh lệch phù hợp với biệt thự và nhà phố cao cấp.</li>\n\n\n\n<li>Họa tiết Bảo Điện lấy cảm hứng từ kiến trúc cung điện, thể hiện quyền uy và sự vững chãi.</li>\n\n\n\n<li>Hệ pano nổi dập sâu tạo chiều sâu và tăng tính thẩm mỹ.</li>\n\n\n\n<li>Khung trụ và phào đỉnh đồng bộ, mang phong cách tân cổ điển sang trọng.</li>\n\n\n\n<li>Màu vân gỗ nâu đồng bền đẹp, sang trọng và không lỗi thời.</li>\n\n\n\n<li>Khóa tay nắm cao cấp kết hợp đa điểm, tăng khả năng bảo vệ ngôi nhà.</li>\n\n\n\n<li>Có thể kết hợp ô kính lấy sáng phía trên giúp không gian thông thoáng hơn.</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Cấu tạo cửa thép vân gỗ King Bac PHARAON BẢO ĐIỆN</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Mẫu cửa thép vân gỗ King Bac PHARAON BẢO ĐIỆN được sản xuất trên dây chuyền công nghệ hiện đại với kết cấu chắc chắn:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Khung cửa:</strong>&nbsp;Thép mạ điện dày 1.2mm, gia cường chịu lực cao.</li>\n\n\n\n<li><strong>Cánh cửa:</strong>&nbsp;Thép mạ điện dày 0.8mm dập nổi hoa văn 3D sắc nét.</li>\n\n\n\n<li><strong>Lõi cửa:</strong>&nbsp;Giấy tổ ong Honeycomb giúp tăng khả năng cách âm, cách nhiệt và giảm trọng lượng cánh.</li>\n\n\n\n<li><strong>Bề mặt:</strong>&nbsp;Sơn tĩnh điện kết hợp công nghệ in chuyển nhiệt tạo vân gỗ tự nhiên, chống bong tróc và phai màu.</li>\n\n\n\n<li><strong>Phụ kiện:</strong>&nbsp;Bản lề chịu lực, gioăng cao su kín khít, khóa đa điểm cao cấp và tay nắm sang trọng.</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">Ưu điểm của cửa thép vân gỗ King Bac PHARAON BẢO ĐIỆN</h3>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Độ bền cao, tuổi thọ lên tới hàng chục năm.</li>\n\n\n\n<li>Không cong vênh, co ngót hay mối mọt như cửa gỗ tự nhiên.</li>\n\n\n\n<li>Khả năng chống chịu nắng mưa, độ ẩm và khí hậu khắc nghiệt rất tốt.</li>\n\n\n\n<li>Cách âm, cách nhiệt hiệu quả, mang lại không gian yên tĩnh.</li>\n\n\n\n<li>Chịu lực tốt, nâng cao khả năng chống đột nhập.</li>\n\n\n\n<li>Thiết kế sang trọng, giúp mặt tiền trở nên bề thế và đẳng cấp.</li>\n\n\n\n<li>Chi phí hợp lý hơn so với cửa gỗ tự nhiên cùng phân khúc.</li>\n</ol>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"718\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/2-12-1024x718.png\" alt=\"\" class=\"wp-image-1535\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/2-12-1024x718.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/2-12-300x210.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/2-12-767x538.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/2-12-640x449.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/2-12-900x631.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/2-12.png 1125w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"712\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1024x712.png\" alt=\"\" class=\"wp-image-1537\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1024x712.png 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-300x208.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-767x533.png 767w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-640x445.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-900x625.png 900w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1536x1067.png 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke-1400x973.png 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Thiet-ke.png 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "date": "2026-09-17T02:22:14"
+  },
+  {
+    "id": 1394,
+    "title": "Thân Khóa 58",
+    "slug": "than-khoa-58",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [],
+    "content": "<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<p><strong>Mã sản phẩm</strong>   : Thân Khóa 58</p>\n<p><strong>Màu sắc</strong>             :</p>\n<p><strong>Chất liệu</strong>            : Hợp kim kẽm</p>\n<p><strong>Loại cửa</strong>             : Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm</p>\n<p><strong>Trọng lượng</strong>      : 200g</p>\n<p><strong>Bảo hành</strong>            : 24 tháng</p>\n<p><img decoding=\"async\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" /></p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:29:51"
+  },
+  {
+    "id": 1386,
+    "title": "Khoá tay gạt Mozlex KS19",
+    "slug": "khoa-tay-gat-mozlex-ks19",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS19"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Đen"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim nhôm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Tay tròn hoa văn"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,2kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "\n<h3 class=\"wp-block-heading\">Khóa cửa gỗ tay nắm tròn Mozlex KS19 nổi bật với thiết kế tay gạt thông minh, dễ dàng thao tác đóng mở, tô điểm thêm cho không gian nội thất. Khóa được làm bằng chất liệu hợp kim nhôm chống han rỉ, bào mòn, có độ bền cao, đem đến cho khách hàng trải nghiệm tốt nhất.</h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Nổi bật với thiết kế tay gạt thông minh, hiện đại, dễ dàng thao tác đóng mở, không mất sức.</li>\n\n\n\n<li>Tay cầm bọc thêm 1 lớp hợp kim chắc chắn, có màu đen hhuyền bí giúp làm nổi bật thêm không gian nội thất trong nhà.</li>\n\n\n\n<li>Phần đế có hình tròn dễ lắp đặt, khả năng chịu lực lớn.</li>\n\n\n\n<li>Phần tay gạt và ổ khóa thiết kế tách biệt nhau, thuận tiện khi sử dụng hoặc thay thế.</li>\n</ul>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1.jpg\" alt=\"\" class=\"wp-image-1096\" style=\"aspect-ratio:1;width:430px;height:auto\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1.jpg 400w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-1-150x150.jpg 150w\" sizes=\"auto, (max-width: 400px) 100vw, 400px\" /></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\"><strong style=\"font-size: 23.04px;\">THÔNG TIN CHI TIẾT SẢN PHẨM</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Mã sản phẩm: </strong>KS19</li>\n\n\n\n<li><strong>Màu sắc: </strong>Đen</li>\n\n\n\n<li><strong>Chất liệu: </strong>Hợp kim nhôm</li>\n\n\n\n<li><strong>Tay khóa: </strong>Tay tròn hoa văn</li>\n\n\n\n<li><strong>Ốp khóa: </strong>Phân thể</li>\n\n\n\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n\n\n\n<li><strong>Loại cửa:</strong> Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n\n\n\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n\n\n\n<li><strong>Trọng lượng: </strong>1,2kg</li>\n\n\n\n<li><b>Chìa: </b>Bộ chìa gồm 2 chìa, 2 hàng răng</li>\n\n\n\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-2.jpg\" alt=\"\" class=\"wp-image-1234\" style=\"aspect-ratio:1;width:491px;height:auto\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-2.jpg 400w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-2-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-2-400x400-2-150x150.jpg 150w\" sizes=\"auto, (max-width: 400px) 100vw, 400px\" /></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"has-text-align-center wp-block-paragraph\">&nbsp;Khóa Mozlex KS19 vân kim cương sang trọng</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"1000\" height=\"1000\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2.jpg\" alt=\"\" class=\"wp-image-1388\" style=\"aspect-ratio:1;width:433px;height:auto\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2.jpg 1000w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/ks19-1-2-900x900.jpg 900w\" sizes=\"auto, (max-width: 1000px) 100vw, 1000px\" /></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n\n\n\n<p class=\"has-text-align-center wp-block-paragraph\">Các chi tiết của Mozlex KS19</p>\n",
+    "date": "2026-09-11T11:29:34"
+  },
+  {
+    "id": 1372,
+    "title": "Khoá tay gạt Mozlex KS18",
+    "slug": "khoa-tay-gat-mozlex-ks18",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks18_pvd_1.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks18_pvd_1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks18_pvd_2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS18"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Vàng"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Rãnh tròn"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\"><strong>Khoá cửa Mozlex KS18</strong> mang phong cách của Ý, dễ lắp đặt, sử dụng chìa khóa dễ dàng, tay nắm chắn chắn và đóng mở nhẹ nhàng. Sản phẩm được làm từ hợp kim kẽm cao cấp, kiểu dáng thiết kế hiện đại với đường nét sắc sảo, sang trọng giúp tăng thêm vẻ đẹp cho cánh cửa nhà bạn.</div>\n<div dir=\"auto\"></div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\"><strong>Ưu điểm vượt trội của KS18</strong></div>\n<ul>\n<li dir=\"auto\">Mạ điện hoá kĩ lưỡng, giúp bền màu theo thời gian</li>\n<li dir=\"auto\">Chất liệu hợp kim kẽm cao cấp</li>\n<li dir=\"auto\">Thiết kế theo phong cách hiện đại tối giản</li>\n<li dir=\"auto\">Hoàn thiện cao cấp</li>\n<li dir=\"auto\">Bảo hành 3 năm</li>\n</ul>\n<div dir=\"auto\"><span style=\"font-size: 14.4px\">Khóa cửa KS18 nhà <strong>Mozlex</strong> là sự lựa chọn phù hợp cho cửa gỗ cao cấp, cửa thông phòng, cửa phòng vệ sinh. Không chỉ được sử dụng với mục đích bảo vệ tài sản, đem lại sự an toàn cho gia chủ mà còn đáp ứng được tính thẩm mỹ cao. Tạo lên được sự sang trọng, đẳng cấp cho ngôi nhà, bộ khóa lý tưởng cho các biệt thự, nhà phố, căn hộ chung cư cao cấp.</span></div>\n<div dir=\"auto\"></div>\n</div>\n<div dir=\"auto\">\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS18</li>\n<li><strong>Màu sắc: </strong>Vàng</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Rãnh tròn</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng</li>\n<li><strong>Thân khóa:</strong> 58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa:</strong> Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-2853 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks18_pvd_1.jpg\" alt=\"\" width=\"525\" height=\"525\" /></p>\n<p style=\"text-align: center\">Tay khoá cổ điển với nét hiện đại</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-2856 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks18_pvd_2.jpg\" alt=\"\" width=\"526\" height=\"526\" /></p>\n</div>\n<div dir=\"auto\" style=\"text-align: center\">Phù hợp cho mọi phong cách thiết kế nhà ở</div>\n<div dir=\"auto\">\n</div>\n</div>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"Lõi khóa Mozlex\" width=\"570\" /></p>\n<p style=\"text-align: center\">Lõi khóa đồng an toàn cao, chống khoan phá</p>\n<p style=\"text-align: center\"><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"Thân khóa Mozlex\" width=\"572\" /></p>\n<p style=\"text-align: center\">Thân khóa chống kẹt, vận hành êm ái</p>\n",
+    "date": "2026-09-11T11:29:07"
+  },
+  {
+    "id": 1364,
+    "title": "Khoá tay gạt Mozlex KS16",
+    "slug": "khoa-tay-gat-mozlex-ks16-sao-chep-sao-chep",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/z3049376948961_2f66e7b2870dc3a3b2aaa40cec5c0e6c-1-400x400-2.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/z3049376948961_2f66e7b2870dc3a3b2aaa40cec5c0e6c-1-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H7b7ae85b1df443fca7e047a49a9de1a8p-357x400-2.png",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS16"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Đen"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Tay dẹt mảnh"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,8 kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\"><strong>Khoá cửa thông phòng Mozlex KS16</strong> mang phong cách kiểu Ý, dễ lắp đặt, sử dụng chìa khóa dễ dàng, tay nắm chắn chắn và đóng mở nhẹ nhàng. Sản phẩm được làm từ hợp kim kẽm cao cấp, kiểu dáng thiết kế hiện đại nên đường nét rất sắc sảo, sang trọng giúp tăng thêm vẻ đẹp cho cánh cửa gỗ.</div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\"><strong>Ưu điểm vượt trội của KS16:</strong></div>\n<ul>\n<li dir=\"auto\">Mạ điện hoá kĩ lưỡng, giúp bền màu theo thời gian</li>\n<li dir=\"auto\">Chất liệu hợp kim kẽm cao cấp</li>\n<li dir=\"auto\">Thiết kế theo phong cách hiện đại tối giản</li>\n<li dir=\"auto\">Hoàn thiện cao cấp</li>\n<li dir=\"auto\">Bảo hành 3 năm</li>\n</ul>\n<div dir=\"auto\"><span style=\"font-size: 14.4px\"><strong>Khóa phân thể Mozlex KS16</strong> là sự lựa chọn phù hợp cho cửa gỗ cao cấp, cửa thông phòng, cửa phòng vệ sinh. Không chỉ được sử dụng với mục đích bảo vệ tài sản, đem lại sự an toàn cho gia chủ mà còn đáp ứng được tính thẩm mỹ cao. Tạo lên được sự sang trọng, đẳng cấp cho ngôi nhà, bộ khóa lý tưởng cho các biệt thự, nhà phố, căn hộ chung cư cao cấp.</span></div>\n</div>\n<div dir=\"auto\">\n<h3><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h3>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS16</li>\n<li><strong>Màu sắc: </strong>Đen</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Tay dẹt mảnh</li>\n<li><strong>Ốp khóa: </strong>Phân thể</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,8 kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone wp-image-2840 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/z3049376948961_2f66e7b2870dc3a3b2aaa40cec5c0e6c-1-400x400-2.jpg\" alt=\"\" width=\"444\" height=\"444\" /></p>\n<p style=\"text-align: center\">Tay khoá cổ điển với nét hiện đại</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-2693 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H7b7ae85b1df443fca7e047a49a9de1a8p-357x400-2.png\" alt=\"\" width=\"444\" height=\"498\" /></p>\n</div>\n<div dir=\"auto\" style=\"text-align: center\">Phù hợp cho mọi phong cách thiết kế nhà ở</div>\n<div dir=\"auto\"><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-507 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"458\" height=\"525\" /></div>\n<div dir=\"auto\"><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-506 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"393\" height=\"774\" /></div>\n<div dir=\"auto\">\n</div>\n</div>\n",
+    "date": "2026-09-11T11:28:59"
+  },
+  {
+    "id": 1356,
+    "title": "Khóa tay gạt Mozlex KS07 &#8211; PVD",
+    "slug": "khoa-tay-gat-mozlex-ks07-pvd",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/37-3.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/37-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/38-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/35-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": ": KS07"
+      },
+      {
+        "label": "Màu sắc",
+        "value": ": Vàng đen."
+      },
+      {
+        "label": "Chất liệu",
+        "value": ": Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": ": Dẹt"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": ": Phân thể vàng"
+      },
+      {
+        "label": "Thân khóa",
+        "value": ": 58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": ": Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": ": Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": ": 1,6 kg"
+      },
+      {
+        "label": "Chìa",
+        "value": ": Bộ chìa gồm 4 chìa, 2 hàng răng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa thông phòng Mozlex &#8211;  KS07</strong> là loại khóa dành cho cửa gỗ, cửa nhựa, cửa thép&#8230; có kích thước vừa của <strong>thương hiệu khóa Mozlex.</strong></p>\n<p>Chiếc khóa có thể được coi là vệ sĩ của ngôi nhà. Để chống lại những ý định đen tối của kẻ gian cũng như để thể hiện phong cách của gia chủ, khóa cần được làm từ những vật liệu và công nghệ tốt nhất. Hãy cùng Mozlex khám phá những chiếc khóa an toàn mà gia đình nào cũng nên sở hữu.</p>\n<p>Khóa Mozlex &#8211; KS07 được làm bằng<em> &#8220;hợp kim kẽm&#8221;. V</em>ới nhiều ưu điểm vượt trội như khả năng chống ăn mòn cao, siết chặt tốt, hợp kim được tận dụng nhiều trong việc sản xuất những thành phẩm liên quan đến độ bền và tính an toàn cao như khóa, cổng nhà, biệt thự. Nếu bạn đang tìm kiếm một sản phẩm khóa bền, an toàn cùng mức giá phải chăng thì một bộ khóa hợp kim sẽ là lựa chọn hàng đầu cho bạn. Điển hình như dòng sản phẩm khóa tay nắm Mozlex.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm</strong>: KS07</li>\n<li><strong>Màu sắc</strong>: Vàng đen.</li>\n<li><strong>Chất liệu</strong>: Hợp kim kẽm</li>\n<li><strong>Tay khóa</strong> : Dẹt</li>\n<li><strong>Ốp khóa</strong>: Phân thể vàng</li>\n<li><strong>Thân khóa</strong>: 58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa</strong>: Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa</strong>: Bằng đồng</li>\n<li><strong>Trọng lượng</strong>: 1,6 kg</li>\n<li><strong>Chìa</strong>: Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành</strong>: 36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1058 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/37-3.jpg\" alt=\"\" width=\"555\" height=\"555\" /></p>\n<p style=\"text-align: center\">Khóa phân thể vàng, bạc, ghi, đen giúp khách hàng có nhiều sự lựa chọn</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1059 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/38-3.jpg\" alt=\"\" width=\"553\" height=\"553\" /></p>\n<p style=\"text-align: center\">Được làm bằng hợp kim kẽm giúp sản phẩm bóng đẹp hơn</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1056 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/35-3.jpg\" alt=\"\" width=\"556\" height=\"556\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center\">Mỗi sản phẩm cũng thể hiện phần nào tính cách của gia chủ</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"631\" height=\"723\" /></p>\n<p style=\"text-align: center\">Công nghệ hiện đại an toàn cao</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"625\" height=\"1232\" /></p>\n<p style=\"text-align: center\">Ổ khóa trang bị nhiều công nghệ giúp trống kẹt, giảm ồn, chống trộm hiệu quả</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:28:52"
+  },
+  {
+    "id": 1346,
+    "title": "Khóa tay gạt Mozlex KS01 &#8211; G",
+    "slug": "khoa-tay-gat-mozlex-ks01-ghi",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/25-400x400-2.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/25-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/24-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS01"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Ghi &#8211; Bạc"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Vuông"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng, bạc."
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa MOZLEX KS01 &#8211; G</strong> là sản phẩm khóa cửa cao cấp của Mozlex, được làm bằng<em> Hợp kim kẽm </em>sang trọng và đẳng cấp. Sản phẩm được sản xuất trên dây chuyền công nghệ của Châu Âu.</p>\n<p>Tay nắm và ốp khóa được thiết kế vô cùng tinh tế với kiểu dáng mạnh mẽ và chắc chắn, độ bền cao, chống khoan phá. Từng chi tiết của sản phẩm được chế tạo chính xác, từ các chất liệu cao cấp, giúp cho sản phẩm luôn hoạt động trơn tru, bền bỉ.</p>\n<p>Lõi khóa (củ chìa) được làm bằng đồng, sử dụng công nghệ chìa 2 tầng răng, độ bảo mật cao, tránh trùng chìa, dò chìa.</p>\n<p>Với rất nhiều ưu điểm, các sản phẩm <b>Khóa Mozlex </b>luôn được khách hàng tin tưởng lựa chọn.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS01</li>\n<li><strong>Màu sắc: </strong>Ghi &#8211; Bạc</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Vuông</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng, bạc.</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa:</strong> Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1063 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/25-400x400-2.jpg\" alt=\"\" width=\"590\" height=\"590\" /></p>\n<p style=\"text-align: center\">Thiết kế hiện đại, mới mẻ</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-1062\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/24-400x400-2.jpg\" alt=\"\" width=\"590\" height=\"590\" data-wp-editing=\"1\" /></p>\n<p style=\"text-align: center\">Khóa phân thể phù hợp với không gian trẻ, hiện đại</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"658\" height=\"754\" /></p>\n<p style=\"text-align: center\">Lõi khóa (củ chìa) được làm bằng đồng, sử dụng công nghệ chìa 2 tầng răng, độ bảo mật cao, tránh trùng chìa, dò chìa. <img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"653\" height=\"1287\" /></p>\n<p style=\"text-align: center\">Vẫn là lõi khóa đặc trưng của mozlex chống kẹt, chống trộm, an toàn cao</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:28:42"
+  },
+  {
+    "id": 1334,
+    "title": "Khoá tay gạt Mozlex KC25",
+    "slug": "khoa-tay-gat-mozlex-kc24-inox304",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Seaee8d385ddc40f9a72c170e22fc30a3X-3.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/Seaee8d385ddc40f9a72c170e22fc30a3X-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KC25"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Inox"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Inox 304"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Vuông có hoa văn"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Đơn thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ chìa",
+        "value": "Hợp kim, lõi đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Chìa",
+        "value": "Bộ chìa gồm 4 chìa, 2 hàng răng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa thông phòng Mozlex KC25</strong> được làm từ chất liệu inox 304 có độ bền cao, khóa được thiết kế tay nắm tiện lợi, mặt khóa được thiết kế sang trọng tăng tính thẩm mỹ cho không gian. Sản phẩm này đang là một trong những sản phẩm đang bán rất chạy của Mozlex.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm:</strong> KC25</li>\n<li><strong>Màu sắc:</strong> Inox</li>\n<li><strong>Chất liệu:</strong> Inox 304</li>\n<li><strong>Tay khóa:</strong> Vuông có hoa văn</li>\n<li><strong>Ốp khóa:</strong> Đơn thể</li>\n<li><strong>Thân khóa:</strong> 58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ chìa:</strong> Hợp kim, lõi đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><strong>Chìa: </strong>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-1181 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Seaee8d385ddc40f9a72c170e22fc30a3X-3.jpg\" alt=\"\" width=\"606\" height=\"606\" /></p>\n<p style=\"text-align: center\">Là sản phẩm mà nhiều gia đình Châu Á ưa chuộng hiện nay</p>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 size-full\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"750\" height=\"859\" /></p>\n<p style=\"text-align: center\">Trang bị công nghệ tiên tiến an toàn cho gia đình</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 size-full\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"750\" height=\"1478\" /></p>\n<p style=\"text-align: center\">Công nghệ động cơ giúp giảm ồn, chống trộm, chống kẹt</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:28:18"
+  },
+  {
+    "id": 1332,
+    "title": "Khoá tay gạt Mozlex KC21 Đen",
+    "slug": "khoa-tay-gat-mozlex-kc21-den",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/MB-328x400-2.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/MB-328x400-2.png",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KC21"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Đen"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Rãnh tròn"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6 kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong>Khoá tay gạt Mozlex KC21</strong> màu đen là dòng khóa phù hợp cho nhiều loại cửa như cửa gỗ, cửa nhựa hay cửa thép. Ngay từ cái nhìn đầu tiên, sản phẩm đã gây ấn tượng với thiết kế sang trọng, tinh tế, dễ dàng hòa hợp với mọi phong cách không gian. Mozlex KC21 không chỉ nâng tầm thẩm mỹ mà còn mang đến sự an tâm và trải nghiệm sử dụng bền bỉ cho khách hàng.</p>\n<div dir=\"auto\">\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KC21</li>\n<li><strong>Màu sắc: </strong>Đen</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Rãnh tròn</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6 kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-1189 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/MB-328x400-2.png\" alt=\"\" width=\"506\" height=\"617\" /></p>\n<p style=\"text-align: center\">Là sản phẩm mà nhiều người Châu Á ưa thích hiện nay</p>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 size-full\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"750\" height=\"859\" /></p>\n<p style=\"text-align: center\">Trang bị công nghệ tiên tiến an toàn cho gia đình</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 size-full\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"750\" height=\"1478\" /></p>\n<p style=\"text-align: center\">Công nghệ động cơ giúp giảm ồn, chống trộm, chống kẹt</p>\n</div>\n</div>\n",
+    "date": "2026-09-11T11:28:14"
+  },
+  {
+    "id": 1327,
+    "title": "Khóa tay gạt Mozlex KS11 &#8211; G",
+    "slug": "khoa-cua-mozlex-tks11",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/42-2.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/42-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/43-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/45-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS11"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Ghi"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Dẹt"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Ốp khóa phân thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm trở lên"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,8kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<div dir=\"auto\">KHÓA CỬA MOZLEX &#8211; KẾT HỢP CỦA SỰ TINH TẾ GIỮA HIỆN ĐẠI VÀ CỔ ĐIỂN.</div>\n<div dir=\"auto\"></div>\n<div dir=\"auto\"><strong>Khóa cửa thông phòng Mozlex KS11 &#8211; G</strong> là điểm nhấn thể hiện kiến trúc bên trong một căn hộ và gây ấn tượng với người ghé thăm. Vì vậy chúng ta nên tinh tế khi lựa chọn mẫu khóa cho những cánh cửa trong căn hộ của mình. Khóa Mozlex sẽ mang đến cho mọi người những bộ khóa cửa thông phòng với những ưu điểm mà mọi người không thể bỏ qua:</div>\n<ul>\n<li dir=\"auto\">Thân khóa làm bằng hợp kim cao cấp, chống ăn mòn, chịu ẩm tốt.</li>\n<li dir=\"auto\">Lõi khóa: Ổ khóa bằng đồng thau 7 bi an toàn cao, chìa khóa được thiết kế vi tính tránh bị trùng lặp. Thân khóa thép 304, không rỉ sét. Then khóa lưỡi gà chống kẹt và giảm độ ồn.</li>\n<li dir=\"auto\">Thích hợp dùng cho cửa gỗ, đặc biệt phù hợp với mọi không gian.</li>\n<li dir=\"auto\">Bảo hành 36 tháng &#8211; 01 đổi 01 trong vòng 06 tháng đầu tiên.</li>\n</ul>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS11</li>\n<li><strong>Màu sắc: </strong>Ghi</li>\n<li><strong>Chất liệu: </strong>Hợp kim</li>\n<li><strong>Tay khóa: </strong>Dẹt</li>\n<li><strong>Ốp khóa: </strong>Ốp khóa phân thể</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm trở lên</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,8kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-1049 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/42-2.jpg\" alt=\"\" width=\"606\" height=\"606\" /></p>\n<p style=\"text-align: center\">Thân khóa làm bằng Hợp kim cao cấp, chống ăn mòn, chịu ẩm tốt</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1050 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/43-2.jpg\" alt=\"\" width=\"606\" height=\"606\" /></p>\n<p style=\"text-align: center\">Khóa phù hợp với nhiều loại cửa và mọi không gian</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1051 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/45-2.jpg\" alt=\"\" width=\"599\" height=\"599\" /></p>\n<p style=\"text-align: center\">Bảo hành 36 tháng &#8211; 01 đổi 01 trong vòng 06 tháng đầu tiên</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"614\" height=\"703\" /></p>\n<p style=\"text-align: center\">Ổ khóa bằng đồng thau 7 bi an toàn cao, chìa khóa được thiết kế vi tính tránh bị trùng lặp <img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"620\" height=\"1221\" /></p>\n<p style=\"text-align: center\">Công nghệ hiện đại, sự tinh tế kết hợp giữa hiện đại và cổ điển trong mỗi sản phẩm của Mozlex</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:28:07"
+  },
+  {
+    "id": 1322,
+    "title": "Khóa tay gạt Mozlex KS09",
+    "slug": "khoa-cua-mozlex-tks09",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/61-400x400-2.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/61-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/59-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS09"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Vàng 24K"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Dẹt, cong nhẹ"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa Mozlex KS09</strong> là phiên bản rất hút khách của thương hiệu Mozlex đầu năm 2021 – Ngay từ những ngày đầu ra mắt Mozlex KS09 đã được người dùng đón nhận và phản hồi rất tích cực.</p>\n<p>Đây là một trong những phiên bản ấn tượng có tính thẩm mỹ cao với rất nhiều tính năng ưu việt mà bất cứ gia đình nào cũng muốn sở hữu.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS09</li>\n<li><strong>Màu sắc: </strong>Vàng 24K</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Dẹt, cong nhẹ</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa:</strong> Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1103 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/61-400x400-2.jpg\" alt=\"\" width=\"532\" height=\"532\" /></p>\n<p style=\"text-align: center\">Thiết kế tay cầm dẹt, uốn cong mềm mại thẩm mỹ</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-1101 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/59-3.jpg\" alt=\"\" width=\"534\" height=\"534\" /></p>\n<p style=\"text-align: center\">Sắc vàng 24K sang trọng, đẳng cấp</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"565\" height=\"647\" /> <img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"572\" height=\"1127\" /></p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:28:01"
+  },
+  {
+    "id": 1317,
+    "title": "Khóa tay gạt Mozlex KS07 &#8211; G",
+    "slug": "khoa-cua-mozlex-tks07",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/34-2.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/34-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/33-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS07"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Ghi"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Dẹt"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể ghi"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6 kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa thông phòng Mozlex &#8211;  KS07</strong> là loại khóa dành cho cửa gỗ, cửa nhựa, cửa thép&#8230;. có kích thước vừa của <strong>thương hiệu khóa Mozlex.</strong></p>\n<p>Chiếc khóa có thể được coi là vệ sĩ của ngôi nhà. Để chống lại những ý định đen tối của kẻ gian cũng như để thể hiện phong cách của gia chủ, khóa cần được làm từ những vật liệu và công nghệ tốt nhất. Hãy cùng Mozlex khám phá những chiếc khóa an toàn mà gia đình nào cũng nên sở hữu.</p>\n<p>Khóa Mozlex &#8211; KS07 được làm bằng<em> &#8220;hợp kim kẽm&#8221;. V</em>ới nhiều ưu điểm vượt trội như khả năng chống ăn mòn cao, siết chặt tốt, hợp kim được tận dụng nhiều trong việc sản xuất những thành phẩm liên quan đến độ bền và tính an toàn cao như khóa, cổng nhà, biệt thự. Nếu bạn đang tìm kiếm một sản phẩm khóa bền, an toàn cùng mức giá phải chăng thì một bộ khóa hợp kim sẽ là lựa chọn hàng đầu cho bạn. Điển hình như dòng sản phẩm khóa tay nắm Mozlex.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS07</li>\n<li><strong>Màu sắc: </strong>Ghi</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Dẹt</li>\n<li><strong>Ốp khóa: </strong>Phân thể ghi</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa:</strong> Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6 kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1100 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/34-2.jpg\" alt=\"\" width=\"546\" height=\"546\" /></p>\n<p style=\"text-align: center\">Được làm bằng hợp kim kẽm giúp sản phẩm bóng đẹp hơn</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1099 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/33-2.jpg\" alt=\"\" width=\"547\" height=\"547\" /></p>\n<p style=\"text-align: center\">Mỗi sản phẩm cũng thể hiện phần nào tính cách của gia chủ</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"618\" height=\"708\" /></p>\n<p style=\"text-align: center\">Công nghệ hiện đại an toàn cao</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"635\" height=\"1251\" /></p>\n<p style=\"text-align: center\">Ổ khóa trang bị nhiều công nghệ giúp trống kẹt, giảm ồn, chống trộm hiệu quả</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:27:56"
+  },
+  {
+    "id": 1311,
+    "title": "Khóa tay gạt Mozlex KS05",
+    "slug": "khoa-cua-mozlex-tks05",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/13-4.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/13-4.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/16-4.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS05"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Vân gỗ"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Vuông"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng, ghi."
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Cửa khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa thông phòng Mozlex KS05</strong> là dòng sản phẩm chuyên dùng cho cửa gỗ, cửa nhựa, cửa thép. Khóa có đường nét giản đơn nhưng không kém phần sang trọng, là sản phẩm chất lượng cao của <strong>thương</strong> <strong>hiệu</strong> <strong>Mozlex.</strong></p>\n<p>Khóa cửa Mozlex được sản xuất trên dây chuyền công nghệ mới để cho ra sản phẩm hoàn mỹ nhất. Khóa được ưa chuộng bởi độ bền bỉ, hoạt động ổn định và có giá thành vô cùng hợp lý.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS05</li>\n<li><strong>Màu sắc: </strong>Vân gỗ</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Vuông</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng, ghi.</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Cửa khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1086 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/13-4.jpg\" alt=\"\" width=\"537\" height=\"537\" /></p>\n<p style=\"text-align: center\">Tay cầm được thiết kế vuông vắn tạo cảm giác khỏe khoắn, sang trọng</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1089 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/16-4.jpg\" alt=\"\" width=\"538\" height=\"538\" /></p>\n<p style=\"text-align: center\">Khóa phân thể thiết kế tỉ mỉ, tinh tế</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"550\" height=\"1084\" /></p>\n<p style=\"text-align: center\">Tất cả các sản phẩm của Mozlex đều được trang bị công nghệ chống trộm, giảm ồn, chống kẹt hiệu quả</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"564\" height=\"646\" /></p>\n<p style=\"text-align: center\">Thiết kế đặc biệt hướng đến sự an toàn tuyệt đối</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:27:46"
+  },
+  {
+    "id": 1306,
+    "title": "Khóa tay gạt Mozlex KS02",
+    "slug": "khoa-cua-mozlex-tks02",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/8-2.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/8-2.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/7-1-400x400-2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS02"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Đen"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Dẹt"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Cửa khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<div dir=\"auto\">Cuộc sống ngày càng đủ đầy thì cũng là lúc chúng ta biết nhìn nhận quan tâm hơn đến giá trị cuộc sống &#8211; đặc biệt là khao khát về sự bình yên, mà sự bình yên đó ta chỉ tìm được phía sau cánh cửa ngôi nhà.</div>\n<div dir=\"auto\">Nhưng sẽ ra sao nếu cánh cửa ấy không có lớp bảo vệ chắc chắn?</div>\n<div dir=\"auto\">Đừng lo vì đã có “ VỆ SĨ MOZLEX &#8220;</div>\n<div dir=\"auto\"></div>\n<div dir=\"auto\"><strong style=\"font-size: 23.04px\">THÔNG TIN CHI TIẾT SẢN PHẨM</strong></div>\n<div dir=\"auto\">\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS02</li>\n<li><strong>Màu sắc: </strong>Đen</li>\n<li><strong>Chất liệu: </strong>Hợp kim</li>\n<li><strong>Tay khóa: </strong>Dẹt</li>\n<li><strong>Ốp khóa: </strong>Phân thể</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Cửa khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1081 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/8-2.png\" alt=\"\" width=\"564\" height=\"564\" /></p>\n<p style=\"text-align: center\">Thiết kế sang trọng, mang phong cách châu Âu</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1080 aligncenter\" style=\"color: #555555;font-size: 14.4px\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/7-1-400x400-2.jpg\" alt=\"\" width=\"564\" height=\"564\" /></p>\n<p style=\"text-align: center\">Kiếu cách mới lạ, độc đáo</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"637\" height=\"1255\" /></p>\n<p style=\"text-align: center\">Tất cả các sản phẩm của Mozlex đều được trang bị công nghệ chống trộm, giảm ồn, chống kẹt hiệu quả</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"627\" height=\"718\" /></p>\n</div>\n</div>\n",
+    "date": "2026-09-11T11:27:22"
+  },
+  {
+    "id": 1300,
+    "title": "Khóa tay gạt Mozlex KS01 &#8211; PVD",
+    "slug": "khoa-cua-mozlex-tks01",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_1.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_2.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KS01"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Vàng &#8211; đen"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Vuông"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Phân thể vàng, bạc."
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6 kg"
+      },
+      {
+        "label": "Bảo hành",
+        "value": "36 tháng"
+      }
+    ],
+    "content": "<p><strong style=\"font-size: 14.4px\">Khóa cửa Mozlex</strong><span style=\"font-size: 14.4px\"><strong> KS01</strong> là sản phẩm khóa cửa cao cấp của Mozlex, được làm bằng</span><em style=\"font-size: 14.4px\"> Hợp kim kẽm</em><span style=\"font-size: 14.4px\"> sang trọng và đẳng cấp. Sản phẩm được sản xuất trên dây chuyền công nghệ của Châu Âu.</span></p>\n<p>Tay nắm và ốp khóa được thiết kế vô cùng tinh tế với kiểu dáng mạnh mẽ và chắc chắn, độ bền cao, chống khoan phá. Từng chi tiết của sản phẩm được chế tạo chính xác, từ các chất liệu cao cấp, giúp cho sản phẩm luôn hoạt động trơn tru, bền bỉ.</p>\n<p>Lõi khóa (củ chìa) được làm bằng đồng, sử dụng công nghệ chìa 2 tầng răng, độ bảo mật cao, tránh trùng chìa, dò chìa.</p>\n<p>Với rất nhiều ưu điểm, các sản phẩm <b>Khóa Mozlex </b>luôn được khách hàng tin tưởng lựa chọn.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KS01</li>\n<li><strong>Màu sắc: </strong>Vàng &#8211; đen</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Vuông</li>\n<li><strong>Ốp khóa: </strong>Phân thể vàng, bạc.</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6 kg</li>\n<li><b>Chìa: </b>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1092 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_1.jpg\" alt=\"\" width=\"522\" height=\"522\" /></p>\n<p style=\"text-align: center\">Thiết kế sang trọng</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1093 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_2.jpg\" alt=\"\" width=\"521\" height=\"521\" data-wp-editing=\"1\" /></p>\n<p style=\"text-align: center\">Khóa phân thể phù hợp với không gian trẻ, hiện đại</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1095 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ks01_pvd_3.jpg\" alt=\"\" width=\"520\" height=\"520\" /></p>\n<p style=\"text-align: center\">Tay nắm và ốp khóa được thiết kế vô cùng tinh tế với kiểu dáng mạnh mẽ và chắc chắn, độ bền cao, chống khoan phá</p>\n<p>&nbsp;</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"570\" height=\"653\" /></p>\n<p style=\"text-align: center\">Lõi khóa (củ chìa) được làm bằng đồng, sử dụng công nghệ chìa 2 tầng răng, độ bảo mật cao, tránh trùng chìa, dò chìa</p>\n<p style=\"text-align: center\"><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"572\" height=\"1128\" /></p>\n<p style=\"text-align: center\">Vẫn là lõi khóa đặc trưng của mozlex chống kẹt, chống trộm, an toàn cao</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:27:07"
+  },
+  {
+    "id": 1293,
+    "title": "Khóa tay gạt Mozlex KC03",
+    "slug": "khoa-cua-mozlex-tkc03",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/KC03.png",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Mã sản phẩm",
+        "value": "KC03"
+      },
+      {
+        "label": "Màu sắc",
+        "value": "Đen &#8211; PVD"
+      },
+      {
+        "label": "Chất liệu",
+        "value": "Hợp kim kẽm"
+      },
+      {
+        "label": "Tay khóa",
+        "value": "Vuông"
+      },
+      {
+        "label": "Ốp khóa",
+        "value": "Đơn thể"
+      },
+      {
+        "label": "Thân khóa",
+        "value": "58 chốt vuông 3 chấu"
+      },
+      {
+        "label": "Loại cửa",
+        "value": "Lắp cho cửa có độ dày từ 3cm đến 5,5cm"
+      },
+      {
+        "label": "Củ khóa",
+        "value": "Bằng đồng"
+      },
+      {
+        "label": "Trọng lượng",
+        "value": "1,6 kg"
+      },
+      {
+        "label": "Chìa",
+        "value": "Bộ chìa gồm 4 chìa, 2 hàng răng"
+      }
+    ],
+    "content": "<p><strong>Khóa cửa thông phòng Mozlex KC03</strong> là loại khóa dành cho cửa gỗ, cửa nhựa, cửa thép… có kích thước vừa của <strong>thương hiệu khóa Mozlex.</strong></p>\n<p>Khóa được làm bằng <em>Hợp kim kẽm</em>, là một trong những dòng sản phẩm bán chạy bậc nhất do chất lượng đảm bảo cùng kiểu cách Châu Âu phù hợp với phong cách xây nhà thời thượng hiện nay tại Việt Nam.</p>\n<p><strong>Hợp kim kẽm là gi?</strong><br />\nVề đặc điểm, nhìn chung hợp kim kẽm có độ bền cao, dẫn điện tốt, độ chính xác và độ ổn định về kích thước cao. Bên cạnh đó, nhờ cấu trúc của hợp kim kẽm làm cho nó có khả năng đúc tốt, trở nên vật liệu hoàn hảo để tạo ra các hình dạng sản phẩm nhiều mặt, phức tạp cao.<br />\nSau sắt, nhôm và đồng, kẽm là kim loại được sử dụng rộng rãi thứ tư trên thế giới. Ngoài việc kẽm được sử dụng để mạ điện, khi kết hợp với các kim loại khác (như nhôm, magie và đồng) sẽ tạo ra hợp kim của kẽm &#8211; một chất có độ bền và khả năng chống ăn mòn cao hơn.</p>\n<h2><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li><strong>Mã sản phẩm: </strong>KC03</li>\n<li><strong>Màu sắc:</strong> Đen &#8211; PVD</li>\n<li><strong>Chất liệu: </strong>Hợp kim kẽm</li>\n<li><strong>Tay khóa: </strong>Vuông</li>\n<li><strong>Ốp khóa: </strong>Đơn thể</li>\n<li><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li><strong>Loại cửa: </strong>Lắp cho cửa có độ dày từ 3cm đến 5,5cm</li>\n<li><strong>Củ khóa: </strong>Bằng đồng</li>\n<li><strong>Trọng lượng: </strong>1,6 kg</li>\n<li><strong>Chìa: </strong>Bộ chìa gồm 4 chìa, 2 hàng răng</li>\n<li><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n</div>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-2015 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main.jpg\" alt=\"Khóa đơn thể Mozlex KC03\" width=\"520\" height=\"520\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main.jpg 804w, https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main-768x769.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/mozlex_kc03_main-640x640.jpg 640w\" sizes=\"auto, (max-width: 520px) 100vw, 520px\" /></p>\n<p style=\"text-align: center\">Khóa đơn thể Mozlex KC03 &#8211; Sang trọng, an toàn, đẳng cấp</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/KC03.png\" alt=\"Khóa Mozlex KC03\" width=\"520\" /></p>\n<p style=\"text-align: center\">Hợp kim kẽm cao cấp, bề mặt mạ PVD chống bay màu</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"Lõi khóa Mozlex\" width=\"570\" /></p>\n<p style=\"text-align: center\">Lõi khóa (củ chìa) được làm bằng đồng, sử dụng công nghệ chìa 2 tầng răng, độ bảo mật cao, tránh trùng chìa, dò chìa</p>\n<p style=\"text-align: center\"><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"Thân khóa Mozlex\" width=\"572\" /></p>\n<p style=\"text-align: center\">Thân khóa chống kẹt, chống trộm, hoạt động bền bỉ êm ái</p>\n",
+    "date": "2026-09-11T11:26:48"
+  },
+  {
+    "id": 1286,
+    "title": "Khóa tay gạt Mozlex DS01",
+    "slug": "khoa-cua-mozlex-tds01",
+    "cat": "mech-lock",
+    "catName": "Khóa tay gạt & Khóa cơ",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/69-3.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/69-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/649603857_122348139194017197_8768317471170168700_n-3.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg"
+    ],
+    "specs": [],
+    "content": "<p class=\"thin-font\"><strong>Khóa cửa thông phòng Mozlex &#8211;  DS01</strong></p>\n<p class=\"thin-font\">Là loại khóa dành cho cửa gỗ, cửa nhựa, cửa thép&#8230;. có kích thước vừa của <strong>thương hiệu khóa Mozlex.</strong></p>\n<p class=\"thin-font\">Khóa được làm bằng đồng thau, là một trong những dòng sản phẩm bán chạy bậc nhất do chất lượng đảm bảo cùng kiểu cách Châu Âu phù hợp với phong cách xây nhà thời thượng hiện nay tại Việt Nam.</p>\n<h2 class=\"thin-font\"><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h2>\n<ul>\n<li class=\"thin-font\"><strong>Mã sản phẩm: </strong>DS01</li>\n<li class=\"thin-font\"><strong>Màu sắc: </strong>Vàng 24K</li>\n<li class=\"thin-font\"><strong>Chất liệu: </strong>Đồng thau</li>\n<li class=\"thin-font\"><strong>Tay khóa: </strong>Tay đồng tròn hoa văn</li>\n<li class=\"thin-font\"><strong>Ốp khóa: </strong>Phân thể</li>\n<li class=\"thin-font\"><strong>Thân khóa: </strong>58 chốt vuông 3 chấu</li>\n<li class=\"thin-font\"><strong>Loại cửa:</strong> Lắp cho cửa có độ dày từ 3 cm đến 5,5 cm</li>\n<li class=\"thin-font\"><strong>Củ khóa: </strong>Bằng đồng</li>\n<li class=\"thin-font\"><strong>Trọng lượn: </strong>1,6 kg</li>\n<li class=\"thin-font\"><b>Chìa: </b>Bộ chìa gồm 2 chìa, 2 hàng răng</li>\n<li class=\"thin-font\"><strong>Bảo hành: </strong>36 tháng</li>\n</ul>\n<p class=\"thin-font\"><img decoding=\"async\" loading=\"lazy\" class=\" wp-image-1111 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/69-3.jpg\" alt=\"\" width=\"533\" height=\"533\" /></p>\n<p class=\"thin-font\" style=\"text-align: center\">Thiết kế sang trọng, hiện đại chuẩn phong cách Châu Âu</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-2827 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/649603857_122348139194017197_8768317471170168700_n-3.jpg\" alt=\"\" width=\"533\" height=\"652\" /></p>\n<p class=\"thin-font\" style=\"text-align: center\">Tinh tế và phong cách, được mạ vàng 24k giúp khóa Mozlex bền đẹp theo thời gian</p>\n<p class=\"thin-font\"><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-506 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01A4ASJC1QLj00z3V8z_974661960-0-cib-1.jpg\" alt=\"\" width=\"597\" height=\"1176\" /></p>\n<p class=\"thin-font\" style=\"text-align: center\">Lõi khóa 58 giúp chống trộm, giảm ồn, chống kẹt</p>\n<p class=\"thin-font\"><img decoding=\"async\" loading=\"lazy\" class=\"aligncenter wp-image-507 \" src=\"https://ductri226.vn/wp-content/uploads/2026/08/O1CN01qp2lT61QLizvHXmGR_974661960-0-cib-Recovered.jpg\" alt=\"\" width=\"593\" height=\"679\" /></p>\n<p class=\"thin-font\" style=\"text-align: center\">Công nghệ hiện đại, thiết kế tinh tế phong cách giúp cho khóa Mozlex được nhiều khách hàng đánh giá vào và lựa chọn cho ngôi nhà của mình.</p>\n</p>\n</div>\n",
+    "date": "2026-09-11T11:26:31"
+  },
+  {
+    "id": 638,
+    "title": "Khoá thông minh cao cấp A16",
+    "slug": "khoa-thong-minh-cao-cap-mozlex-mg79",
+    "cat": "smart-lock",
+    "catName": "Khóa cửa thông minh",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2-300x300.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2-300x300.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-230x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1-300x300.png"
+    ],
+    "specs": [],
+    "content": "<p><strong>Khóa thông minh cao cấp A16 </strong>là mẫu khóa cửa thông minh cao cấp, được thiết kế với sự kết hợp hoàn hảo giữa công nghệ bảo mật tiên tiến và thẩm mỹ hiện đại. Với 5 phương thức mở khóa tiện lợi: vân tay, mật mã, thẻ từ, chìa cơ và ứng dụng điện thoại, MG79 mang đến trải nghiệm linh hoạt, an toàn và phù hợp cho mọi thành viên trong gia đình.</p>\n<h3><strong>Ngoại quan của Khóa cửa thông minh cao cấp A16</strong></h3>\n<p>Khoá thông minh Mozlex MG79 có hai phiên bản màu sắc: A16 – MB (Màu đen) và A16-Copper (Màu đồng), mang đến sự lựa chọn phù hợp với nhiều phong cách nội thất khác nhau.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone  wp-image-1218 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2-300x300.png\" alt=\"\" width=\"402\" height=\"402\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-1-400x400-2.png 400w\" sizes=\"auto, (max-width: 402px) 100vw, 402px\" /></p>\n<p>Cảm biến vân tay FPC siêu nhạy</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1219 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-230x300.jpg\" alt=\"\" width=\"297\" height=\"387\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-230x300.jpg 230w, https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-786x1024.jpg 786w, https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-768x1000.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1-491x640.jpg 491w, https://ductri226.vn/wp-content/uploads/2026/09/H1eecd735dabc48d09c28a3ede5a284faT-1.jpg 800w\" sizes=\"auto, (max-width: 297px) 100vw, 297px\" /></p>\n<p data-start=\"215\" data-end=\"456\">A16 sử dụng cảm biến vân tay FPC thế hệ mới, cho khả năng nhận diện vân tay cực kỳ nhanh và chính xác. Chỉ với một lần chạm nhẹ, khóa mở trong vòng 0.5 giây, mang lại trải nghiệm ra vào mượt mà, không mất thời gian chờ đợi.</p>\n<p data-start=\"458\" data-end=\"701\">Công nghệ FPC có độ nhạy cao, hoạt động ổn định ngay cả khi tay bạn bị ướt, dính mồ hôi hay có vết trầy nhẹ. Đồng thời, khả năng chống làm giả vân tay giúp tăng cường mức độ an toàn, đảm bảo chỉ những người đã được cấp quyền mới có thể mở cửa.</p>\n<h3 data-start=\"458\" data-end=\"701\">Chống nước, chống bụi – Hoạt động bền bỉ ngoài trời</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1220 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-300x300.jpg\" alt=\"\" width=\"371\" height=\"371\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1-900x900.jpg 900w, https://ductri226.vn/wp-content/uploads/2026/09/H7368dae8453442a19193dbb263e82954H-1.jpg 1000w\" sizes=\"auto, (max-width: 371px) 100vw, 371px\" /></p>\n<p data-start=\"218\" data-end=\"454\">A16 được thiết kế với tiêu chuẩn chống nước và chống bụi cao, giúp khóa hoạt động ổn định ngay cả trong điều kiện thời tiết khắc nghiệt. Dù mưa lớn, bụi bẩn hay nắng gắt, khóa vẫn vận hành mượt mà và bền bỉ theo thời gian.</p>\n<p data-start=\"456\" data-end=\"753\">Nhờ vào lớp vỏ ngoài được gia công chắc chắn, cùng các khe tiếp xúc được bảo vệ kỹ lưỡng, A16 là lựa chọn lý tưởng cho cửa cổng, cửa ngoài trời, hoặc những vị trí thường xuyên tiếp xúc với môi trường tự nhiên. Sự bền bỉ này giúp bạn yên tâm sử dụng lâu dài mà không lo hư hỏng do thời tiết.</p>\n<h3 data-start=\"456\" data-end=\"753\">Quản lý từ xa qua điện thoại (qua WiFi/Gateway), xem lịch sử ra vào dễ dàng</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1221 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-300x300.jpg\" alt=\"\" width=\"339\" height=\"339\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/H8250ea76fcbe45feb1c2d04fbd6a79d1j-1.jpg 800w\" sizes=\"auto, (max-width: 339px) 100vw, 339px\" /></p>\n<p data-start=\"166\" data-end=\"434\">A16 hỗ trợ kết nối Wifi hoặc Gateway, cho phép bạn mở khóa từ xa và theo dõi lịch sử ra vào ngay trên điện thoại. Dù ở bất cứ đâu, bạn vẫn dễ dàng kiểm soát ai đang vào nhà, cấp quyền mở cửa cho người thân hoặc nhân viên giao hàng chỉ trong vài giây.</p>\n<p data-start=\"436\" data-end=\"572\">Tất cả lịch sử mở khóa đều được ghi lại chi tiết, giúp bạn theo dõi và quản lý an ninh ngôi nhà một cách chủ động và thông minh hơn.</p>\n<h3 data-start=\"436\" data-end=\"572\">Thiết kế hiện đại, chắc chắn, phù hợp lắp đặt cho căn hộ, nhà phố hoặc văn phòng<img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1222 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1-300x300.png\" alt=\"\" width=\"390\" height=\"390\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1-640x640.png 640w, https://ductri226.vn/wp-content/uploads/2026/09/H9071781dc2024dc5abbd15916c78316ay-1.png 750w\" sizes=\"auto, (max-width: 390px) 100vw, 390px\" /></h3>\n<p data-start=\"171\" data-end=\"437\">Mozlex MG79 sở hữu thiết kế tinh tế với đường nét hiện đại và chất liệu cao cấp, mang đến vẻ ngoài sang trọng nhưng vẫn đảm bảo độ bền chắc trong quá trình sử dụng. Thân khóa được gia công chắc chắn, chống chịu va đập tốt và giữ được độ ổn định theo thời gian.</p>\n<p data-start=\"439\" data-end=\"650\">Với phong cách tối giản và kích thước phù hợp, MG79 dễ dàng lắp đặt cho căn hộ chung cư, nhà phố, biệt thự hay văn phòng làm việc, giúp nâng tầm thẩm mỹ không gian mà vẫn đảm bảo tính an toàn và tiện nghi.</p>\n<div id=\"tab-additional_information\" class=\"woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content \" role=\"tabpanel\" aria-labelledby=\"tab-title-additional_information\"></div>\n",
+    "date": "2026-09-11T01:56:39"
+  },
+  {
+    "id": 562,
+    "title": "Khoá thông minh cao cấp F7 ML",
+    "slug": "khoa-cua-van-tay-mozlex-ml33",
+    "cat": "smart-lock",
+    "catName": "Khóa cửa thông minh",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2-300x300.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2-300x300.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-206x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H839192f422bf4090a91691683b2668acx-1-209x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/ChatGPT-Image-15_16_59-3-thg-6-2026-400x400-2-300x300.png"
+    ],
+    "specs": [],
+    "content": "<p>F7 ML là dòng khóa cửa thông minh cao cấp, nổi bật với thiết kế sang trọng, chắc chắn cùng nhiều tính năng hiện đại. Khóa phù hợp lắp đặt cho cửa chính nhà phố, biệt thự hoặc căn hộ cao cấp, mang đến sự an tâm và tiện nghi cho người dùng.</p>\n<h1><strong>Ngoại quan của Khóa cửa thông minh cao cấp F7 ML</strong></h1>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1206 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2-300x300.png\" alt=\"\" width=\"393\" height=\"393\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/Khoa-co-Anh-nen-trang-400x400-2.png 400w\" sizes=\"auto, (max-width: 393px) 100vw, 393px\" /></p>\n<h3>Phương thức mở khóa thông minh</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1207 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-300x300.jpg\" alt=\"\" width=\"410\" height=\"410\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/H655a59d6c81f4f6b9ad734621aeb200bG-1.jpg 800w\" sizes=\"auto, (max-width: 410px) 100vw, 410px\" /></p>\n<p>F7 ML hỗ trợ 5 phương thức mở khóa thông minh: Vân tay, mật mã, thẻ từ, chìa cơ và ứng dụng điện thoại. Cảm biến vân tay FPC cho khả năng nhận diện nhanh và chính xác. Mật mã có tính năng mã ảo chống nhìn trộm, thẻ từ dễ sử dụng cho mọi lứa tuổi, chìa cơ đóng vai trò dự phòng an toàn, và mở khóa qua app giúp bạn điều khiển từ xa, cấp quyền truy cập và theo dõi lịch sử ra vào mọi lúc, mọi nơi.</p>\n<h3>Cảm biến vân tay FPC độ nhạy cao</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1208 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-206x300.jpg\" alt=\"\" width=\"310\" height=\"451\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-206x300.jpg 206w, https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-704x1024.jpg 704w, https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-768x1117.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-440x640.jpg 440w, https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1-756x1100.jpg 756w, https://ductri226.vn/wp-content/uploads/2026/09/H5cb0b242575744159dc64b441291b56dT-1.jpg 790w\" sizes=\"auto, (max-width: 310px) 100vw, 310px\" /></p>\n<p>F7 ML sử dụng cảm biến vân tay FPC cao cấp, cho khả năng nhận diện cực nhanh và chính xác chỉ trong 0.5 giây. Công nghệ này đảm bảo mở cửa mượt mà kể cả khi tay ướt, nhiều vết nhăn hoặc bị mồ hôi – mang lại trải nghiệm tiện lợi, an toàn và phù hợp với mọi thành viên trong gia đình.</p>\n<h3>Mở khóa từ xa qua App</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1209 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H839192f422bf4090a91691683b2668acx-1-209x300.jpg\" alt=\"\" width=\"261\" height=\"375\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H839192f422bf4090a91691683b2668acx-1-209x300.jpg 209w, https://ductri226.vn/wp-content/uploads/2026/09/H839192f422bf4090a91691683b2668acx-1-447x640.jpg 447w, https://ductri226.vn/wp-content/uploads/2026/09/H839192f422bf4090a91691683b2668acx-1.jpg 550w\" sizes=\"auto, (max-width: 261px) 100vw, 261px\" /></p>\n<p>F7 ML hỗ trợ mở khóa từ xa qua ứng dụng điện thoại thông qua kết nối WiFi hoặc Gateway. Dù bạn đang ở bất kỳ đâu, vẫn có thể mở cửa, cấp quyền truy cập tạm thời, kiểm tra lịch sử ra vào và quản lý toàn bộ hoạt động từ xa – giúp kiểm soát an ninh ngôi nhà dễ dàng và linh hoạt mọi lúc, mọi nơi.</p>\n<h3>Pin dung lượng lớn, sử dụng ổn định</h3>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-1210 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/ChatGPT-Image-15_16_59-3-thg-6-2026-400x400-2-300x300.png\" alt=\"\" width=\"377\" height=\"377\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/ChatGPT-Image-15_16_59-3-thg-6-2026-400x400-2-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/ChatGPT-Image-15_16_59-3-thg-6-2026-400x400-2-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/ChatGPT-Image-15_16_59-3-thg-6-2026-400x400-2.png 400w\" sizes=\"auto, (max-width: 377px) 100vw, 377px\" /></p>\n<p>F7 ML được trang bị pin dung lượng lớn, cho thời gian sử dụng ổn định từ 6 đến 12 tháng chỉ với 4 viên pin AA. Khi gần hết pin, khóa sẽ phát ra cảnh báo kịp thời, giúp bạn chủ động thay thế mà không lo bị gián đoạn trong quá trình sử dụng.</p>\n",
+    "date": "2026-09-11T00:54:18"
+  },
+  {
+    "id": 560,
+    "title": "Khoá thông minh cao cấp NG09",
+    "slug": "khoa-thong-minh-cao-cap-mozlex-mt18",
+    "cat": "smart-lock",
+    "catName": "Khóa cửa thông minh",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ng09_main.jpg",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ng09_main.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-6-1-e1786760714195-430x400-2-300x279.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-27-400x400-2-300x300.png"
+    ],
+    "specs": [],
+    "content": "<p>Khoá thông minh NG09 là một giải pháp khoá điện tử thông minh, kết hợp giữa công nghệ hiện đại và thiết kế tinh tế, mang đến sự bảo mật tối ưu cho ngôi nhà của bạn. Với nhiều phương thức mở khoá linh hoạt như vân tay, mật khẩu, thẻ từ và chìa cơ, khoá NG09 không chỉ giúp bạn dễ dàng kiểm soát việc ra vào mà còn tăng cường an toàn, bảo vệ gia đình và tài sản của bạn một cách hiệu quả.</p>\n<h1><strong>Ngoại quan của Khóa cửa thông minh cao cấp NG09</strong></h1>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_ng09_main.jpg\" alt=\"Khóa thông minh NG09\" width=\"450\" /></p>\n<h3>Mở khoá nhanh chóng</h3>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1211 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-6-1-e1786760714195-430x400-2-300x279.png\" alt=\"\" width=\"356\" height=\"331\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-6-1-e1786760714195-430x400-2-300x279.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-6-1-e1786760714195-430x400-2.png 430w\" sizes=\"auto, (max-width: 356px) 100vw, 356px\" /></p>\n<p>Khoá NG09 được trang bị cảm biến vân tay tiên tiến, cho phép nhận diện vân tay nhanh chóng và chính xác chỉ trong vài giây. Với công nghệ cảm biến hiện đại, khoá có khả năng phân biệt vân tay của từng người dùng, giúp đảm bảo tính bảo mật cao mà không làm mất thời gian. Việc mở cửa trở nên dễ dàng và tiện lợi, đặc biệt khi bạn không cần phải mang theo chìa khoá hay lo lắng về việc quên mật khẩu. Chỉ cần một lần chạm, khoá sẽ mở ngay lập tức, mang lại sự tiện nghi và an tâm mỗi khi sử dụng.</p>\n<h3>Tính năng đa dạng</h3>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1212 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-27-400x400-2-300x300.png\" alt=\"\" width=\"394\" height=\"394\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-27-400x400-2-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-27-400x400-2-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-27-400x400-2.png 400w\" sizes=\"auto, (max-width: 394px) 100vw, 394px\" /></p>\n<p>Khoá thông minh NG09 không chỉ cho phép mở khoá bằng vân tay mà còn hỗ trợ nhiều phương thức khác nhau như mật khẩu, thẻ từ và chìa cơ, mang lại sự linh hoạt tối đa cho người sử dụng. Dù bạn có quên mật khẩu hay không mang theo thẻ từ, chìa cơ vẫn là một phương án thay thế an toàn. Tính năng này giúp khoá phù hợp với nhiều tình huống khác nhau, từ việc sử dụng hằng ngày cho đến khi có sự cố, đảm bảo bạn luôn có cách mở cửa nhanh chóng và tiện lợi.</p>\n<h3>Thiết kế hiện đại và sang trọng</h3>\n<p>Khoá MOZLEX MT18 được chế tạo từ chất liệu cao cấp, mang lại độ bền vượt trội và khả năng chịu đựng tốt trước các yếu tố môi trường như độ ẩm, nhiệt độ thay đổi và các tác động bên ngoài. Thiết kế tinh tế, sắc sảo của khoá không chỉ giúp bảo vệ ngôi nhà bạn mà còn làm tăng vẻ đẹp sang trọng cho cửa ra vào. Với kiểu dáng hiện đại, khoá NG09 là sự kết hợp hoàn hảo giữa thẩm mỹ và chức năng, phù hợp với mọi không gian sống.</p>\n<h3>Bảo mật cao</h3>\n<p>Khoá NG09 được trang bị hệ thống bảo mật tiên tiến, giúp ngăn chặn mọi hình thức xâm nhập trái phép. Với các công nghệ mã hoá hiện đại và cảm biến vân tay chính xác, khoá bảo vệ ngôi nhà của bạn khỏi những mối nguy hiểm tiềm ẩn. Thêm vào đó, khả năng nhận diện vân tay độc đáo và các phương thức mở khoá linh hoạt như mật khẩu, thẻ từ, chìa cơ đảm bảo chỉ những người có quyền mới có thể mở cửa, mang lại sự an tâm tuyệt đối cho gia đình và tài sản của bạn.</p>\n",
+    "date": "2026-09-11T00:54:13"
+  },
+  {
+    "id": 558,
+    "title": "Khoá cửa thông minh cao cấp F7 MN",
+    "slug": "khoa-cua-thong-minh-cao-cap-mozlex-mn22",
+    "cat": "smart-lock",
+    "catName": "Khóa cửa thông minh",
+    "image": "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2-300x300.png",
+    "images": [
+      "https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2-300x300.png",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-300x300.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/mozlex_f7mn_main.jpg",
+      "https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-300x298.jpg"
+    ],
+    "specs": [],
+    "content": "<p>Khóa thông minh F7 MN là dòng khóa thông minh chuyên dụng cho cửa cổng sắt, cửa ngoài trời, được thiết kế với độ bền cao, khả năng chống nước, chống bụi hiệu quả. Với kiểu dáng mạnh mẽ cùng các tính năng thông minh, F7 MN đáp ứng tốt cả yêu cầu về bảo mật lẫn độ bền trong điều kiện môi trường khắc nghiệt.</p>\n<h1><strong>Ngoại quan của Khóa cửa thông minh cao cấp F7 MN</strong></h1>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1213 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2-300x300.png\" alt=\"\" width=\"493\" height=\"493\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2-300x300.png 300w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2-150x150.png 150w, https://ductri226.vn/wp-content/uploads/2026/09/Bo-Anh-San-Pham-Khoa-Thong-Minh-Mozlex-2-400x400-2.png 400w\" sizes=\"auto, (max-width: 493px) 100vw, 493px\" /></p>\n<h3>Phương thức mở khóa tiện lợi</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1214 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-300x300.jpg\" alt=\"\" width=\"382\" height=\"382\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1-900x900.jpg 900w, https://ductri226.vn/wp-content/uploads/2026/09/Hf15d4ec22f48448b98f2211bc49076aau-1.jpg 960w\" sizes=\"auto, (max-width: 382px) 100vw, 382px\" /></p>\n<p>&nbsp;</p>\n<p>F7 MN hỗ trợ 5 phương thức mở khóa tiện lợi: Vân tay, mật mã, thẻ từ, chìa cơ và ứng dụng điện thoại. Từ mở khóa nhanh bằng cảm biến vân tay siêu nhạy đến điều khiển từ xa qua app, F7 MN đáp ứng linh hoạt mọi nhu cầu sử dụng – phù hợp cho cả gia đình, người lớn tuổi lẫn khách ghé thăm, đảm bảo an toàn và thuận tiện tối đa.</p>\n<h3>Cảm biến vân tay FPC nhạy bén</h3>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"size-medium wp-image-1215 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-300x300.jpg\" alt=\"\" width=\"300\" height=\"300\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-768x765.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1-640x638.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/H0731369ee17b4032911123062655c71fm-1.jpg 784w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<p>F7 MN được trang bị cảm biến vân tay FPC cao cấp, cho khả năng nhận diện cực nhạy và chính xác. Chỉ trong 0.5 giây, khóa sẽ mở ngay khi bạn chạm nhẹ – hoạt động ổn định kể cả khi tay ướt, nhiều mồ hôi hay vết nhăn, mang lại trải nghiệm nhanh chóng và an toàn tuyệt đối.</p>\n<h3>Chống nước, chống bụi, hoạt động ổn định ngoài trời</h3>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1216 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-300x300.jpg\" alt=\"\" width=\"320\" height=\"320\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-300x300.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-1024x1024.jpg 1024w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-768x768.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-1536x1536.jpg 1536w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-2048x2048.jpg 2048w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-640x640.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-1400x1400.jpg 1400w, https://ductri226.vn/wp-content/uploads/2026/09/Hb28a7c5b72de4c62ba4bded5dee2b187R-1-900x900.jpg 900w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></p>\n<p>F7 MN sở hữu khả năng chống nước, chống bụi vượt trội, phù hợp lắp đặt cho cửa cổng, môi trường ngoài trời. Với thiết kế kín khít và vật liệu bền chắc, khóa vẫn hoạt động ổn định trong điều kiện mưa nắng, bụi bẩn hay thay đổi nhiệt độ – đảm bảo độ bền lâu dài và an toàn cho ngôi nhà bạn.</p>\n<h3>Mở từ xa qua điện thoại (qua Wifi/Gateway), quản lý lịch sử ra vào tiện lợi</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/mozlex_f7mn_main.jpg\" alt=\"Khóa thông minh F7 MN\" width=\"450\" /></p>\n<p>F7 MN hỗ trợ mở khóa từ xa qua điện thoại thông qua kết nối WiFi hoặc Gateway, giúp bạn điều khiển cửa mọi lúc mọi nơi. Ngoài ra, tính năng quản lý lịch sử ra vào cho phép theo dõi ai đã mở cửa và vào nhà khi nào – mang đến sự chủ động và an tâm tuyệt đối trong việc quản lý an ninh từ xa.</p>\n<h3>Pin dung lượng lớn</h3>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-1217 aligncenter\" src=\"https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-300x298.jpg\" alt=\"\" width=\"327\" height=\"325\" srcset=\"https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-300x298.jpg 300w, https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-150x150.jpg 150w, https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-768x764.jpg 768w, https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1-640x637.jpg 640w, https://ductri226.vn/wp-content/uploads/2026/09/Hfd31a32f4f5c4b4fbd12bb4f4c6dafd0X-1.jpg 784w\" sizes=\"auto, (max-width: 327px) 100vw, 327px\" /></p>\n<p>&nbsp;</p>\n<p>F7 MN sử dụng pin dung lượng lớn, cho thời gian hoạt động ổn định từ 6 đến 12 tháng chỉ với 4 viên pin AA. Khi pin yếu, thiết bị sẽ phát ra cảnh báo pin yếu kịp thời, giúp bạn dễ dàng thay thế mà không lo bị gián đoạn trong quá trình sử dụng.</p>\n",
+    "date": "2026-09-11T00:54:08"
+  }
+];

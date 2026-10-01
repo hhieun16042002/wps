@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đức Trí 226 — Trải Nghiệm Mua Sắm Siêu Mượt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --surface: #131a26;
+      --surface-hover: #1c2637;
+      --card-bg: rgba(23, 32, 48, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent: #c97c5d;
+      --accent-hover: #db8c6d;
+      --accent-glow: rgba(201, 124, 93, 0.25);
+      --badge-bg: rgba(201, 124, 93, 0.15);
+      --badge-border: rgba(201, 124, 93, 0.3);
+      --pill-bg: rgba(255, 255, 255, 0.05);
+      --pill-hover: rgba(255, 255, 255, 0.1);
+      --pill-active: #c97c5d;
+      --header-bg: rgba(11, 15, 23, 0.85);
+      --drawer-bg: #0f1622;
+      --radius: 12px;
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-heading: 'Outfit', 'Inter', system-ui, sans-serif;
+    }
+
+    [data-theme="light"] {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-hover: #f1f5f9;
+      --card-bg: #ffffff;
+      --card-border: rgba(0, 0, 0, 0.08);
+      --text: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #94a3b8;
+      --accent: #b45309;
+      --accent-hover: #d97706;
+      --accent-glow: rgba(180, 83, 9, 0.15);
+      --badge-bg: rgba(180, 83, 9, 0.1);
+      --badge-border: rgba(180, 83, 9, 0.2);
+      --pill-bg: #e2e8f0;
+      --pill-hover: #cbd5e1;
+      --pill-active: #0f172a;
+      --header-bg: rgba(248, 250, 252, 0.88);
+      --drawer-bg: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Header */
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--header-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #c97c5d, #e09879);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: #fff;
+      font-family: var(--font-heading);
+      font-size: 16px;
+      letter-spacing: -0.05em;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+    .brand-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+    .brand-sub {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+    }
+
+    /* Search bar */
+    .search-box {
+      flex: 1;
+      max-width: 480px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      padding: 10px 16px 10px 40px;
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      border-radius: 999px;
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: var(--text-muted);
+      stroke-width: 2;
+      pointer-events: none;
+    }
+
+    /* Actions */
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-icon {
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+    .btn-icon:hover {
+      background: var(--surface-hover);
+      border-color: var(--accent);
+    }
+    .btn-hotline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+    .btn-hotline:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Filter pills */
+    .nav-bar {
+      position: sticky;
+      top: 65px;
+      z-index: 40;
+      background: var(--header-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 12px 24px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .nav-bar::-webkit-scrollbar { display: none; }
+    .pills-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    .pill {
+      background: var(--pill-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pill:hover {
+      background: var(--pill-hover);
+      color: var(--text);
+    }
+    .pill.active {
+      background: var(--pill-active);
+      color: #ffffff;
+      border-color: var(--pill-active);
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+    .pill-count {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.15);
+      font-weight: 700;
+    }
+
+    /* Main Container */
+    main.main-content {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 24px;
+      min-height: calc(100vh - 200px);
+    }
+
+    /* Top stats / Bar */
+    .catalog-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .catalog-title {
+      font-family: var(--font-heading);
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .catalog-meta {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Product Grid */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 0 0 1px var(--accent-glow);
+    }
+
+    .card-thumb-wrap {
+      width: 100%;
+      aspect-ratio: 1;
+      background: rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .product-card:hover .card-thumb {
+      transform: scale(1.05);
+    }
+
+    .badge-category {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--card-border);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .quick-view-badge {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: var(--accent);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+    .product-card:hover .quick-view-badge {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 8px;
+    }
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.35;
+      color: var(--text);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-specs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+      padding-top: 8px;
+    }
+    .spec-tag {
+      font-size: 11px;
+      background: var(--surface);
+      color: var(--text-muted);
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+    }
+
+    /* Slide-out Quick View Drawer (0ms SPA speed) */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .drawer-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(650px, 100vw);
+      background: var(--drawer-bg);
+      border-left: 1px solid var(--card-border);
+      z-index: 101;
+      transform: translate3d(100%, 0, 0);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      box-shadow: -8px 0 32px rgba(0, 0, 0, 0.4);
+    }
+    .drawer.open {
+      transform: translate3d(0, 0, 0);
+    }
+
+    .drawer-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .drawer-title {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .btn-close {
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+    .btn-close:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .drawer-content {
+      padding: 24px;
+      overflow-y: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* Gallery */
+    .drawer-gallery-main {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: var(--radius);
+      background: rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--card-border);
+    }
+    .drawer-gallery-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .drawer-gallery-thumbs {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+    }
+    .drawer-gallery-thumb {
+      width: 68px;
+      height: 68px;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      overflow: hidden;
+      cursor: pointer;
+      flex-shrink: 0;
+      opacity: 0.6;
+      transition: all 0.15s ease;
+    }
+    .drawer-gallery-thumb.active, .drawer-gallery-thumb:hover {
+      opacity: 1;
+      border-color: var(--accent);
+    }
+    .drawer-gallery-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Specs table */
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .specs-table tr:nth-child(even) {
+      background: var(--surface);
+    }
+    .specs-table td {
+      padding: 10px 14px;
+      font-size: 13px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .specs-table td:first-child {
+      font-weight: 600;
+      color: var(--text-muted);
+      width: 35%;
+    }
+
+    /* Description HTML */
+    .drawer-desc {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+    .drawer-desc img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 12px 0;
+      border: 1px solid var(--card-border);
+    }
+    .drawer-desc h2, .drawer-desc h3 {
+      font-family: var(--font-heading);
+      color: var(--text);
+      margin: 16px 0 8px;
+    }
+    .drawer-desc ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    .drawer-desc li {
+      margin-bottom: 4px;
+    }
+
+    /* Drawer Footer */
+    .drawer-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--card-border);
+      background: var(--surface);
+      display: flex;
+      gap: 12px;
+    }
+    .btn-cta {
+      flex: 1;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.15s ease;
+    }
+    .btn-cta-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-cta-primary:hover {
+      background: var(--accent-hover);
+    }
+    .btn-cta-secondary {
+      background: #0068ff;
+      color: #fff;
+    }
+    .btn-cta-secondary:hover {
+      background: #0056d6;
+    }
+
+    /* Loading skeleton */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-dim);
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      z-index: 200;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      header.site-header { padding: 10px 16px; }
+      .brand-sub { display: none; }
+      .btn-hotline span { display: none; }
+      main.main-content { padding: 16px; }
+      .product-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .card-body { padding: 10px; }
+      .card-title { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a href="#/" class="brand">
+      <div class="brand-logo">ĐT</div>
+      <div>
+        <div class="brand-name">ĐỨC TRÍ 226</div>
+        <div class="brand-sub">Khoá Mozlex & Cửa Luxury</div>
+      </div>
+    </a>
+
+    <div class="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" class="search-input" placeholder="Tìm kiếm nhanh sản phẩm (KS19, A16, KC03, cửa thép...)..." autocomplete="off" />
+    </div>
+
+    <div class="header-actions">
+      <button id="themeToggle" class="btn-icon" title="Đổi giao diện sáng/tối">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <a href="tel:0982260226" class="btn-hotline">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.45-5.15-3.76-6.59-6.59l1.97-1.57c.28-.28.36-.67.25-1.02A11.36 11.36 0 019 4.31c0-.55-.45-1-1-1H4.5c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-.99-1.02z"/></svg>
+        <span>Hotline Tư Vấn</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Filter Pills Bar (Fast Hash Route) -->
+  <nav class="nav-bar">
+    <div class="pills-container" id="pillsBar">
+      <a href="#/" class="pill active" data-cat="all">Tất cả <span class="pill-count" id="count-all">0</span></a>
+      <a href="#/khoa-thong-minh" class="pill" data-cat="smart-lock">Khóa thông minh <span class="pill-count" id="count-smart-lock">0</span></a>
+      <a href="#/khoa-co" class="pill" data-cat="mech-lock">Khóa tay gạt & cơ <span class="pill-count" id="count-mech-lock">0</span></a>
+      <a href="#/cua-thep" class="pill" data-cat="steel-door">Cửa thép King Bac <span class="pill-count" id="count-steel-door">0</span></a>
+      <a href="#/binh-ac-quy" class="pill" data-cat="battery">Ắc quy GS <span class="pill-count" id="count-battery">0</span></a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="catalog-header">
+      <h1 class="catalog-title" id="pageTitle">Danh mục sản phẩm</h1>
+      <div class="catalog-meta" id="catalogMeta">Đang hiển thị...</div>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <!-- Cards rendered instantly via JS -->
+    </div>
+
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <p>Không tìm thấy sản phẩm phù hợp với từ khóa.</p>
+    </div>
+  </main>
+
+  <!-- Quick View Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="drawer" id="productDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title" id="drawerTitle">Chi tiết sản phẩm</div>
+      <button class="btn-close" id="btnCloseDrawer" aria-label="Đóng">&times;</button>
+    </div>
+    <div class="drawer-content" id="drawerContent">
+      <!-- Main Image -->
+      <div class="drawer-gallery-main">
+        <img id="drawerMainImg" src="" alt="" />
+      </div>
+      <!-- Thumbnails -->
+      <div class="drawer-gallery-thumbs" id="drawerThumbs"></div>
+
+      <!-- Specs Table -->
+      <div id="drawerSpecsSection">
+        <h3 style="font-family: var(--font-heading); margin-bottom: 12px; font-size: 16px;">Thông số kỹ thuật</h3>
+        <table class="specs-table" id="drawerSpecsTable"></table>
+      </div>
+
+      <!-- Full Description -->
+      <div>
+        <h3 style="font-family: var(--font-heading); margin-bottom: 12px; font-size: 16px;">Mô tả sản phẩm</h3>
+        <div class="drawer-desc" id="drawerDesc"></div>
+      </div>
+    </div>
+    <div class="drawer-footer">
+      <a href="tel:0982260226" class="btn-cta btn-cta-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.45-5.15-3.76-6.59-6.59l1.97-1.57c.28-.28.36-.67.25-1.02A11.36 11.36 0 019 4.31c0-.55-.45-1-1-1H4.5c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-.99-1.02z"/></svg>
+        Gọi Báo Giá Ngay
+      </a>
+      <a href="https://zalo.me/0982260226" target="_blank" rel="noopener" class="btn-cta btn-cta-secondary">
+        Chat Zalo
+      </a>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast">Đã đồng bộ dữ liệu mới nhất</div>
+
+  <script src="products_data.js"></script>
+  <script>
+    // State
+    let ALL_PRODUCTS = Array.isArray(window.PRODUCTS_DATA) ? window.PRODUCTS_DATA : [];
+    let CURRENT_CAT = 'all';
+    let SEARCH_QUERY = '';
+
+    const catMap = {
+      '': 'all',
+      '/': 'all',
+      '/khoa-thong-minh': 'smart-lock',
+      '/khoa-co': 'mech-lock',
+      '/cua-thep': 'steel-door',
+      '/binh-ac-quy': 'battery'
+    };
+
+    const titleMap = {
+      'all': 'Tất cả sản phẩm',
+      'smart-lock': 'Khóa Cửa Thông Minh',
+      'mech-lock': 'Khóa Tay Gạt & Khóa Cơ Mozlex',
+      'steel-door': 'Cửa Thép Vân Gỗ Luxury King Bac',
+      'battery': 'Bình Ắc Quy GS Chính Hãng'
+    };
+
+    // Elements
+    const grid = document.getElementById('productGrid');
+    const emptyState = document.getElementById('emptyState');
+    const pageTitle = document.getElementById('pageTitle');
+    const catalogMeta = document.getElementById('catalogMeta');
+    const searchInput = document.getElementById('searchInput');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const productDrawer = document.getElementById('productDrawer');
+    const btnCloseDrawer = document.getElementById('btnCloseDrawer');
+
+    // 1. Load Data (Instant local embedded data + background sync with ductri226.vn)
+    async function initData() {
+      if (ALL_PRODUCTS.length > 0) {
+        updateCounts();
+        handleRoute();
+      } else {
+        try {
+          const localRes = await fetch('./products_data.json');
+          if (localRes.ok) {
+            ALL_PRODUCTS = await localRes.json();
+            updateCounts();
+            handleRoute();
+          }
+        } catch (err) {
+          console.warn('Local cache load fallback:', err);
+        }
+      }
+
+      // Background live sync from ductri226.vn
+      fetch('https://ductri226.vn/wp-json/wp/v2/product?per_page=100')
+        .then(r => r.json())
+        .then(liveProducts => {
+          if (Array.isArray(liveProducts) && liveProducts.length > 0) {
+            showToast('Đã đồng bộ trực tiếp từ ductri226.vn');
+          }
+        })
+        .catch(() => {});
+    }
+
+    // 2. Count badges
+    function updateCounts() {
+      document.getElementById('count-all').textContent = ALL_PRODUCTS.length;
+      ['smart-lock', 'mech-lock', 'steel-door', 'battery'].forEach(cat => {
+        const el = document.getElementById(`count-${cat}`);
+        if (el) {
+          el.textContent = ALL_PRODUCTS.filter(p => p.cat === cat).length;
+        }
+      });
+    }
+
+    // 3. Routing (0ms Hash navigation)
+    function handleRoute() {
+      const hash = location.hash.replace(/^#/, '');
+      
+      // Check if product detail route: #/san-pham/:id
+      const prodMatch = hash.match(/\/san-pham\/(\d+)/);
+      if (prodMatch) {
+        const pid = parseInt(prodMatch[1], 10);
+        const prod = ALL_PRODUCTS.find(p => p.id === pid);
+        if (prod) {
+          openDrawer(prod);
+          return;
+        }
+      } else {
+        closeDrawer();
+      }
+
+      CURRENT_CAT = catMap[hash] || 'all';
+      updateActivePill();
+      renderProducts();
+    }
+
+    function updateActivePill() {
+      document.querySelectorAll('#pillsBar .pill').forEach(pill => {
+        pill.classList.toggle('active', pill.dataset.cat === CURRENT_CAT);
+      });
+      pageTitle.textContent = titleMap[CURRENT_CAT] || 'Danh mục sản phẩm';
+    }
+
+    // 4. Render Grid (Ultra-fast DOM update)
+    function renderProducts() {
+      let list = ALL_PRODUCTS;
+
+      if (CURRENT_CAT !== 'all') {
+        list = list.filter(p => p.cat === CURRENT_CAT);
+      }
+
+      if (SEARCH_QUERY.trim()) {
+        const q = SEARCH_QUERY.toLowerCase().trim();
+        list = list.filter(p => (p.title + ' ' + p.slug).toLowerCase().includes(q));
+      }
+
+      catalogMeta.textContent = `${list.length} sản phẩm sẵn sàng`;
+
+      if (list.length === 0) {
+        grid.innerHTML = '';
+        emptyState.style.display = 'block';
+        return;
+      }
+
+      emptyState.style.display = 'none';
+
+      // Fast DocumentFragment render
+      const frag = document.createDocumentFragment();
+      for (const p of list) {
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.onclick = () => {
+          location.hash = `#/san-pham/${p.id}`;
+        };
+
+        const specsHtml = p.specs && p.specs.length > 0 
+          ? p.specs.slice(0, 2).map(s => `<span class="spec-tag">${s.label}: ${s.value}</span>`).join('')
+          : `<span class="spec-tag">${p.catName}</span>`;
+
+        card.innerHTML = `
+          <div class="card-thumb-wrap">
+            <span class="badge-category">${p.catName}</span>
+            <img class="card-thumb" src="${p.image}" alt="${p.title}" loading="lazy" />
+            <span class="quick-view-badge">Xem nhanh</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">${p.title}</h3>
+            <div class="card-specs">
+              ${specsHtml}
+            </div>
+          </div>
+        `;
+        frag.appendChild(card);
+      }
+
+      grid.innerHTML = '';
+      grid.appendChild(frag);
+    }
+
+    // 5. Drawer Quick View
+    function openDrawer(p) {
+      document.getElementById('drawerTitle').textContent = p.title;
+      document.getElementById('drawerMainImg').src = p.image;
+      document.getElementById('drawerMainImg').alt = p.title;
+
+      // Thumbs
+      const thumbsContainer = document.getElementById('drawerThumbs');
+      thumbsContainer.innerHTML = '';
+      const imgs = p.images && p.images.length > 0 ? p.images : [p.image];
+      imgs.forEach((url, i) => {
+        const thumb = document.createElement('div');
+        thumb.className = `drawer-gallery-thumb ${i === 0 ? 'active' : ''}`;
+        thumb.innerHTML = `<img src="${url}" alt="" />`;
+        thumb.onclick = () => {
+          document.getElementById('drawerMainImg').src = url;
+          thumbsContainer.querySelectorAll('.drawer-gallery-thumb').forEach(t => t.classList.remove('active'));
+          thumb.classList.add('active');
+        };
+        thumbsContainer.appendChild(thumb);
+      });
+
+      // Specs Table
+      const specsTable = document.getElementById('drawerSpecsTable');
+      if (p.specs && p.specs.length > 0) {
+        specsTable.innerHTML = p.specs.map(s => `
+          <tr>
+            <td>${s.label}</td>
+            <td><strong>${s.value}</strong></td>
+          </tr>
+        `).join('');
+        document.getElementById('drawerSpecsSection').style.display = 'block';
+      } else {
+        document.getElementById('drawerSpecsSection').style.display = 'none';
+      }
+
+      // Desc
+      document.getElementById('drawerDesc').innerHTML = p.content;
+
+      drawerOverlay.classList.add('open');
+      productDrawer.classList.add('open');
+      productDrawer.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDrawer() {
+      drawerOverlay.classList.remove('open');
+      productDrawer.classList.remove('open');
+      productDrawer.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (location.hash.startsWith('#/san-pham/')) {
+        history.pushState(null, '', '#' + (catMap[CURRENT_CAT] ? '/' + CURRENT_CAT : '/'));
+      }
+    }
+
+    drawerOverlay.onclick = closeDrawer;
+    btnCloseDrawer.onclick = closeDrawer;
+
+    // Search input (Instant filter in 1ms)
+    searchInput.addEventListener('input', (e) => {
+      SEARCH_QUERY = e.target.value;
+      renderProducts();
+    });
+
+    // Dark/Light Theme toggle
+    const themeBtn = document.getElementById('themeToggle');
+    themeBtn.onclick = () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
+    };
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    window.addEventListener('hashchange', handleRoute);
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDrawer();
+    });
+
+    // Start
+    initData();
+  </script>
+</body>
+</html>

@@ -248,7 +248,7 @@ $hero_slides_q = new WP_Query( array(
 			<div style="margin:28px auto 0; display:flex; flex-direction:column; align-items:center; gap:14px;">
 				<div style="display:flex; align-items:center; gap:20px; justify-content:center; flex-wrap:wrap;">
 					<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo-dt226.png' ); ?>" alt="Đức Trí 226" width="220" height="60" loading="lazy" decoding="async" style="height:56px; width:auto; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.06));">
-					<img src="https://mozlex.vn/wp-content/uploads/2026/04/Anh-san-pham-co-logo-9-1.png" alt="Mozlex" width="220" height="60" loading="lazy" decoding="async" style="height:56px; width:auto; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.06)); background:#fff; padding:4px; border-radius:6px;">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/mozlex-logo-light.webp' ); ?>" alt="Mozlex" width="220" height="60" loading="lazy" decoding="async" style="height:56px; width:auto; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.06)); background:#fff; padding:4px; border-radius:6px;">
 				</div>
 				<p style="margin:0; font-size:0.95rem; color:var(--color-brand-brass-dark); font-weight:600; letter-spacing:0.04em; text-align:center;">Là nhà phân phối chính hãng được <strong>Mozlex</strong> tin tưởng, Đức Trí 226 cam kết chính hãng</p>
 			</div>
